@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    
+}
+#h_logo{
+    height: 100px;
+    width: 130px;
+    
+}
+#header_{
+    border-bottom: solid #FFD700 4px;
+    font-family: 'Graduate', serif;
+    display: inline-block;
+    width: 1920px;
+}
+#valassz{
+    display: inline;
+}
+#Valasztek{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+
+}
