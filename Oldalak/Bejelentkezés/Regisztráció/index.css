@@ -3,6 +3,31 @@
 }
 
 #body{
+    background-image: url(watermarked-c121cf3a-ada3-493c-8187-1e24096f3b2a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
+    font-family: 'Graduate', serif;
 }
 
+#cim{
+    color: #FFD700;
+    text-align: center;
+    font-size: 100px;
+}
+
+.gomb{
+    background-color: black;
+    width: 790px;
+    height: 125px;
+    border: 5px solid #FFD700;
+    border-radius: 90px;
+    color: white;
+    font-size: 50px;
+}
+
+#vonal{
+    color: #FFD700;
+    height: 5px;
+}
