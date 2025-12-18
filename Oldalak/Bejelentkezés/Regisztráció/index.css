@@ -3,7 +3,7 @@
 }
 
 #body{
-    background-image: url(hatterJPG.jpg);
+    background-image: url(watermarked-c121cf3a-ada3-493c-8187-1e24096f3b2a.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,4 +25,9 @@
     border-radius: 90px;
     color: white;
     font-size: 50px;
+}
+
+#vonal{
+    color: #FFD700;
+    height: 5px;
 }
