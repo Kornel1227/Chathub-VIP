@@ -5,6 +5,8 @@ body{
 #h_logo{
     height: 100px;
     width: 130px;
+    float: left;
+    margin-right: 100px;
     
 }
 #header_{
@@ -12,16 +14,35 @@ body{
     font-family: 'Graduate', serif;
     display: inline-block;
     width: 1920px;
+    position: relative;
 }
 #valassz{
     display: inline;
+    margin: auto;
 }
 #Valasztek{
     display: inline;
     color: white;
     font-size: 20px;
-    margin-left: 20px;
-    margin-bottom: 30px;
+    margin-left: 100px;
+    float: left;
+    padding-top: 25px;
     
 
+}
+#ValasztekKapcsolat{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-left: 270px;
+    float: left;
+    padding-top: 25px;
+    color: #FFD700;
+    
+}
+#fejleckep{
+    width: 1920px;
+}
+#motto{
+    color: linear-gradient(to top,);
 }
