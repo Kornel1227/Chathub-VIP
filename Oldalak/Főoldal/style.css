@@ -1,27 +1,69 @@
 body{
     background-color: black;
-    
+    font-family: 'Graduate', serif;
 }
 #h_logo{
     height: 100px;
     width: 130px;
+    float: left;
+    margin-right: 100px;
     
 }
 #header_{
     border-bottom: solid #FFD700 4px;
     font-family: 'Graduate', serif;
     display: inline-block;
-    width: 1920px;
+    width: 1895px;
+    position: relative;
 }
 #valassz{
     display: inline;
+    margin: auto;
 }
 #Valasztek{
     display: inline;
     color: white;
     font-size: 20px;
-    margin-left: 20px;
-    margin-bottom: 30px;
+    margin-left: 100px;
+    float: left;
+    padding-top: 25px;
     
 
+}
+#ValasztekKapcsolat{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-left: 270px;
+    float: left;
+    padding-top: 25px;
+    color: #FFD700;
+    
+}
+#fejleckep{
+    width: 1895px;
+}
+#motto{
+
+    background-image: linear-gradient(to top,#F8892F, #F8C354);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 50px;
+}
+#MADISON{
+    width:430px;
+    height:600px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+}
+#MADkep{
+    width:600px;
+    height: 500px;
+}
+#MADnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
 }
