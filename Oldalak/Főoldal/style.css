@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    
+    font-family: 'Graduate', serif;
 }
 #h_logo{
     height: 100px;
@@ -13,7 +13,7 @@ body{
     border-bottom: solid #FFD700 4px;
     font-family: 'Graduate', serif;
     display: inline-block;
-    width: 1920px;
+    width: 1895px;
     position: relative;
 }
 #valassz{
@@ -41,8 +41,29 @@ body{
     
 }
 #fejleckep{
-    width: 1920px;
+    width: 1895px;
 }
 #motto{
-    color: linear-gradient(to top,);
+
+    background-image: linear-gradient(to top,#F8892F, #F8C354);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 50px;
+}
+#MADISON{
+    width:430px;
+    height:600px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+}
+#MADkep{
+    width:600px;
+    height: 500px;
+}
+#MADnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
 }
