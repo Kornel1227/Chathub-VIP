@@ -1,20 +1,28 @@
-#head{
 
-}
-
-#body{
-    background-image: url(watermarked-c121cf3a-ada3-493c-8187-1e24096f3b2a.png);
+body{
+    background-image: url(/Képek/hatterJPG.jpg);
+    background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
     font-family: 'Graduate', serif;
+    
+    margin: 0px;
+}
+
+#cimDIV{
+    padding-top: 80px;
 }
 
 #cim{
     color: #FFD700;
     text-align: center;
     font-size: 100px;
+}
+
+#gombDIV{
+    text-align: center;
 }
 
 .gomb{
@@ -25,9 +33,28 @@
     border-radius: 90px;
     color: white;
     font-size: 50px;
+    
+}
+
+#gomb1{
+    padding-bottom: 10px;
+}
+
+.lablecDIV{
+    color: #AEAEAE;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+
+
+.lablecDIV div{
+    text-align: center;
+    
 }
 
 #vonal{
-    color: #FFD700;
-    height: 5px;
+    opacity: 30%;
 }
