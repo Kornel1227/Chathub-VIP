@@ -53,17 +53,21 @@ body{
 }
 #MADISON{
     width:430px;
-    height:600px;
+    height:500px;
     border-radius: 10px;
     margin-left: 5%;
     background-image: linear-gradient(to bottom,#FFD700, #000000);
 }
 #MADkep{
-    width:600px;
-    height: 500px;
+    width:430px;
+    height: 490px;
 }
 #MADnev{
     color: white;
     text-align: center;
     background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
 }
