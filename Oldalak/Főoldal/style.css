@@ -57,12 +57,34 @@ body{
     border-radius: 10px;
     margin-left: 5%;
     background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
 }
 #MADkep{
     width:430px;
     height: 490px;
 }
 #MADnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+#MADELYN{
+    width:430px;
+    height:500px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#MADELYNkep{
+    width:430px;
+    height: 490px;
+}
+#MADELYNnev{
     color: white;
     text-align: center;
     background-color: #434343;
