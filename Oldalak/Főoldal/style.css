@@ -51,18 +51,156 @@ body{
     text-align: center;
     font-size: 50px;
 }
+        /* Madison Beer*/
 #MADISON{
     width:430px;
     height:500px;
     border-radius: 10px;
     margin-left: 5%;
     background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
 }
 #MADkep{
     width:430px;
     height: 490px;
 }
 #MADnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+        /* Madelyn Cline*/
+#MADELYN{
+    width:430px;
+    height:500px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#MADELYNkep{
+    width:430px;
+    height: 490px;
+}
+#MADELYNnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+        /* Margot Robbie*/
+#MARGOT{
+    width:430px;
+    height:500px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#MARGOTkep{
+    width:430px;
+    height: 490px;
+}
+#MARGOTnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+        /* Lebron James*/
+#LEBRON{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#LEBRONkep{
+    width:430px;
+    height: 490px;
+}
+#LEBRONnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+        /* Cristiano Ronaldo*/
+#RONALDO{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#RONALDOkep{
+    width:430px;
+    height: 490px;
+}
+#RONALDOnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+        /* Leonardo Dicaprio*/
+#LEONARDO{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#LEONARDOkep{
+    width:430px;
+    height: 490px;
+}
+#LEONARDOnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+        /* Palvin Barbara*/
+#PALVIN{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#PALVINkep{
+    width:430px;
+    height: 490px;
+}
+#PALVINnev{
     color: white;
     text-align: center;
     background-color: #434343;
