@@ -209,3 +209,97 @@ body{
     border-radius: 10px;
     padding-top: 15px;
 }
+/*Rubint Réka */
+#RUBINT{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#RUBINTkép{
+    width:430px;
+    height: 490px;
+}
+#RUBINTnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+/*Tóth Gabi */
+
+#TOTH{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#TOTHkep{
+    width:430px;
+    height: 490px;
+}
+#TOTHnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+/*Nagy Alekosz */ 
+#ALEKOSZ{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#ALEKOSZkep{
+    width:430px;
+    height: 490px;
+}
+#ALEKOSZnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+/* Majoros Péter*/
+#MAJOROS{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#MAJOROSkep{
+    width:430px;
+    height: 490px;
+}
+#MAJOROSnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
