@@ -240,7 +240,7 @@ color: var(--neutral-dark-color);
 }
 
 .faq-accordion-title span{
-margin-left: auto;
+margin-left: 100px;
 transition: transform .4s ease-in-out;
 }
 .faq-accordion-content {
@@ -263,4 +263,33 @@ transform: rotate(180deg);
 .faq-accordion .tgg-title:checked ~ .faq-accordion-content{
 will-change: max-height;
 max-height: 80px;
+}
+#keret{
+  background-color: black;
+  border: 5px solid #FFD700;
+  border-radius: 30px;
+  margin-right: 1100px;
+  padding-left: 10px;
+}
+#szoveg{
+  color: white;
+}
+#arrow{
+  width: 12px;
+  height: 12px;
+}
+#arrow1{
+  margin-left: 250px;
+}
+#arrow2{
+  margin-left: 163px;
+}
+#arrow3{
+  margin-left: 265px;
+}
+#arrow4{
+  margin-left: 180px;
+}
+#arrow5{
+  margin-left: 83px;
 }
