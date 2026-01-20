@@ -329,3 +329,38 @@ body{
     border-radius: 10px;
     padding-top: 15px;
 }
+#foot{
+    margin-top: 100px;
+    text-align: center;
+}
+#footernev{
+    background-image: linear-gradient(to top,#F8892F, #F8C354);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+    font-size: 50px;
+    margin-right: 40px;
+
+}
+#insta{
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    border-right: 1px solid #FFD700 ;
+    padding-right: 10px;
+}
+#twitter{
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    border-right: 1px solid #FFD700 ;
+    padding-right: 10px;
+}
+#facebook{
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+}
+#jog{
+    color: #AEAEAE;
+}
