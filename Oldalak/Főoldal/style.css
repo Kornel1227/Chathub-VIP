@@ -56,7 +56,7 @@ body{
     width:430px;
     height:500px;
     border-radius: 10px;
-    margin-left: 5%;
+    margin-left: 10%;
     background-image: linear-gradient(to bottom,#FFD700, #000000);
     display: inline-block;
 }
@@ -105,8 +105,9 @@ body{
     display: inline-block;
 }
 #MARGOTkep{
-    width:430px;
+    width:330px;
     height: 490px;
+    margin-left: 10%;
 }
 #MARGOTnev{
     color: white;
@@ -123,7 +124,7 @@ body{
     height:500px;
     margin-top: 90px;
     border-radius: 10px;
-    margin-left: 5%;
+    margin-left: 10%;
     background-image: linear-gradient(to bottom,#FFD700, #000000);
     display: inline-block;
 }
@@ -151,8 +152,9 @@ body{
     display: inline-block;
 }
 #RONALDOkep{
-    width:430px;
+    width:350px;
     height: 490px;
+    margin-left: 10%;
 }
 #RONALDOnev{
     color: white;
@@ -174,8 +176,9 @@ body{
     display: inline-block;
 }
 #LEONARDOkep{
-    width:430px;
+    width:400px;
     height: 490px;
+    margin-left: 5%;
 }
 #LEONARDOnev{
     color: white;
@@ -192,7 +195,7 @@ body{
     height:500px;
     margin-top: 90px;
     border-radius: 10px;
-    margin-left: 5%;
+    margin-left: 10%;
     background-image: linear-gradient(to bottom,#FFD700, #000000);
     display: inline-block;
 }
@@ -208,4 +211,156 @@ body{
     height: 50px;
     border-radius: 10px;
     padding-top: 15px;
+}
+/*Rubint Réka */
+#RUBINT{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#RUBINTkép{
+    width:430px;
+    height: 490px;
+}
+#RUBINTnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+/*Tóth Gabi */
+
+#TOTH{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#TOTHkep{
+    width:430px;
+    height: 490px;
+}
+#TOTHnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+/*Nagy Alekosz */ 
+#ALEKOSZ{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 10%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#ALEKOSZkep{
+    width:430px;
+    height: 490px;
+}
+#ALEKOSZnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+/* Majoros Péter*/
+#MAJOROS{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#MAJOROSkep{
+    width:430px;
+    height: 490px;
+}
+#MAJOROSnev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+/* Szoboszlai Dominik*/
+#SZOBOSZLAI{
+    width:430px;
+    height:500px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,#FFD700, #000000);
+    display: inline-block;
+}
+#SZOBOSZLAIkep{
+    width:430px;
+    height: 490px;
+}
+#SZOBOSZLAInev{
+    color: white;
+    text-align: center;
+    background-color: #434343;
+    margin: 0%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+#foot{
+    margin-top: 100px;
+    text-align: center;
+}
+#footernev{
+    background-image: linear-gradient(to top,#F8892F, #F8C354);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+    font-size: 50px;
+    margin-right: 40px;
+
+}
+#insta{
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    border-right: 1px solid #FFD700 ;
+    padding-right: 10px;
+}
+#twitter{
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    border-right: 1px solid #FFD700 ;
+    padding-right: 10px;
+}
+#facebook{
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+}
+#jog{
+    color: #AEAEAE;
 }

@@ -77,19 +77,14 @@ body{
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -99,18 +94,173 @@ body{
   width: 100%;
   text-align: center;
 }
+.textt {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  text-align: center;
+}
 
 .active, .dot:hover {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+#Adatok{
+  color: white;
+
+}
+#ikonok{
+  color: white;
+  font-size: 25px;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 25px;    
+}
+
+.kerdesek{
+  color: white;
+  background-color: black;
+  border: black;
+  width: 500px;
+  margin-left: 400px;
+  font-size: 20px;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+--principal-font: 'Kumbh Sans', sans-serif;
+--font-size: 12px;
+
+--bg-gradient: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+
+--primary-dark-color: hsl(238, 29%, 16%);
+--primary-soft-color: hsl(0, 0%, 100%);
+
+--neutral-dark-color: hsl(0, 0%, 62%);
+--neutral-soft-color: hsl(0, 0%, 100%);
+
+}
+html {
+box-sizing: border-box;
+}
+* {box-sizing: inherit;}
+
+.attribution { 
+font-size: 11px; text-align: center; 
+background-color: hsl(240, 5%, 91%);
+padding: 8px 0 5px;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+p {
+margin: 0 0 12px;
+line-height: 1.5;
+}
+
+h2 {
+margin: 12px 0;
+}
+.content-cc{
+margin-top: 80px;
+margin-left: 100px;
+margin-right: 100px;
+justify-content: center;
+align-items: center;
+}
+.faq-card {
+border-radius: 20px;
+
+max-width: 1650px;
+margin-top: -50px;
+
+}
+.faq-ilustrations{
+position: relative;
+}
+
+.faq-ilustrations .mobile.ilust{
+position: absolute;
+top:-110px;
+left:-30px;
+right: 0;
+}
+
+.mobile{
+display: block;
+margin: 0 auto;
+}
+
+.faq-content {
+padding: 9px 25px 0; 
+}
+
+.faq-content h1 {
+font-size: 32px;
+text-align: center;
+color: var(--primary-dark-color);
+}
+
+.faq-accordion {
+padding: 3px 0;
+border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+input.tgg-title {
+appearance: unset;
+all:unset;
+}
+
+.faq-accordion-title label{
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+.faq-accordion-title h2{
+font-size: 16px;
+font-weight: 400;
+color: var(--neutral-dark-color);
+}
+
+.faq-accordion-title span{
+margin-left: auto;
+transition: transform .4s ease-in-out;
+}
+.faq-accordion-content {
+color: var(--neutral-soft-color);
+overflow: hidden;
+max-height: 0;
+transition: max-height .4s ease-in-out;
+}
+.faq-accordion-title:hover h2{
+color: var(--primary-soft-color)
+}
+
+.faq-accordion .tgg-title:checked + div>label>h2 {
+font-weight: 700;
+}
+.faq-accordion .tgg-title:checked + div>label>span {
+will-change: transform;
+transform: rotate(180deg);
+}
+.faq-accordion .tgg-title:checked ~ .faq-accordion-content{
+will-change: max-height;
+max-height: 80px;
 }

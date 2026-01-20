@@ -39,18 +39,21 @@
         <div class="slideshow-container">
 
             <div class="mySlides fade">
+              <div class="textt">Csapat tagok:</div>
               <img src="../../Képek/madelyn_cline.png" style="width:100%">
-              <div class="text">Caption Text</div>
+              <div class="text">Götli Dénes Mór</div>
             </div>
             
             <div class="mySlides fade">
+              <div class="textt">Csapat tagok:</div>
               <img src="../../Képek/letöltésLJ.png" style="width:100%">
-              <div class="text">Caption Two</div>
+              <div class="text">Jacsó Áron</div>
             </div>
             
             <div class="mySlides fade">
+              <div class="textt">Csapat tagok:</div>
               <img src="../../Képek/alekosz.png" style="width:100%">
-              <div class="text">Caption Three</div>
+              <div class="text">Tóth Kornél</div>
             </div>
             
             <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -63,7 +66,118 @@
           <source src="madelynclinevideo.mp4" type="video/mp4">
       </video>
   </div>
+  <div class="card-wrapper  | content-cc">
+    <div class="faq-card">
   
+      <div class="faq-ilustrations">
+      </div>
+  
+      <main class="faq-content">          
+        <div class="faq-articles">
+          <article class="faq-accordion">
+            <input type="checkbox" class="tgg-title" id="tgg-title-1">
+  
+            <div class="faq-accordion-title">
+              <label for="tgg-title-1">
+                <h2>Kik játszhatnak az oldalon?</h2>
+                <span class="arrow-icon">
+                  <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                </span>
+              </label>
+            </div>
+  
+            <div class="faq-accordion-content">
+              <p>Az oldalt kizárólag 18 éven felüli felhasználók vehetik igénybe.</p>
+            </div>
+  
+          </article>
+  
+          <article class="faq-accordion">
+  
+            <input type="checkbox" class="tgg-title" id="tgg-title-2">
+  
+            <div class="faq-accordion-title">
+              <label for="tgg-title-2">
+                <h2>
+                  Hogyan lehet befizetni az egyenlegemre?
+                </h2>
+                <span class="arrow-icon">
+                  <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                </span>
+              </label>
+            </div>
+  
+            <div class="faq-accordion-content">
+              <p> Befizetni a „Pénztár” menüpont alatt lehet. Elérhető fizetési módok: kriptovalutával.</p>
+            </div>
+  
+          </article>
+  
+          <article class="faq-accordion">
+  
+            <input class="tgg-title" type="checkbox" id="tgg-title-3">
+  
+            <div class="faq-accordion-title">
+              <label for="tgg-title-3">
+                <h2>
+                  Biztonságosak a játékok?
+                </h2>
+                <span class="arrow-icon">
+                  <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                </span>
+              </label>
+            </div>
+  
+            <div class="faq-accordion-content">
+              <p>Igen. Minden játék tanúsított, független tesztelők által ellenőrzött véletlenszám-generátort (RNG) használ.</p>
+            </div>
+  
+          </article>
+  
+          <article class="faq-accordion">
+  
+            <input class="tgg-title" type="checkbox" id="tgg-title-4">
+  
+            <div class="faq-accordion-title">
+              <label for="tgg-title-4">
+                <h2>
+                  Van ügyfélszolgálat, ha kérdésem van?
+                </h2>
+                <span class="arrow-icon">
+                  <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                </span>
+              </label>
+            </div>
+  
+            <div class="faq-accordion-content">
+              <p>
+                Az ügyfél szolgálat egyenlőre még nem elérhető, viszont fejlesztés alatt áll.</p>
+            </div>
+  
+          </article> 
+  
+          <article class="faq-accordion">
+  
+            <input class="tgg-title" type="checkbox" id="tgg-title-5">
+  
+            <div class="faq-accordion-title">
+              <label for="tgg-title-5">
+                <h2>
+                  Mi történik, ha túl sokáig nem használom a fiókomat?
+                </h2>
+                <span class="arrow-icon">
+                  <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                </span>
+              </label>
+            </div>
+  
+            <div class="faq-accordion-content">
+              <p> Semmi különös nem történik. A fiókod aktív marad, és bármikor újra beléphetsz, amikor csak szeretnél.</p>
+            </div>
+          </article> 
+        </div> 
+      </main>
+    </div>
  
 </body>
 <script>
@@ -93,5 +207,18 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+const checkboxes = document.querySelectorAll('.faq-accordion input[type="checkbox"]');
+
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener('change', () => {
+    if (checkbox.checked) {
+      checkboxes.forEach((otherCheckbox) => {
+        if (otherCheckbox !== checkbox) {
+          otherCheckbox.checked = false;
+        }
+      });
+    }
+  });
+});
 </script>
 </html>
