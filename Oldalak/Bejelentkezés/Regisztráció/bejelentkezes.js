@@ -1,4 +1,7 @@
-document.getElementById("login").addEventListener("submit", function (x) {
-    x.preventDefault();
-    window.location.href = "../../Főoldal/index.html";
-})
+const a = document.getElementById("login");
+a.addEventListener('keypress', function (event){
+    if (event.key == 'Enter')
+    {
+        a.submit();
+    }
+});
