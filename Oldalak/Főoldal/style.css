@@ -222,9 +222,12 @@ body{
     background-image: linear-gradient(to bottom,#FFD700, #000000);
     display: inline-block;
 }
-#RUBINTkép{
-    width:430px;
+#divrubint{
     height: 490px;
+}
+#RUBINTkep{
+    margin-top: 20px;
+    padding-left: 70px;
 }
 #RUBINTnev{
     color: white;
@@ -271,7 +274,7 @@ body{
     display: inline-block;
 }
 #ALEKOSZkep{
-    width:430px;
+    width:370px;
     height: 490px;
 }
 #ALEKOSZnev{
@@ -294,7 +297,7 @@ body{
     display: inline-block;
 }
 #MAJOROSkep{
-    width:430px;
+    width:350px;
     height: 490px;
 }
 #MAJOROSnev{
