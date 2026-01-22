@@ -15,6 +15,11 @@ body{
     display: inline-block;
     width: 1895px;
     position: relative;
+    color: white;
+}
+#Hmenu{
+    color: white;
+    font-size: 30px;
 }
 #valassz{
     display: inline;
@@ -366,4 +371,15 @@ body{
 }
 #jog{
     color: #AEAEAE;
+}
+@media only screen and (max-width:1850px){
+    #ValasztekKapcsolat{
+        margin-left: 200px;
+    }
+    #header_{
+        width: 98%;
+    }
+    #fejleckep{
+        width: 99.9%;
+    }
 }
