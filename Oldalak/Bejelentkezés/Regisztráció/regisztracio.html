@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="regisztracio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>regi</h1>
+    <div id="cimDIV">
+        <!--címsor-->
+        <h1 id="cim">Fiók létrehozása</h1>
+    </div>
+    <div id="keret">
+        <!--inputmező-->
+        <div id="inputokDIV">
+            <div>
+                <p id="pKezd">Kezdje meg az oldal használatát</p>
+            </div>
+                <form action="../../Főoldal/index.html" id="regisz" method="get">
+                <input class="inputok" id="email" type="email" placeholder="Email">
+                <input class="inputok" id="input1" type="text" placeholder="Felhasználónév">
+                <input class="inputok" id="password" type="password" placeholder="Jelszó">
+                </form>
+                <p id="vanEfiok">Van már fiókja? <a href="/Oldalak/Bejelentkezés/Regisztráció/bejelentkezes.html" id="bejelAtiranyito">Bejelentkezés</a></p>
+        </div>
+        <div id="kepDIV">
+            <img src="/Képek/tajkep.jpg" alt="" id="kep">
+        </div>
+    </div>
+    <script src="regisztracio.js"></script>
 </body>
+<footer>
+    <div id="lablecDIV">
+        <!--lablec-->
+        <div id="vonal"><hr size= "10" color="#FFD700"></div>
+        <div class="lablecDIV">
+            <div id="p1" class="p"><p id="CVTofficialS">CHATHUB VIP Team | Official Cite </p></div>
+            <div id="p2" class="p"><p id="@ARSmindenjogF">@All right reserved | Minden jog fentartva</p></div>
+        </div>
+    </div>
+</footer>
 </html>

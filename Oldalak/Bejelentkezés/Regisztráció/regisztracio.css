@@ -1,0 +1,126 @@
+body{
+    background-color: #000000;
+
+    font-family: 'Graduate', serif;
+    font-weight: lighter;
+    
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+#cim{
+    color: #FFD700;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#keret{
+    background-image: url(/Képek/hatterJPG.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+
+    border: 16px solid #FFD700;
+    border-radius: 30px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+
+    width: 95%;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#pKezd{
+    color: #FFFFFF;
+    font-size: 28px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#kep{
+    border: 10px solid #FFD700;
+    border-radius: 30px;
+    width: 100%;
+    height: 450px;
+    float: right;
+}
+
+.inputok{
+    background-color: #000000;
+    color: #AEAEAE;
+    font-size: 35px;
+    text-align: center;
+    border: 6px solid #FFD700;
+    border-radius: 30px;
+    width: 90%;
+    height: 100px;
+    float: left;
+}
+
+#email{
+    margin-bottom: 20px;
+}
+
+#input1{
+    margin-bottom: 20px;
+}
+
+#vanEfiok{
+    padding-left: 100px;
+    color: #FFFFFF;
+    font-size: 28px;
+    float: left;
+}
+
+#bejelAtiranyito{
+    color: #FF0000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #000000;
+    height: 165px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.lablecDIV{
+    color: #AEAEAE;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.lablecDIV div{
+    text-align: center;
+    
+}
+
+#vonal{
+    opacity: 30%;
+}
+
+.p{
+    text-align: center;
+    margin: 0px;
+    padding-top: 15px;
+}
