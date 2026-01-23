@@ -11,26 +11,31 @@
 <body>
     <header>
         <div id="header_">
-            <img src="/Képek/Képernyőfelvétel (21).png" alt="Logó" id="h_logo">
-            <div id="valassz">
-                <h1 id="Valasztek">
-                    Külföldi Hölgyek
-                </h1>
-                <h1 id="Valasztek">
-                    Külföldi Férfiak
-                </h1>
-                <h1 id="Valasztek">
-                    Magyar Hölgyek
-                </h1>
-                <h1 id="Valasztek">
-                    Magyar Férfiak
-                </h1>
-                <h1 id="ValasztekKapcsolat">
-                    Kapcsolat
-                </h1>
-            </div>
             
-            
+            <div class="topnav">
+                <img src="/Képek/Képernyőfelvétel (21).png" alt="Logó" id="h_logo">
+                <div id="valassz">
+                    <h1 id="Valasztek">
+                        Külföldi Hölgyek
+                    </h1>
+                    <h1 id="Valasztek">
+                        Külföldi Férfiak
+                    </h1>
+                    <h1 id="Valasztek">
+                        Magyar Hölgyek
+                    </h1>
+                    <h1 id="Valasztek">
+                        Magyar Férfiak
+                    </h1>
+                    <h1 id="ValasztekKapcsolat">
+                        Kapcsolat
+                    </h1>
+                    
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars" id="Hmenu"></i>
+                  </a>
+              </div>
         
         </div>
         
@@ -174,5 +179,18 @@
 
         <p id="jog">@All right reserved | Minden jog fentartva</p>
     </footer>
+    
+    <!-- Hamburger menü -->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("valassz");
+          if (x.style.visibility === "flex") {
+            x.style.visibility = "none";
+          } else {
+            x.style.visibility = "flex";
+          }
+        }
+        </script>
+
 </body>
 </html>

@@ -15,13 +15,30 @@ body{
     display: inline-block;
     width: 1895px;
     position: relative;
+    color: white;
+}
+#Hmenu{
+    display: inline;
+    padding-right: 3%;
+    color: white;
+    font-size: 30px;
+    
+}
+.icon{
+    margin-right: 2%;
+    visibility: hidden;
+}
+.topnav{
+    display: flex;
+    align-items: center;      /* függőleges középre igazítás */
+    justify-content: space-between;
 }
 #valassz{
-    display: inline;
+    display: flex;
     margin: auto;
 }
 #Valasztek{
-    display: inline;
+
     color: white;
     font-size: 20px;
     margin-left: 100px;
@@ -366,4 +383,21 @@ body{
 }
 #jog{
     color: #AEAEAE;
+}
+@media only screen and (max-width:1850px){
+    #ValasztekKapcsolat{
+        margin-left: 200px;
+    }
+    #header_{
+        width: 98%;
+    }
+    #fejleckep{
+        width: 99.9%;
+    }
+}
+@media only screen and (max-width:1420px){
+    .icon{
+        visibility: visible;
+    }
+
 }

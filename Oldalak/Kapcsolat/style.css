@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'Graduate', serif;
 }
 #h_logo{
     height: 100px;
@@ -12,7 +13,7 @@ body{
     border-bottom: solid #FFD700 4px;
     font-family: 'Graduate', serif;
     display: inline-block;
-    width: 1920px;
+    width: 1895px;
     position: relative;
 }
 #valassz{
@@ -170,8 +171,11 @@ width: 100%;
 .attribution a { color: hsl(228, 45%, 44%); }
 
 p {
-margin: 0 0 12px;
+margin-bottom: 8px;
+border-radius: 3px;
 line-height: 1.5;
+background-color: white;
+color: black;
 }
 
 h2 {
@@ -219,7 +223,6 @@ color: var(--primary-dark-color);
 
 .faq-accordion {
 padding: 3px 0;
-border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
 input.tgg-title {
@@ -268,7 +271,7 @@ max-height: 80px;
   background-color: black;
   border: 5px solid #FFD700;
   border-radius: 30px;
-  margin-right: 1100px;
+  margin-right: 800px;
   padding-left: 10px;
 }
 #szoveg{
@@ -279,17 +282,17 @@ max-height: 80px;
   height: 12px;
 }
 #arrow1{
-  margin-left: 250px;
+  margin-left: 405px;
 }
 #arrow2{
-  margin-left: 163px;
+  margin-left: 373px;
 }
 #arrow3{
-  margin-left: 265px;
+  margin-left: 369px;
 }
 #arrow4{
-  margin-left: 180px;
+  margin-left: 495px;
 }
 #arrow5{
-  margin-left: 83px;
+  margin-left: 147px;
 }
