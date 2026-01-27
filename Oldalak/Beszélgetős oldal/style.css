@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    font-family: 'Graduate', serif;
+}
+#h_logo{
+    height: 100px;
+    width: 130px;
+    float: left;
+    margin-right: 100px;
+   
+}
+#header_{
+    border-bottom: solid #FFD700 4px;
+    font-family: 'Graduate', serif;
+    display: inline-block;
+    width: 1895px;
+    position: relative;
+}
+#valassz{
+    display: inline;
+    margin: auto;
+}
+#Valasztek{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    float: left;
+    padding-top: 25px;
+   
+ 
+}
+#ValasztekKapcsolat{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    float: left;
+    padding-top: 25px;
+    color: #FFD700;
+    margin-left: 270px;
+}
