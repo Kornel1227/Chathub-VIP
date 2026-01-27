@@ -13,7 +13,7 @@ body{
     border-bottom: solid #FFD700 4px;
     font-family: 'Graduate', serif;
     display: inline-block;
-    width: 1895px;
+    width: 100%;
     position: relative;
     color: white;
 }
@@ -389,15 +389,104 @@ body{
         margin-left: 200px;
     }
     #header_{
-        width: 98%;
+        width: 100%;
     }
     #fejleckep{
-        width: 99.9%;
+        width: 100%;
+    }
+    #valassz{
+        display:flex;
     }
 }
-@media only screen and (max-width:1420px){
+@media only screen and (max-width: 1653px){
+    #MADISON{
+        margin-left: 20%;
+    }
+    #MARGOT{
+        margin-left: 20%;
+    }
+    #LEBRON{
+        margin-left: 5%;
+    }
+    #RONALDO{
+        margin-left: 20%;
+    }
+    #PALVIN{
+        margin-left: 20%;
+    }
+    #TOTH{
+        margin-left: 20%;
+    }
+    #ALEKOSZ{
+        margin-left: 5%;
+    }
+    #MAJOROS{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width:1430px){
+    #valassz{
+        display:none;
+    }
     .icon{
         visibility: visible;
     }
 
+
 }
+@media only screen and (max-width:1240px){
+    #MADISON{
+        margin-left: 10%;
+    }
+    #MARGOT{
+        margin-left: 10%;
+    }
+    #LEBRON{
+        margin-left: 5%;
+    }
+    #RONALDO{
+        margin-left: 10%;
+    }
+    #PALVIN{
+        margin-left: 10%;
+    }
+    #TOTH{
+        margin-left: 10%;
+    }
+    #ALEKOSZ{
+        margin-left: 5%;
+    }
+    #MAJOROS{
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width:1070px){
+    #MADISON{
+        margin-left: 5%;
+    }
+    #MARGOT{
+        margin-left: 5%;
+    }
+    #LEBRON{
+        margin-left: 5%;
+    }
+    #RONALDO{
+        margin-left: 5%;
+    }
+    #PALVIN{
+        margin-left: 5%;
+    }
+    #TOTH{
+        margin-left: 5%;
+    }
+    #ALEKOSZ{
+        margin-left: 5%;
+    }
+    #MAJOROS{
+        margin-left: 5%;
+    }
+}
+/* eddig tart az md*/
+
+/* telefon*/
+
