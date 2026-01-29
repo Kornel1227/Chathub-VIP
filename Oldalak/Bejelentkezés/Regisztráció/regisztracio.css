@@ -67,11 +67,11 @@ body{
 }
 
 #email{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #input1{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #vanEfiok{
@@ -79,6 +79,9 @@ body{
     color: #FFFFFF;
     font-size: 28px;
     float: left;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #bejelAtiranyito{
@@ -88,13 +91,9 @@ body{
 
 
 
-
-
-
-
 footer{
     background-color: #000000;
-    height: 165px;
+    height: 100px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -122,5 +121,13 @@ footer{
 .p{
     text-align: center;
     margin: 0px;
-    padding-top: 15px;
+    padding-top: 0px;
+}
+
+#CVTofficialS{
+    margin-top: 5px;
+}
+
+#ARSmindenjogF{
+    margin-top: 5px;
 }

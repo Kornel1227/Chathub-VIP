@@ -67,12 +67,12 @@ body{
 }
 
 #input1{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 footer{
     background-color: #000000;
-    height: 165px;
+    height: 100px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -100,6 +100,13 @@ footer{
 .p{
     text-align: center;
     margin: 0px;
-    padding-top: 15px;
+    padding-top: 0px;
 }
 
+#CVTofficialS{
+    margin-top: 5px;
+}
+
+#ARSmindenjogF{
+    margin-top: 5px;
+}

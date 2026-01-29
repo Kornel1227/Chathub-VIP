@@ -3,6 +3,7 @@ body{
     background-image: url(/Képek/hatterJPG.jpg);
     
     background-size: auto;
+    height: max-content;
     background-repeat: no-repeat;
     background-position: center;
     
@@ -58,12 +59,10 @@ footer{
     font-size: 30px;
     display: grid;
     grid-template-columns: auto auto;
-    
 }
 
 .lablecDIV div{
     text-align: center;
-    
 }
 
 #vonal{
@@ -74,4 +73,78 @@ footer{
     text-align: center;
     margin: 0px;
     padding-top: 15px;
+}
+
+/*reszponzivitás*/
+
+@media screen and (max-width: 855px){
+    #cimDIV{
+        padding-top: 150px;
+    }
+    
+    #cim{
+        font-size: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #gombDIV{
+        padding-bottom: 100px;
+    }
+
+    .gomb{
+        width: 500px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 765px){
+    .p{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 570px){
+    #cimDIV{
+        padding-top: 220px;
+    }
+    
+    #cim{
+        font-size: 60px;
+    }
+
+    .gomb{
+        width: 330px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .lablecDIV{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    #p2{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    #CVTofficialS{
+        margin-top: 0px;
+    }
+
+    #ARSmindenjogF{
+        margin-top: 0px;
+    }
+
+    .p{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .p{
+        font-size: 15px;
+    }
 }
