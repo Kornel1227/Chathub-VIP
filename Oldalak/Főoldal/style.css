@@ -35,6 +35,8 @@ body{
 }
 #valassz{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: auto;
 }
 #Valasztek{
@@ -424,7 +426,19 @@ body{
 }
 @media only screen and (max-width:1430px){
     #valassz{
-        display:none;
+        display: none;
+        flex-direction: row;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    #valassz.open{
+        display: flex;
     }
     .icon{
         visibility: visible;
@@ -591,6 +605,24 @@ body{
 @media only screen and (max-width:495px){
     #fejleckep{
         visibility: hidden;
+    }
+    #valassz{
+        display: none;
+        flex-direction: column;   
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    #Valasztek,
+    #ValasztekKapcsolat{
+        margin: 15px 0;
+        float: none;
+        padding-top: 0;
     }
     #MADISON{
         width:270px;
