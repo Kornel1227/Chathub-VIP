@@ -13,7 +13,7 @@ body{
     border-bottom: solid #FFD700 4px;
     font-family: 'Graduate', serif;
     display: inline-block;
-    width: 1895px;
+    width: 100%;
     position: relative;
     color: white;
 }
@@ -239,9 +239,7 @@ body{
     background-image: linear-gradient(to bottom,#FFD700, #000000);
     display: inline-block;
 }
-#divrubint{
-    height: 490px;
-}
+
 #RUBINTkep{
     margin-top: 20px;
     padding-left: 70px;
@@ -389,15 +387,379 @@ body{
         margin-left: 200px;
     }
     #header_{
-        width: 98%;
+        width: 100%;
     }
     #fejleckep{
-        width: 99.9%;
+        width: 100%;
+    }
+    #valassz{
+        display:flex;
     }
 }
-@media only screen and (max-width:1420px){
+@media only screen and (max-width: 1653px){
+    #MADISON{
+        margin-left: 20%;
+    }
+    #MARGOT{
+        margin-left: 20%;
+    }
+    #LEBRON{
+        margin-left: 5%;
+    }
+    #RONALDO{
+        margin-left: 20%;
+    }
+    #PALVIN{
+        margin-left: 20%;
+    }
+    #TOTH{
+        margin-left: 20%;
+    }
+    #ALEKOSZ{
+        margin-left: 5%;
+    }
+    #MAJOROS{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width:1430px){
+    #valassz{
+        display:none;
+    }
     .icon{
         visibility: visible;
     }
 
+
+}
+@media only screen and (max-width:1240px){
+    #MADISON{
+        margin-left: 10%;
+    }
+    #MARGOT{
+        margin-left: 10%;
+    }
+    #LEBRON{
+        margin-left: 5%;
+    }
+    #RONALDO{
+        margin-left: 10%;
+    }
+    #PALVIN{
+        margin-left: 10%;
+    }
+    #TOTH{
+        margin-left: 10%;
+    }
+    #ALEKOSZ{
+        margin-left: 5%;
+    }
+    #MAJOROS{
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width:1070px){
+    #MADISON{
+        margin-left: 5%;
+    }
+    #MARGOT{
+        margin-left: 5%;
+    }
+    #LEBRON{
+        margin-left: 5%;
+    }
+    #RONALDO{
+        margin-left: 5%;
+    }
+    #PALVIN{
+        margin-left: 5%;
+    }
+    #TOTH{
+        margin-left: 5%;
+    }
+    #ALEKOSZ{
+        margin-left: 5%;
+    }
+    #MAJOROS{
+        margin-left: 5%;
+    }
+}
+/* eddig tart az md*/
+
+/* telefon*/
+
+@media only screen and (max-width:1000px){
+    #MADISON{
+        margin-left: 25%;
+    }
+    #MADELYN{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #MARGOT{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #LEBRON{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #RONALDO{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #LEONARDO{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #PALVIN{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #RUBINT{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #TOTH{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #ALEKOSZ{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #MAJOROS{
+        margin-left: 25%;
+
+    }
+    #SZOBOSZLAI{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    
+
+}
+@media only screen and (max-width:620px){
+    #MADISON{
+        margin-left: 5%;
+    }
+    #MADELYN{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    #MARGOT{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    #LEBRON{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    #RONALDO{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    #LEONARDO{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    #PALVIN{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    #RUBINT{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    #TOTH{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    #ALEKOSZ{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    #MAJOROS{
+        margin-left: 5%;
+
+    }
+    #SZOBOSZLAI{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width:495px){
+    #fejleckep{
+        visibility: hidden;
+    }
+    #MADISON{
+        width:270px;
+        height: 300px;
+        margin-top: 10%;
+    }
+    #MADkep{
+        width: 270px;
+        height: 300px;
+    }
+    #MADnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #MADELYN{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #MADELYNkep{
+        width: 270px;
+        height: 300px;
+    }
+    #MADELYNnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #MARGOT{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #MARGOTkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #MARGOTnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #LEBRON{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #LEBRONkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #LEBRONnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #RONALDO{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #RONALDOkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #RONALDOnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #LEONARDO{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #LEONARDOkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #LEONARDOnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #PALVIN{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #PALVINkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #PALVINnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #RUBINT{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #RUBINTkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #RUBINTnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #TOTH{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #TOTHkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #TOTHnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #ALEKOSZ{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #ALEKOSZkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #ALEKOSZnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #MAJOROS{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #MAJOROSkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #MAJOROSnev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #SZOBOSZLAI{
+        margin-top: 10%;
+        width:270px;
+        height: 300px;
+    }
+    #SZOBOSZLAIkep{
+        width: 270px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #SZOBOSZLAInev{
+        height: 30px;
+        padding-top: 5px;
+    }
+    #motto{
+        display: none;
+    }
 }
