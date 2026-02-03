@@ -48,24 +48,49 @@ body{
     margin-top: 80px;
     margin-top: 200px;
 }
-.chat-box {
-    display: flex;
+.chatbox {
+    width: 700px;
+    margin: 30px auto;
+    text-align: center;
     justify-content: center;
-    margin-top: 30px;
-}
-.chat-box input {
-    width: 800px;
-    padding: 15px 25px;
-    border-radius: 40px;
-    border: 3px solid #ffd700;
+  }
+  
+  #chat {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  
+  .user, .bot {
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .user {
+    background: #ffd700;
+    color: black;
+    text-align: right;
+  }
+  
+  .bot {
+    border: 1px solid #ffd700;
+    color: #ffd700;
+    text-align: left;
+  }
+  
+  #userInput {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #ffd700;
     background: black;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     outline: none;
-}
-.chat-box input::placeholder {
-    color: #aaa;
-}
+  }
 #jog{
     color: #AEAEAE;
     background-color: black;
