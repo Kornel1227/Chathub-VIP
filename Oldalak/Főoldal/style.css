@@ -17,6 +17,11 @@ body{
     position: relative;
     color: white;
 }
+#feher{
+    color: white;
+    margin-top: 10%;
+    float: right;
+}
 #Hmenu{
     display: inline;
     padding-right: 3%;
@@ -92,6 +97,57 @@ body{
     border-radius: 10px;
     padding-top: 15px;
 }
+#MADISONszoveg{
+    font-size: 25px;
+}
+
+/* FLIP ALAPOK – Madison */
+
+.flip-container {
+    width: 430px;
+    height: 490px;
+}
+
+.flip-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* hoverre fordul */
+#MADISON:hover .flip-inner {
+    transform: rotateY(180deg);
+    
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* előlapi kép */
+.flip-front img {
+    width: 430px;
+    height: 490px;
+}
+
+/* hátlap */
+.flip-back {
+    background-image: linear-gradient(to bottom, #FFD700, #000000);
+    color: black;
+    padding: 15px;
+    transform: rotateY(180deg);
+    font-size: 14px;
+}
         /* Madelyn Cline*/
 #MADELYN{
     width:430px;
@@ -113,6 +169,50 @@ body{
     height: 50px;
     border-radius: 10px;
     padding-top: 15px;
+}
+
+.flip-container {
+    width: 430px;
+    height: 490px;
+    perspective: 1000px;
+}
+
+.flip-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* hoverre fordul */
+#MADISON:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* előlapi kép */
+.flip-front img {
+    width: 430px;
+    height: 490px;
+}
+
+/* hátlap */
+.flip-back {
+    background-image: linear-gradient(to bottom, #FFD700, #000000);
+    color: black;
+    padding: 15px;
+    transform: rotateY(180deg);
+    font-size: 14px;
 }
         /* Margot Robbie*/
 #MARGOT{
