@@ -110,3 +110,132 @@ footer{
 #ARSmindenjogF{
     margin-top: 5px;
 }
+
+@media screen and (max-width: 1330px){
+    .p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #kep{
+        height: 420px;
+    }
+
+    #keret{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1035px){
+    #cim{
+        font-size: 90px;
+        padding-top: 25px;
+    }
+    
+    #pKezd{
+        font-size: 24px;
+    }
+
+    .inputok{
+        font-size: 30px;
+        height: 95px;
+    }
+
+    #keret{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 895px){
+    #cim{
+        font-size: 80px;
+        padding-top: 70px;
+    }
+
+    #pKezd{
+        font-size: 20px;
+    }
+
+    #kep{
+        height: 380px;
+        width: 90%;
+    }
+
+    #keret{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 730px){
+    #cim{
+        font-size: 60px;
+        padding-top: 80px;
+    }
+
+    #pKezd{
+        font-size: 15px;
+    }
+
+    .inputok{
+        font-size: 24px;
+        height: 95px;
+    }
+
+    .p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 625px){
+    #cim{
+        font-size: 50px;
+        padding-top: 90px;
+        padding-bottom: 50px;
+    }
+    
+    #keret{
+        width: 90%;
+        
+        margin-left: auto;
+        margin-right: auto;
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #kep{
+        visibility: collapse;
+        width: 0px;
+        height: 0px;
+    }
+
+    .inputok{
+        width: 94%;
+        margin-left: 5px;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #cim{
+        font-size: 35px;
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+
+    #keret{
+        width: 88%;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inputok{
+        width: 93%;
+        margin-left: 3px;
+    }
+}
