@@ -237,6 +237,13 @@ body{
 #RUBINTszoveg{
     font-size: 20.5px;
 }
+/* toth gabi*/
+#TOTH:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#TOTHszoveg{
+    font-size: 22px;
+}
 .flip-front,
 .flip-back {
     position: absolute;
