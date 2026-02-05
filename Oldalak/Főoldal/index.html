@@ -48,18 +48,60 @@
             Ahol a sztárok válaszolnak!
         </h1>
         <div id="MADISON">
-            <div >
+    <div class="flip-container">
+
+        <div class="flip-inner">
+
+            <!-- ELŐLAP -->
+            <div class="flip-front">
                 <img src="/Képek/madison_beer.png" alt="Madison Beer" id="MADkep">
             </div>
-            
-            <div id="MADnev">
-                <p id="MADnev">Madison Beer</p>
+
+            <!-- HÁTLAP -->
+            <div class="flip-back">
+                <p id="MADISONszoveg">
+                    Margot Robbie ausztrál színésznő és producer, aki olyan filmekkel vált világhírűvé, mint a Wall Street farkasa, az Én, Tonya, a Szárnyas fejvadász 2049 
+                    (cameó), valamint a Barbie, amelynek egyik producere is volt. Sokoldalú alakításaiért több Oscar-jelölést kapott.
+                    <br><br>
+                    <strong>Random fact:</strong> Margot Robbie egy ideig „hobbiból” tetoválásokat készített barátainak és kollégáinak, ám később felhagyott vele egy véletlenül elrontott tetoválás után.
+                </p>
+                <p id="feher">
+                    By CHATHUB VIP TEAM
+                </p>
             </div>
+
         </div>
 
+    </div>
+
+    <div id="MADnev">
+        <p>Madison Beer</p>
+    </div>
+</div>
+
         <div id="MADELYN">
-            <div >
-                <img src="/Képek/madelyn_cline.png" alt="Madelyn Cline" id="MADELYNkep">
+
+
+            <div class="flip-inner">
+
+                <!-- ELŐLAP -->
+                <div class="flip-front">
+                    <img src="/Képek/madelyn_cline.png" alt="Madelyn Cline" id="MADELYNkep">
+                </div>
+    
+                <!-- HÁTLAP -->
+                <div class="flip-back">
+                    <p id="MADELYNszoveg">
+                        Madelyn Cline amerikai színésznő és modell, legismertebb a Netflix Outer Banks című sorozatában alakított főszerepéről, Sarah Cameront játszva.
+                        Szerepelt továbbá a Tőrbe ejtve – Az üveghagyma című filmben is.
+                        <br><br>
+                        <strong>Random fact:</strong> Madelyn Cline szenvedélyesen szereti a fotózást, és korábban saját maga készített kreatív sorozatokat is hobbiból.
+                    </p>
+                    <p id="feher">
+                        By CHATHUB VIP TEAM
+                    </p>
+                </div>
+    
             </div>
             
             <div id="MADELYNnev">
@@ -68,20 +110,56 @@
         </div>
 
         <div id="MARGOT">
-            <div >
-                <img src="/Képek/margot_robbie.jpg" alt="Margot Robbie" id="MARGOTkep">
+
+            <div class="flip-inner">
+
+                <!-- ELŐLAP -->
+                <div class="flip-front">
+                    <img src="/Képek/margot_robbie.jpg" alt="Margot Robbie" id="MARGOTkep">
+                </div>
+    
+                <!-- HÁTLAP -->
+                <div class="flip-back">
+                    <p id="MARGOTszoveg">
+                        Madelyn Cline amerikai színésznő és modell, legismertebb a Netflix Outer Banks című sorozatában alakított főszerepéről, Sarah Cameront játszva.
+                        Szerepelt továbbá a Tőrbe ejtve – Az üveghagyma című filmben is.
+                        <br><br>
+                        <strong>Random fact:</strong> Madelyn Cline szenvedélyesen szereti a fotózást, és korábban saját maga készített kreatív sorozatokat is hobbiból.
+                    </p>
+                    <p id="feher">
+                        By CHATHUB VIP TEAM
+                    </p>
+                </div>
+    
             </div>
-            
+         
             <div id="MARGOTnev">
                 <p id="MARGOTnev">Margot Robbie</p>
             </div>
         </div>
 
         <div id="LEBRON">
-            <div >
-                <img src="/Képek/letöltésLJ.png" alt="Lebron James" id="LEBRONkep">
+            <div class="flip-inner">
+
+                <!-- ELŐLAP -->
+                <div class="flip-front">
+                    <img src="/Képek/letöltésLJ.png" alt="Lebron James" id="LEBRONkep">
+                </div>
+    
+                <!-- HÁTLAP -->
+                <div class="flip-back">
+                    <p id="LEBRONszoveg">
+                        LeBron James egy amerikai profi kosárlabdázó, aki jelenleg a Los Angeles Lakers csapatában játszik az NBA-ben, és az egyik legismertebb sportikon a világon.
+                        Emellett nagy hangsúlyt fektet a jótékonyságra: létrehozta a LeBron James Family Foundationt, és segített egy „I PROMISE” nevű iskolát alapítani hátrányos helyzetű gyerekeknek.
+                        <br><br>
+                        <strong>Random fact:</strong> Lebron James 2020-ban a „Space Jam: A New Legacy” című filmben is szerepelt – önmagát alakította.
+                    </p>
+                    <p id="feher">
+                        By CHATHUB VIP TEAM
+                    </p>
+                </div>
+    
             </div>
-            
             <div id="LEBRONnev">
                 <p id="LEBRONnev">Lebron James</p>
             </div>
@@ -183,14 +261,15 @@
     <!-- Hamburger menü -->
     <script>
         function myFunction() {
-          var x = document.getElementById("valassz");
-          if (x.style.display === "flex") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "flex";
-          }
+            document.getElementById("valassz").classList.toggle("open");
         }
-        </script>
+        
+        function toggleMenu() {
+          const menu = document.getElementById("valassz");
+          menu.classList.toggle("open");
+        }
+
+    </script>
 
 </body>
 </html>
