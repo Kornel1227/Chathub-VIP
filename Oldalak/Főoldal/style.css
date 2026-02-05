@@ -216,6 +216,13 @@ body{
 #RONALDOszoveg{
     font-size: 20px;
 }
+/* leonardo */
+#LEONARDO:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#LEONARDOszoveg{
+    font-size: 21.75px;
+}
 .flip-front,
 .flip-back {
     position: absolute;
