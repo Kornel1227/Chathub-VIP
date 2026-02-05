@@ -230,6 +230,13 @@ body{
 #PALVINszoveg{
     font-size: 21px;
 }
+/* rubint*/
+#RUBINT:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#RUBINTszoveg{
+    font-size: 20.5px;
+}
 .flip-front,
 .flip-back {
     position: absolute;
@@ -384,7 +391,7 @@ body{
 
 #RUBINTkep{
     margin-top: 20px;
-    padding-left: 70px;
+
 }
 #RUBINTnev{
     color: white;
