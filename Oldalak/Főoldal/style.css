@@ -258,6 +258,13 @@ body{
 #MAJOROSszoveg{
     font-size: 20px;
 }
+/*szoboszlai */
+#SZOBOSZLAI:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#SZOBOSZLAIszoveg{
+    font-size: 20px;
+}
 .flip-front,
 .flip-back {
     position: absolute;
