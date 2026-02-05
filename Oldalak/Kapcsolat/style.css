@@ -52,6 +52,10 @@ body{
   padding-right: 40px;
   padding-left: 40px;
 }
+#alekoszvd{
+  width: 550px;
+  height: 880px;
+}
 #madelyndiv{
   display: inline-block;
   padding-top: 40px;
@@ -332,4 +336,32 @@ max-height: 80px;
 #jog{
   color: #AEAEAE;
   background-color: black;
+}
+@media only screen and (max-width: 1669px) {
+  #alekoszvd{
+    width: 450px;
+    height: 880px;
+  }
+  #slidediv{
+    width: 500px;
+  }
+  #keret{
+    border-radius: 30px;
+    margin-right: 600px;
+    padding-left: 40px;
+  }
+}
+@media only screen and (max-width: 1603px) {
+  #alekoszvd{
+    width: 400px;
+    height: 880px;
+  }
+  #slidediv{
+    width: 450px;
+  }
+  #keret{
+    border-radius: 30px;
+    margin-right: 500px;
+    padding-left: 40px;
+  }
 }
