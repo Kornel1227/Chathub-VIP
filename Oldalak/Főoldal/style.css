@@ -209,6 +209,13 @@ body{
 #LEBRONszoveg{
     font-size: 20px;
 }
+/*ronaldo */
+#RONALDO:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#RONALDOszoveg{
+    font-size: 20px;
+}
 .flip-front,
 .flip-back {
     position: absolute;
