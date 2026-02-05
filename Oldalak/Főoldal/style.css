@@ -97,9 +97,7 @@ body{
     border-radius: 10px;
     padding-top: 15px;
 }
-#MADISONszoveg{
-    font-size: 25px;
-}
+
 
 /* FLIP ALAPOK – Madison */
 
@@ -117,16 +115,13 @@ body{
 }
 
 /* hoverre fordul */
-#MADISON:hover .flip-inner {
-    transform: rotateY(180deg);
-    
-}
+
 
 .flip-front,
 .flip-back {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 99%;
     backface-visibility: hidden;
     
     border-radius: 10px;
@@ -186,10 +181,90 @@ body{
 }
 
 /* hoverre fordul */
+/* madison*/
 #MADISON:hover .flip-inner {
     transform: rotateY(180deg);
 }
-
+#MADISONszoveg{
+    font-size: 20px;
+}
+/*madelyn */
+#MADELYN:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#MADELYNszoveg{
+    font-size: 23px;
+}
+/* margot*/
+#MARGOT:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#MARGOTszoveg{
+    font-size: 23px;
+}
+/*lebron */
+#LEBRON:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#LEBRONszoveg{
+    font-size: 20px;
+}
+/*ronaldo */
+#RONALDO:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#RONALDOszoveg{
+    font-size: 20px;
+}
+/* leonardo */
+#LEONARDO:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#LEONARDOszoveg{
+    font-size: 19px;
+}
+/*palvin */
+#PALVIN:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#PALVINszoveg{
+    font-size: 21px;
+}
+/* rubint*/
+#RUBINT:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#RUBINTszoveg{
+    font-size: 20.5px;
+}
+/* toth gabi*/
+#TOTH:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#TOTHszoveg{
+    font-size: 22px;
+}
+/* alekosz*/
+#ALEKOSZ:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#ALEKOSZszoveg{
+    font-size: 20.5px;
+}
+/*majka */
+#MAJOROS:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#MAJOROSszoveg{
+    font-size: 20px;
+}
+/*szoboszlai */
+#SZOBOSZLAI:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#SZOBOSZLAIszoveg{
+    font-size: 20px;
+}
 .flip-front,
 .flip-back {
     position: absolute;
@@ -344,7 +419,7 @@ body{
 
 #RUBINTkep{
     margin-top: 20px;
-    padding-left: 70px;
+
 }
 #RUBINTnev{
     color: white;
