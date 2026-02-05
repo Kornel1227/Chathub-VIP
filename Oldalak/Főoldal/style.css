@@ -221,7 +221,14 @@ body{
     transform: rotateY(180deg);
 }
 #LEONARDOszoveg{
-    font-size: 21.75px;
+    font-size: 19px;
+}
+/*palvin */
+#PALVIN:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#PALVINszoveg{
+    font-size: 21px;
 }
 .flip-front,
 .flip-back {
