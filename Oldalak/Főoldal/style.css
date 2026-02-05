@@ -186,8 +186,16 @@ body{
 }
 
 /* hoverre fordul */
+/* madison*/
 #MADISON:hover .flip-inner {
     transform: rotateY(180deg);
+}
+/*madelyn */
+#MADELYN:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#MADELYNszoveg{
+    font-size: 23px;
 }
 
 .flip-front,
