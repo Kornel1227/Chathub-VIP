@@ -244,6 +244,13 @@ body{
 #TOTHszoveg{
     font-size: 22px;
 }
+/* alekosz*/
+#ALEKOSZ:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#ALEKOSZszoveg{
+    font-size: 20.5px;
+}
 .flip-front,
 .flip-back {
     position: absolute;
