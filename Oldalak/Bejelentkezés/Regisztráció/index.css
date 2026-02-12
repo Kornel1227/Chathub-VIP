@@ -38,6 +38,13 @@ body{
     color: white;
     font-family: 'Graduate', serif;
     font-size: 50px;
+    transition: all 0.7s ease;
+}
+
+.gomb:hover{
+    background-color: #FFD700;
+    color: black;
+    border: 5px solid #ffbb00; /*#ffc400*/
 }
 
 #gomb1{
