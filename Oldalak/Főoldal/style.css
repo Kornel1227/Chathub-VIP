@@ -91,9 +91,9 @@ body{
 #MADnev{
     color: white;
     text-align: center;
-    background-color: #434343;
-    margin: 0%;
     height: 50px;
+    margin: 0;
+    background-color: #434343;
     border-radius: 10px;
     padding-top: 15px;
 }
@@ -221,7 +221,49 @@ body{
     transform: rotateY(180deg);
 }
 #LEONARDOszoveg{
-    font-size: 21.75px;
+    font-size: 19px;
+}
+/*palvin */
+#PALVIN:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#PALVINszoveg{
+    font-size: 21px;
+}
+/* rubint*/
+#RUBINT:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#RUBINTszoveg{
+    font-size: 20.5px;
+}
+/* toth gabi*/
+#TOTH:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#TOTHszoveg{
+    font-size: 22px;
+}
+/* alekosz*/
+#ALEKOSZ:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#ALEKOSZszoveg{
+    font-size: 20.5px;
+}
+/*majka */
+#MAJOROS:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#MAJOROSszoveg{
+    font-size: 20px;
+}
+/*szoboszlai */
+#SZOBOSZLAI:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+#SZOBOSZLAIszoveg{
+    font-size: 20px;
 }
 .flip-front,
 .flip-back {
@@ -377,7 +419,7 @@ body{
 
 #RUBINTkep{
     margin-top: 20px;
-    padding-left: 70px;
+
 }
 #RUBINTnev{
     color: white;
@@ -560,12 +602,9 @@ body{
 @media only screen and (max-width:1430px){
     #valassz{
         display: none;
-        flex-direction: row;
-        position: absolute;
-        top: 100%;
-        right: 0;
+        flex-direction: row;      
         background-color: black;
-        width: 100%;
+        position: static;
         text-align: center;
         z-index: 1000;
     }
@@ -578,6 +617,17 @@ body{
     }
 
 
+}
+@media only screen and (max-width:1383px){
+    #ValasztekKapcsolat{
+        margin-left: 5%;
+    }
+    #Valasztek{
+        margin-left: 3%;
+    }
+    #h_logo{
+        margin-right: 2%;
+    }
 }
 @media only screen and (max-width:1240px){
     #MADISON{
@@ -686,6 +736,25 @@ body{
     
 
 }
+@media only screen and (max-width:890px){
+    #Valasztek{
+        font-size: smaller;
+    }
+    #ValasztekKapcsolat{
+        font-size: smaller;
+    }
+}
+@media only screen and (max-width:650px){
+    #h_logo{
+        margin-right: 1%;
+    }
+    #Valasztek{
+        margin-left: 2%;
+    }
+    #ValasztekKapcsolat{
+        margin-left: 2%;
+    }
+}
 @media only screen and (max-width:620px){
     #MADISON{
         margin-left: 5%;
@@ -733,6 +802,44 @@ body{
     #SZOBOSZLAI{
         margin-left: 5%;
         margin-top: 10%;
+    }
+}
+@media only screen and (max-width:588px){
+    #footernev{
+        font-size: 25px;
+    }
+    #insta{
+        font-size: 30px;
+    }
+    #twitter{
+        font-size: 30px;
+    }
+    #facebook{
+        font-size: 30px;
+    }
+
+}
+@media only screen and (max-width:576px){
+    #fejleckep{
+        visibility: hidden;
+    }
+    #valassz{
+        display: none;
+        flex-direction: column;   
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    #Valasztek,
+    #ValasztekKapcsolat{
+        margin: 15px 0;
+        float: none;
+        padding-top: 0;
     }
 }
 @media only screen and (max-width:495px){
@@ -924,7 +1031,61 @@ body{
         height: 30px;
         padding-top: 5px;
     }
+    #MADszoveg{
+        font-size: 13px;
+    }
+    #MADELYNszoveg{
+        font-size: 13px;
+    }
+    #MARGOTszoveg{
+        font-size: 13px;
+    }
+    #LEBRONszoveg{
+        font-size: 12px;
+    }
+    #RONALDOszoveg{
+        font-size: 12px;
+    }
+    #LEONARDOszoveg{
+        font-size: 11.1px;
+    }
+    #PALVINszoveg{
+        font-size: 12.2px;
+    }
+    #RUBINTszoveg{
+        font-size: 12px;
+    }
+    #TOTHszoveg{
+        font-size: 13.2px;
+    }
+    #ALEKOSZszoveg{
+        font-size: 12px;
+    }
+    #MAJOROSszoveg{
+        font-size: 11.7px;
+    }
+    #SZOBOSZLAIszoveg{
+        font-size: 11.7px;
+    }
     #motto{
         display: none;
     }
+    #jog{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:359px){
+    #footernev{
+        font-size: 25px;
+    }
+    #insta{
+        font-size: 25px;
+    }
+    #twitter{
+        font-size: 25px;
+    }
+    #facebook{
+        font-size: 25px;
+    }
+    
 }
