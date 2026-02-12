@@ -1,5 +1,7 @@
 {
-    "email": "denesmorgotli@gmail.com",
-    "username": "denesmor",
-    "password": "1234"
+    "gotlidenesmor": {
+        "email": "denesmorgotli@gmail.com",
+        "username": "denesmor",
+        "password": "1234"
+    }
 }

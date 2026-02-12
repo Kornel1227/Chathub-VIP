@@ -17,7 +17,7 @@ a.addEventListener('keydown', function (event){
     }
 });
 */
-
+/*
 const form = document.getElementById("regisz");
 
 form.addEventListener("submit", function (e) {
@@ -42,4 +42,26 @@ form.addEventListener("submit", function (e) {
   
   window.location.href = "../../Főoldal/index.html";
 });
+*/
 
+
+const form = document.getElementById("regisz");
+const input = document.getElementById("input1");
+const password = document.getElementById("passes");
+const email = document.getElementById("email");
+
+form.addEventListener("keydown", function (event) {
+  if (event.key == "Enter") {
+    event.preventDefault();
+
+    const value = input.value;
+    const pass = password.value;
+    const ema = email.value;
+
+    if ((value === "denesmor" && pass === "keksz" && ema === "denesmorgotli@gmail.com") || (value === "kornel" && pass === "asd") || (value === "aron" && pass === "asd")) {
+      form.submit();
+    } else {
+      alert("Hibás felhasználónév vagy jelszó!");
+    }
+  }
+});
