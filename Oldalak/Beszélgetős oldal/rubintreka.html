@@ -32,13 +32,18 @@
         </div> 
     </header>
     <div>
-        <p id="p">Kezd ej beszélgetni Madison Beer-el!</p>
+        <p id="p">Kezd ej beszélgetni Rubint Réka-val!</p>
     </div>
-    <div>
-        <div class="chat-box">
-            <input type="text" placeholder="Írj ide..." />
-          </div>
-    </div>
+    <div class="chatbox">
+        <div id="chat"></div>
+      
+        <input 
+          id="userInput"
+          type="text"
+          placeholder="Írj ide..."
+          onkeydown="handleKey(e)"
+        >
+      </div>
     <footer class="footer">
         <span id="jog">CHATHUB VIP TEAM | OFFICIAL CITE</span>
         <span id="jog">@ALL RIGHT RESERVED | MINDEN JOG FENTARTVA</span>
