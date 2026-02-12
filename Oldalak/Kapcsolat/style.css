@@ -3,18 +3,69 @@ body{
     font-family: 'Graduate', serif;
 }
 #h_logo{
-    height: 100px;
-    width: 130px;
-    float: left;
-    margin-right: 100px;
-   
+  height: 100px;
+  width: 130px;
+  float: left;
+  margin-right: 100px;
+ 
 }
 #header_{
-    border-bottom: solid #FFD700 4px;
-    font-family: 'Graduate', serif;
-    display: inline-block;
-    width: 1895px;
-    position: relative;
+  border-bottom: solid #FFD700 4px;
+  font-family: 'Graduate', serif;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+#feher{
+  color: white;
+  margin-top: 10%;
+  float: right;
+}
+#Hmenu{
+  display: inline;
+  padding-right: 3%;
+  color: white;
+  font-size: 30px;
+ 
+}
+.icon{
+  margin-right: 2%;
+  visibility: hidden;
+}
+.topnav{
+  display: flex;
+  align-items: center;      /* függőleges középre igazítás */
+  justify-content: space-between;
+}
+#valassz{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+#Valasztek{
+
+  color: white;
+  font-size: 20px;
+  margin-left: 100px;
+  float: left;
+  padding-top: 25px;
+ 
+
+}
+#ValasztekKapcsolat{
+  display: inline;
+  color: white;
+  font-size: 20px;
+  margin-left: 270px;
+  float: left;
+  padding-top: 25px;
+  color: #FFD700;
+ 
+}
+#fejleckep{
+  width: 1895px;
 }
 #valassz{
     display: inline;
@@ -340,6 +391,20 @@ max-height: 80px;
   color: #AEAEAE;
   background-color: black;
 }
+@media only screen and (max-width:1850px){
+  #ValasztekKapcsolat{
+      margin-left: 200px;
+  }
+  #header_{
+      width: 100%;
+  }
+  #fejleckep{
+      width: 100%;
+  }
+  #valassz{
+      display:flex;
+  }
+}
 @media only screen and (max-width: 1669px) {
   #alekoszvd{
     width: 450px;
@@ -409,11 +474,41 @@ max-height: 80px;
     padding-left: 40px;
   }
 }
+@media only screen and (max-width:1430px){
+  #valassz{
+      display: none;
+      flex-direction: row;      
+      background-color: black;
+      position: static;
+      text-align: center;
+      z-index: 1000;
+  }
+
+  #valassz.open{
+      display: flex;
+  }
+  .icon{
+      visibility: visible;
+  }
+
+
+}
 @media only screen and (max-width: 1405px) {
   #keret{
     border-radius: 30px;
     margin-right: 330px;
     padding-left: 40px;
+  }
+}
+@media only screen and (max-width:1383px){
+  #ValasztekKapcsolat{
+      margin-left: 5%;
+  }
+  #Valasztek{
+      margin-left: 3%;
+  }
+  #h_logo{
+      margin-right: 2%;
   }
 }
 @media only screen and (max-width: 1350px) {
@@ -739,6 +834,14 @@ max-height: 80px;
     margin-left: -20px;
   }
 }
+@media only screen and (max-width:890px){
+  #Valasztek{
+      font-size: smaller;
+  }
+  #ValasztekKapcsolat{
+      font-size: smaller;
+  }
+}
 @media only screen and (max-width: 875px) {
   .content-cc{
     margin-top: 80px;
@@ -829,3 +932,302 @@ max-height: 80px;
     margin-left: -40px;
   }
 }
+@media only screen and (max-width: 810px) {
+  .content-cc{
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 0px;
+    align-items: center;
+    }
+    .faq-card {
+    border-radius: 20px;
+    
+    max-width: 1600px;
+    
+    }
+  #alekoszvd{
+    width: 500px;
+    height: 1000px;
+  }
+  #madelynvd{
+    width: 500px;
+    height: 1000px;
+  }
+  #slidediv{
+    width: 600px;
+    margin-left: 80px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 90px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 90px;
+  }
+  #keret{
+    border-radius: 30px;
+    margin-right: 20px;
+    padding-left: 20px;
+  }
+  .faq-content {
+    padding: 9px 15px 0; 
+    margin-left: -70px;
+  }
+}
+@media only screen and (max-width: 810px) {
+  #arrow{
+    width: 12px;
+    height: 12px;
+  }
+  #arrow1{
+    margin-left: 375px;
+  }
+  #arrow2{
+    margin-left: 343px;
+  }
+  #arrow3{
+    margin-left: 339px;
+  }
+  #arrow4{
+    margin-left: 465px;
+  }
+  #arrow5{
+    margin-left: 117px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #arrow{
+    width: 12px;
+    height: 12px;
+  }
+  #arrow1{
+    margin-left: 345px;
+  }
+  #arrow2{
+    margin-left: 313px;
+  }
+  #arrow3{
+    margin-left: 309px;
+  }
+  #arrow4{
+    margin-left: 435px;
+  }
+  #arrow5{
+    margin-left: 87px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  #arrow{
+    width: 12px;
+    height: 12px;
+  }
+  #arrow1{
+    margin-left: 315px;
+  }
+  #arrow2{
+    margin-left: 283px;
+  }
+  #arrow3{
+    margin-left: 279px;
+  }
+  #arrow4{
+    margin-left: 405px;
+  }
+  #arrow5{
+    margin-left: 57px;
+  }
+  #alekoszvd{
+    width: 500px;
+    height: 1000px;
+  }
+  #madelynvd{
+    width: 500px;
+    height: 1000px;
+  }
+  #slidediv{
+    width: 600px;
+    margin-left: 50px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 60px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 60px;
+  }
+  #keret{
+    border-radius: 30px;
+    margin-right: 20px;
+    padding-left: 20px;
+  }
+  .faq-content {
+    padding: 9px 15px 0; 
+    margin-left: -70px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  #arrow{
+    width: 12px;
+    height: 12px;
+  }
+  #arrow1{
+    margin-left: 285px;
+  }
+  #arrow2{
+    margin-left: 253px;
+  }
+  #arrow3{
+    margin-left: 249px;
+  }
+  #arrow4{
+    margin-left: 375px;
+  }
+  #arrow5{
+    margin-left: 27px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  #alekoszvd{
+    width: 500px;
+    height: 1000px;
+  }
+  #madelynvd{
+    width: 500px;
+    height: 1000px;
+  }
+  #slidediv{
+    width: 600px;
+    margin-left: 20px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 30px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 30px;
+  }
+  #keret{
+    border-radius: 30px;
+    margin-right: 20px;
+    padding-left: 20px;
+  }
+  .faq-content {
+    padding: 9px 15px 0; 
+    margin-left: -70px;
+  }
+  #arrow{
+    width: 12px;
+    height: 12px;
+  }
+  #arrow1{
+    margin-left: 285px;
+    padding-right: 30px;
+  }
+  #arrow2{
+    margin-left: 253px;
+    padding-right: 30px;
+  }
+  #arrow3{
+    margin-left: 249px;
+    padding-right: 30px;
+  }
+  #arrow4{
+    margin-left: 375px;
+    padding-right: 30px;
+  }
+  #arrow5{
+    margin-left: 27px;
+    padding-right: 30px;
+  }
+  .faq-accordion-title h2{
+    font-size: 16px;
+    padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width:650px){
+  #arrow4{
+    margin-left: 345px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width:590px){
+  #h_logo{
+      margin-right: 1%;
+  }
+  #Valasztek{
+      margin-left: 2%;
+  }
+  #ValasztekKapcsolat{
+      margin-left: 2%;
+  }
+}
+@media only screen and (max-width:576px){
+  #fejleckep{
+      visibility: hidden;
+  }
+  #valassz{
+      display: none;
+      flex-direction: column;  
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: black;
+      width: 100%;
+      text-align: center;
+      z-index: 1000;
+  }
+
+  #Valasztek,
+  #ValasztekKapcsolat{
+      margin: 15px 0;
+      float: none;
+      padding-top: 0;
+  }
+}
+@media only screen and (max-width:530px){
+  #arrow4{
+    margin-left: 315px;
+    padding-right: 30px;
+  }
+  #arrow1{
+    margin-left: 255px;
+    padding-right: 30px;
+  }
+  #arrow2{
+    margin-left: 233px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width:495px){
+  #fejleckep{
+      visibility: hidden;
+  }
+  #valassz{
+      display: none;
+      flex-direction: column;  
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: black;
+      width: 100%;
+      text-align: center;
+      z-index: 1000;
+  }
+
+  #Valasztek,
+  #ValasztekKapcsolat{
+      margin: 15px 0;
+      float: none;
+      padding-top: 0;
+  } }
