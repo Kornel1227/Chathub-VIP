@@ -10,7 +10,9 @@
 </head>
 <body>
     <header>
-        <div id="header_">
+      <div id="header_">
+           
+        <div class="topnav">
             <img src="../../Képek/Képernyőfelvétel (21).png" alt="Logó" id="h_logo">
             <div id="valassz">
                 <h1 id="Valasztek">
@@ -28,8 +30,14 @@
                 <h1 id="ValasztekKapcsolat">
                     Kapcsolat
                 </h1>
+               
             </div>
-        </div> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" id="Hmenu"></i>
+              </a>
+          </div>
+   
+    </div>
     </header>
     <div id="hero-mobile-wrap">
     <div id="alekoszdiv" >
@@ -190,6 +198,14 @@
     </footer>
 </body>
 <script>
+  function myFunction() {
+      document.getElementById("valassz").classList.toggle("open");
+  }
+       
+  function toggleMenu() {
+    const menu = document.getElementById("valassz");
+    menu.classList.toggle("open");
+  }
     let slideIndex = 1;
 showSlides(slideIndex);
 
