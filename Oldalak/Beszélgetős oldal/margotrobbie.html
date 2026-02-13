@@ -9,9 +9,10 @@
     <title>Beszélgetős oldal</title>
 </head>
 <body>
-    <header>
-        <div id="header_">
-            <img src="../../Képek/Képernyőfelvétel (21).png" alt="Logó" id="h_logo">
+    <div id="header_">
+           
+        <div class="topnav">
+            <img src="/Képek/Képernyőfelvétel (21).png" alt="Logó" id="h_logo">
             <div id="valassz">
                 <h1 id="Valasztek">
                     Külföldi Hölgyek
@@ -28,9 +29,24 @@
                 <h1 id="ValasztekKapcsolat">
                     Kapcsolat
                 </h1>
+               
             </div>
-        </div> 
-    </header>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" id="Hmenu"></i>
+              </a>
+          </div>
+          <script>
+            function myFunction() {
+                document.getElementById("valassz").classList.toggle("open");
+            }
+           
+            function toggleMenu() {
+              const menu = document.getElementById("valassz");
+              menu.classList.toggle("open");
+            }
+     
+        </script>
+    </div>
     <div>
         <p id="p">Kezd ej beszélgetni Margot Robbie-val!</p>
     </div>
@@ -44,9 +60,15 @@
           onkeydown="handleKey(e)"
         >
       </div>
-    <footer class="footer">
-        <span id="jog">CHATHUB VIP TEAM | OFFICIAL CITE</span>
-        <span id="jog">@ALL RIGHT RESERVED | MINDEN JOG FENTARTVA</span>
+      <footer>
+        <div id="lablecDIV">
+            <!--lablec-->
+            <div id="vonal"><hr size= "10" color="#FFD700"></div>
+            <div class="lablecDIV">
+                <div id="p1" class="p"><p id="CVTofficialS">CHATHUB VIP Team | Official Cite </p></div>
+                <div id="p2" class="p"><p id="ARSmindenjogF">@All right reserved | Minden jog fentartva</p></div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
