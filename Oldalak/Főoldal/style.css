@@ -2,6 +2,9 @@ body{
     background-color: black;
     font-family: 'Graduate', serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 #h_logo{
     height: 100px;
     width: 130px;
