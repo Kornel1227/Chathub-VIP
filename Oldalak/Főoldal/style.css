@@ -188,8 +188,8 @@ html {
 #MADISON:hover .flip-inner {
     transform: rotateY(180deg);
 }
-#MADISONszoveg{
-    font-size: 20px;
+#MADszoveg{
+    font-size: 22.7px;
 }
 /*madelyn */
 #MADELYN:hover .flip-inner {
@@ -1075,6 +1075,11 @@ html {
     }
     #jog{
         font-size: 15px;
+    }
+}
+@media only screen and (max-width:400px){
+    #MADISON{
+        margin-top: 23%;
     }
 }
 @media only screen and (max-width:359px){
