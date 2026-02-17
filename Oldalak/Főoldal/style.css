@@ -1077,6 +1077,11 @@ html {
         font-size: 15px;
     }
 }
+@media only screen and (max-width:400px){
+    #MADISON{
+        margin-top: 23%;
+    }
+}
 @media only screen and (max-width:359px){
     #footernev{
         font-size: 25px;
