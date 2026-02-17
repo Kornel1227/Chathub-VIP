@@ -383,7 +383,6 @@ max-height: 80px;
 }
 #jog{
   color: #AEAEAE;
-  background-color: black;
 }
 @media only screen and (max-width:1850px){
   #ValasztekKapcsolat{
@@ -1042,6 +1041,46 @@ max-height: 80px;
     padding-right: 10px;
     }
 }
+@media only screen and (max-width:639px){
+  #footernev{
+      font-size: 25px;
+      margin-right: 30px;
+  }
+  #insta{
+      font-size: 30px;
+  }
+  #twitter{
+      font-size: 30px;
+  }
+  #facebook{
+      font-size: 30px;
+  }
+
+}
+@media only screen and (max-width: 625px) {
+  #alekoszvd{
+    width: 500px;
+    height: 800px;
+  }
+  #madelynvd{
+    width: 500px;
+    height: 800px;
+  }
+  #slidediv{
+    width: 500px;
+    margin-left: 20px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+}
 @media only screen and (max-width:590px){
   #h_logo{
       margin-right: 1%;
@@ -1076,6 +1115,31 @@ max-height: 80px;
       padding-top: 0;
   }
 }
+@media only screen and (max-width: 560px) {
+  #alekoszvd{
+    width: 400px;
+    height: 700px;
+  }
+  #madelynvd{
+    width: 400px;
+    height: 700px;
+  }
+  #slidediv{
+    width: 400px;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 30px;
+    margin-left: 10px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 30px;
+    margin-left: 10px;
+  }
+}
 @media only screen and (max-width:495px){
   #fejleckep{
       visibility: hidden;
@@ -1097,8 +1161,33 @@ max-height: 80px;
       margin: 15px 0;
       float: none;
       padding-top: 0;
-  } }
-
+  } 
+}
+@media only screen and (max-width: 475px) {
+  #alekoszvd{
+    width: 350px;
+    height: 700px;
+  }
+  #madelynvd{
+    width: 350px;
+    height: 700px;
+  }
+  #slidediv{
+    width: 350px;
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+}
 @media only screen and (max-width: 410px){
   .arrow-icon{
     margin-left: 20px;
@@ -1108,6 +1197,61 @@ max-height: 80px;
   #keret{
     padding-left: 10px;
   }
+  #alekoszvd{
+    width: 300px;
+    height: 700px;
+  }
+  #madelynvd{
+    width: 300px;
+    height: 700px;
+  }
+  #slidediv{
+    width: 300px;
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width:423px){
+  #footernev{
+      font-size: 20px;
+      margin-right: 20px;
+  }
+  #insta{
+      font-size: 20px;
+  }
+  #twitter{
+      font-size: 20px;
+  }
+  #facebook{
+      font-size: 20px;
+  }
+ 
+}
+@media only screen and (max-width:390px){
+  #footernev{
+      font-size: 20px;
+      margin-right: 10px;
+  }
+  #insta{
+      font-size: 20px;
+  }
+  #twitter{
+      font-size: 20px;
+  }
+  #facebook{
+      font-size: 20px;
+  }
+ 
 }
 @media only screen and (max-width: 383px){
   .arrow-icon{
@@ -1117,5 +1261,30 @@ max-height: 80px;
   }
   #keret{
     padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #alekoszvd{
+    width: 300px;
+    height: 700px;
+  }
+  #madelynvd{
+    width: 300px;
+    height: 700px;
+  }
+  #slidediv{
+    width: 300px;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    margin-left: 10px;
+    padding-left: 0px;
   }
 }
