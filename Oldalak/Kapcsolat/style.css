@@ -35,7 +35,7 @@ body{
 }
 .topnav{
   display: flex;
-  align-items: center;      /* függőleges középre igazítás */
+  align-items: center;     
   justify-content: space-between;
 }
 #valassz{
@@ -290,11 +290,23 @@ all:unset;
 }
 
 .faq-accordion-title label{
-display: flex;
-align-items: center;
-cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  cursor: pointer;
 }
 
+.arrow-icon{
+  margin-left: 20px;
+  flex-shrink: 0;  
+  padding-right: 40px; 
+}
+
+#arrow{
+  width: 16px;
+  height: 16px;
+  display: block;
+}
 .faq-accordion-title h2{
 font-size: 16px;
 font-weight: 400;
@@ -336,25 +348,7 @@ max-height: 80px;
 #szoveg{
   color: white;
 }
-#arrow{
-  width: 12px;
-  height: 12px;
-}
-#arrow1{
-  margin-left: 405px;
-}
-#arrow2{
-  margin-left: 373px;
-}
-#arrow3{
-  margin-left: 369px;
-}
-#arrow4{
-  margin-left: 495px;
-}
-#arrow5{
-  margin-left: 147px;
-}
+
 #foot{
   margin-top: 100px;
   text-align: center;
@@ -977,69 +971,8 @@ max-height: 80px;
     margin-left: -70px;
   }
 }
-@media only screen and (max-width: 810px) {
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 375px;
-  }
-  #arrow2{
-    margin-left: 343px;
-  }
-  #arrow3{
-    margin-left: 339px;
-  }
-  #arrow4{
-    margin-left: 465px;
-  }
-  #arrow5{
-    margin-left: 117px;
-  }
-}
 
-@media only screen and (max-width: 750px) {
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 345px;
-  }
-  #arrow2{
-    margin-left: 313px;
-  }
-  #arrow3{
-    margin-left: 309px;
-  }
-  #arrow4{
-    margin-left: 435px;
-  }
-  #arrow5{
-    margin-left: 87px;
-  }
-}
 @media only screen and (max-width: 720px) {
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 315px;
-  }
-  #arrow2{
-    margin-left: 283px;
-  }
-  #arrow3{
-    margin-left: 279px;
-  }
-  #arrow4{
-    margin-left: 405px;
-  }
-  #arrow5{
-    margin-left: 57px;
-  }
   #alekoszvd{
     width: 500px;
     height: 1000px;
@@ -1070,27 +1003,6 @@ max-height: 80px;
   .faq-content {
     padding: 9px 15px 0; 
     margin-left: -70px;
-  }
-}
-@media only screen and (max-width: 690px) {
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 285px;
-  }
-  #arrow2{
-    margin-left: 253px;
-  }
-  #arrow3{
-    margin-left: 249px;
-  }
-  #arrow4{
-    margin-left: 375px;
-  }
-  #arrow5{
-    margin-left: 27px;
   }
 }
 @media only screen and (max-width: 660px) {
@@ -1125,41 +1037,10 @@ max-height: 80px;
     padding: 9px 15px 0; 
     margin-left: -70px;
   }
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 285px;
-    padding-right: 30px;
-  }
-  #arrow2{
-    margin-left: 253px;
-    padding-right: 30px;
-  }
-  #arrow3{
-    margin-left: 249px;
-    padding-right: 30px;
-  }
-  #arrow4{
-    margin-left: 375px;
-    padding-right: 30px;
-  }
-  #arrow5{
-    margin-left: 27px;
-    padding-right: 30px;
-  }
   .faq-accordion-title h2{
     font-size: 16px;
     padding-right: 10px;
     }
-}
-
-@media only screen and (max-width:650px){
-  #arrow4{
-    margin-left: 345px;
-    padding-right: 30px;
-  }
 }
 @media only screen and (max-width:590px){
   #h_logo{
@@ -1195,20 +1076,6 @@ max-height: 80px;
       padding-top: 0;
   }
 }
-@media only screen and (max-width:530px){
-  #arrow4{
-    margin-left: 315px;
-    padding-right: 30px;
-  }
-  #arrow1{
-    margin-left: 255px;
-    padding-right: 30px;
-  }
-  #arrow2{
-    margin-left: 233px;
-    padding-right: 30px;
-  }
-}
 @media only screen and (max-width:495px){
   #fejleckep{
       visibility: hidden;
@@ -1231,3 +1098,24 @@ max-height: 80px;
       float: none;
       padding-top: 0;
   } }
+
+@media only screen and (max-width: 410px){
+  .arrow-icon{
+    margin-left: 20px;
+    flex-shrink: 0;  
+    padding-right: 25px; 
+  }
+  #keret{
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 383px){
+  .arrow-icon{
+    margin-left: 30px;
+    flex-shrink: 0;  
+    padding-right: 10px; 
+  }
+  #keret{
+    padding-left: 10px;
+  }
+}

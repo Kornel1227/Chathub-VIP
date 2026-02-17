@@ -95,11 +95,310 @@ body{
     color: #AEAEAE;
     background-color: black;
 }
-.footer {
-    border-top: 2px solid #ffd700;
-    padding-top: 15px;
-    margin-top: 470px;
+footer{
+  background-color: #000000;
+  height: 165px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.lablecDIV{
+  color: #AEAEAE;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.lablecDIV div{
+  text-align: center;
+}
+
+#vonal{
+  opacity: 30%;
+}
+
+.p{
+  text-align: center;
+  margin: 0px;
+  padding-top: 15px;
+}
+
+#h_logo{
+  height: 100px;
+  width: 130px;
+  float: left;
+  margin-right: 100px;
+ 
+}
+#header_{
+  border-bottom: solid #FFD700 4px;
+  font-family: 'Graduate', serif;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+#feher{
+  color: white;
+  margin-top: 10%;
+  float: right;
+}
+#Hmenu{
+  display: inline;
+  padding-right: 3%;
+  color: white;
+  font-size: 30px;
+ 
+}
+.icon{
+  margin-right: 2%;
+  visibility: hidden;
+}
+.topnav{
+  display: flex;
+  align-items: center;      /* függőleges középre igazítás */
+  justify-content: space-between;
+}
+#valassz{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+#Valasztek{
+
+  color: white;
+  font-size: 20px;
+  margin-left: 100px;
+  float: left;
+  padding-top: 25px;
+ 
+
+}
+#ValasztekKapcsolat{
+  display: inline;
+  color: white;
+  font-size: 20px;
+  margin-left: 270px;
+  float: left;
+  padding-top: 25px;
+  color: #FFD700;
+ 
+}
+#fejleckep{
+  width: 1895px;
+}
+
+@media only screen and (max-width:1850px){
+  #ValasztekKapcsolat{
+      margin-left: 200px;
+  }
+  #header_{
+      width: 100%;
+  }
+  #fejleckep{
+      width: 100%;
+  }
+  #valassz{
+      display:flex;
+  }
+}
+
+@media only screen and (max-width:1430px){
+  #valassz{
+      display: none;
+      flex-direction: row;      
+      background-color: black;
+      position: static;
+      text-align: center;
+      z-index: 1000;
+  }
+
+  #valassz.open{
+      display: flex;
+  }
+  .icon{
+      visibility: visible;
+  }
+
+
+}
+
+@media only screen and (max-width:1383px){
+  #ValasztekKapcsolat{
+      margin-left: 5%;
+  }
+  #Valasztek{
+      margin-left: 3%;
+  }
+  #h_logo{
+      margin-right: 2%;
+  }
+}
+
+@media only screen and (max-width:890px){
+  #Valasztek{
+      font-size: smaller;
+  }
+  #ValasztekKapcsolat{
+      font-size: smaller;
+  }
+}
+
+@media only screen and (max-width:650px){
+  #h_logo{
+      margin-right: 1%;
+  }
+  #Valasztek{
+      margin-left: 2%;
+  }
+  #ValasztekKapcsolat{
+      margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width:576px){
+  #fejleckep{
+      visibility: hidden;
+  }
+  #valassz{
+      display: none;
+      flex-direction: column;  
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: black;
+      width: 100%;
+      text-align: center;
+      z-index: 1000;
+  }
+
+  #Valasztek,
+  #ValasztekKapcsolat{
+      margin: 15px 0;
+      float: none;
+      padding-top: 0;
+  }
+}
+
+@media only screen and (max-width:495px){
+  #fejleckep{
+      visibility: hidden;
+  }
+  #valassz{
+      display: none;
+      flex-direction: column;  
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: black;
+      width: 100%;
+      text-align: center;
+      z-index: 1000;
+  }
+
+  #Valasztek,
+  #ValasztekKapcsolat{
+      margin: 15px 0;
+      float: none;
+      padding-top: 0;
+  } }
+
+@media only screen and (max-width: 810px){
+  #userInput {
+    width: 90%;
+  }
+
+  .chatbox {
+    width: 100%;
+  }
+
+  #p{
+    font-size: 28px;
     display: flex;
-    justify-content: center;
-    gap: 80px;
+    margin-top: 220px;
+}
+}
+
+@media screen and (max-width: 765px){
+  .p{
+      font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 675px){
+  #userInput {
+    width: 90%;
+  }
+
+  .chatbox {
+    width: 100%;
+  }
+
+  #p{
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: flex;
+    margin-top: 220px;
+}
+}
+
+@media only screen and (max-width: 570px){
+  #p2{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#CVTofficialS{
+    margin-top: 0px;
+}
+
+#ARSmindenjogF{
+    margin-top: 0px;
+}
+
+.p{
+    font-size: 22px;
+}
+}
+
+@media only screen and (max-width: 500px){
+  #userInput {
+    width: 90%;
+  }
+
+  .chatbox {
+    width: 100%;
+  }
+
+  #p{
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    margin-top: 220px;
+}
+
+
+}
+
+@media screen and (max-width: 400px){
+  #p1{
+    padding-top: 0px;
+  }
+
+  .p{
+      font-size: 15px;
+  }
+  #CVTofficialS{
+    padding-top: 20px;
+}
+
+#ARSmindenjogF{
+    padding-top: 20px;
+}
 }
