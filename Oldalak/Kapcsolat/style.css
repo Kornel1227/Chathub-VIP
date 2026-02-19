@@ -228,7 +228,6 @@ right: 0;
 width: 100%;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
-
 #p {
 margin-bottom: 8px;
 border-radius: 3px;
@@ -332,17 +331,15 @@ font-weight: 700;
 }
 .faq-accordion .tgg-title:checked + div>label>span {
 will-change: transform;
-transform: rotate(180deg);
 }
 .faq-accordion .tgg-title:checked ~ .faq-accordion-content{
 will-change: max-height;
 max-height: 80px;
 }
-#keret{
+.keret{
   background-color: black;
   border: 5px solid #FFD700;
   border-radius: 30px;
-  margin-right: 800px;
   padding-left: 40px;
 }
 #szoveg{
@@ -410,9 +407,8 @@ max-height: 80px;
   #slidediv{
     width: 500px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 600px;
     padding-left: 40px;
   }
 }
@@ -428,24 +424,21 @@ max-height: 80px;
   #slidediv{
     width: 450px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 530px;
     padding-left: 40px;
   }
 }
 
 @media only screen and (max-width: 1550px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 480px;
     padding-left: 40px;
   }
 }
 @media only screen and (max-width: 1500px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 430px;
     padding-left: 40px;
   }
 }
@@ -461,9 +454,8 @@ max-height: 80px;
   #slidediv{
     width: 400px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 380px;
     padding-left: 40px;
   }
 }
@@ -487,9 +479,8 @@ max-height: 80px;
 
 }
 @media only screen and (max-width: 1405px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 330px;
     padding-left: 40px;
   }
 }
@@ -505,9 +496,8 @@ max-height: 80px;
   }
 }
 @media only screen and (max-width: 1350px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 280px;
     padding-left: 40px;
   }
 }
@@ -523,9 +513,8 @@ max-height: 80px;
   #slidediv{
     width: 400px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 230px;
     padding-left: 40px;
   }
   #madelyndiv{
@@ -538,16 +527,14 @@ max-height: 80px;
   }
 }
 @media only screen and (max-width: 1260px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 200px;
     padding-left: 40px;
   }
 }
 @media only screen and (max-width: 1225px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 160px;
     padding-left: 40px;
   }
 }
@@ -563,9 +550,8 @@ max-height: 80px;
   #slidediv{
     width: 350px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 120px;
     padding-left: 40px;
   }
   #madelyndiv{
@@ -578,23 +564,20 @@ max-height: 80px;
   }
 }
 @media only screen and (max-width: 1145px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 70px;
     padding-left: 40px;
   }
 }
 @media only screen and (max-width: 1090px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 40px;
     padding-left: 40px;
   }
 }
 @media only screen and (max-width: 1060px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 0px;
     padding-left: 40px;
   }
   #hero-mobile-wrap {
@@ -817,9 +800,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 120px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 40px;
     padding-left: 40px;
   }
   .faq-content {
@@ -870,9 +852,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 110px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
@@ -915,9 +896,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 90px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
@@ -960,9 +940,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 90px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
@@ -994,9 +973,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 60px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
@@ -1027,9 +1005,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 30px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
@@ -1079,6 +1056,9 @@ max-height: 80px;
     padding-right: 40px;
     padding-left: 10px;
     margin-left: 10px;
+  }
+  #foot{
+    padding-right: 40px;
   }
 }
 @media only screen and (max-width:590px){
@@ -1188,13 +1168,28 @@ max-height: 80px;
     margin-left: 10px;
   }
 }
+@media only screen and (max-width:447px){
+  #footernev{
+    font-size: 25px;
+  }
+  #insta{
+    font-size: 25px;
+  }
+  #twitter{
+    font-size: 25px;
+  }
+  #facebook{
+    font-size: 25px;
+  }
+}
+
 @media only screen and (max-width: 410px){
   .arrow-icon{
     margin-left: 20px;
     flex-shrink: 0;  
     padding-right: 25px; 
   }
-  #keret{
+  .keret{
     padding-left: 10px;
   }
   #alekoszvd{
@@ -1221,7 +1216,7 @@ max-height: 80px;
     margin-left: 10px;
   }
 }
-@media only screen and (max-width:423px){
+@media only screen and (max-width:435px){
   #footernev{
       font-size: 20px;
       margin-right: 20px;
@@ -1259,10 +1254,26 @@ max-height: 80px;
     flex-shrink: 0;  
     padding-right: 10px; 
   }
-  #keret{
+  .keret{
     padding-left: 10px;
   }
 }
+@media only screen and (max-width:368px){
+  #footernev{
+      font-size: 17px;
+  }
+  #insta{
+      font-size: 17px;
+  }
+  #twitter{
+      font-size: 17px;
+  }
+  #facebook{
+      font-size: 17px;
+  }
+ 
+}
+
 @media only screen and (max-width: 360px) {
   #alekoszvd{
     width: 300px;
