@@ -1,4 +1,57 @@
-let data;
+document.getElementById("enChat").style.display = "none";
+document.getElementById("celebChat").style.display = "none";
+
+
+
+
+const textarea = document.getElementsByClassName("userInput")[0];
+
+textarea.addEventListener("keydown", function(e) {
+if (e.key === "Enter") {
+e.preventDefault();   // megakadályozza az új sort
+
+document.getElementById("enChat").style.display = "block";
+document.getElementById("en_chatbox").innerText = textarea.value;
+textarea.value = "";  // törli a szöveget
+
+}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*let data;
 
 fetch("data.json")
   .then(res => res.json())
@@ -49,3 +102,4 @@ function addMessage(text, sender) {
   chat.appendChild(div);
   chat.scrollTop = chat.scrollHeight;
 }
+*/

@@ -81,8 +81,8 @@ body{
     text-align: left;
   }
   
-  #userInput {
-    width: 100%;
+  .userInput {
+    width: 96%;
     padding: 15px;
     border-radius: 30px;
     border: 2px solid #ffd700;
@@ -90,6 +90,9 @@ body{
     color: white;
     font-size: 16px;
     outline: none;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 #jog{
     color: #AEAEAE;
@@ -191,6 +194,24 @@ footer{
 #fejleckep{
   width: 1895px;
 }
+
+.chat{
+  grid-template-columns: auto auto;
+}
+
+#en{
+  color: white;
+}
+
+#en_chatbox{
+  background-color: white;
+  color: black;
+}
+
+#celebChat{
+  color: white;
+}
+
 
 @media only screen and (max-width:1850px){
   #ValasztekKapcsolat{
@@ -308,7 +329,7 @@ footer{
   } }
 
 @media only screen and (max-width: 810px){
-  #userInput {
+  .userInput {
     width: 90%;
   }
 
@@ -330,7 +351,7 @@ footer{
 }
 
 @media only screen and (max-width: 675px){
-  #userInput {
+  .userInput {
     width: 90%;
   }
 
@@ -368,7 +389,7 @@ footer{
 }
 
 @media only screen and (max-width: 500px){
-  #userInput {
+  .userInput {
     width: 90%;
   }
 
