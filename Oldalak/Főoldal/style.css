@@ -189,7 +189,7 @@ html {
     transform: rotateY(180deg);
 }
 #MADszoveg{
-    font-size: 22.7px;
+    font-size: 22.5px;
 }
 /*madelyn */
 #MADELYN:hover .flip-inner {
@@ -203,7 +203,7 @@ html {
     transform: rotateY(180deg);
 }
 #MARGOTszoveg{
-    font-size: 23px;
+    font-size: 20px;
 }
 /*lebron */
 #LEBRON:hover .flip-inner {
@@ -266,7 +266,7 @@ html {
     transform: rotateY(180deg);
 }
 #SZOBOSZLAIszoveg{
-    font-size: 20px;
+    font-size: 21.5px;
 }
 .flip-front,
 .flip-back {
@@ -760,50 +760,50 @@ html {
 }
 @media only screen and (max-width:620px){
     #MADISON{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     #MADELYN{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
     #MARGOT{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
     #LEBRON{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
     #RONALDO{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
     #LEONARDO{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
     #PALVIN{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
     #RUBINT{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
     #TOTH{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
     #ALEKOSZ{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
     #MAJOROS{
-        margin-left: 5%;
-
+        margin-left: 10%;
+        margin-top: 10%;
     }
     #SZOBOSZLAI{
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 10%;
     }
 }
@@ -824,7 +824,7 @@ html {
 }
 @media only screen and (max-width:576px){
     #fejleckep{
-        visibility: hidden;
+        display: none;
     }
     #valassz{
         display: none;
@@ -847,7 +847,7 @@ html {
 }
 @media only screen and (max-width:495px){
     #fejleckep{
-        visibility: hidden;
+        display: none;
     }
     #valassz{
         display: none;
