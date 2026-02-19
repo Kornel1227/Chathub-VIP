@@ -35,7 +35,7 @@ body{
 }
 .topnav{
   display: flex;
-  align-items: center;      /* függőleges középre igazítás */
+  align-items: center;     
   justify-content: space-between;
 }
 #valassz{
@@ -228,7 +228,6 @@ right: 0;
 width: 100%;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
-
 #p {
 margin-bottom: 8px;
 border-radius: 3px;
@@ -290,11 +289,23 @@ all:unset;
 }
 
 .faq-accordion-title label{
-display: flex;
-align-items: center;
-cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  cursor: pointer;
 }
 
+.arrow-icon{
+  margin-left: 20px;
+  flex-shrink: 0;  
+  padding-right: 40px; 
+}
+
+#arrow{
+  width: 16px;
+  height: 16px;
+  display: block;
+}
 .faq-accordion-title h2{
 font-size: 16px;
 font-weight: 400;
@@ -320,41 +331,21 @@ font-weight: 700;
 }
 .faq-accordion .tgg-title:checked + div>label>span {
 will-change: transform;
-transform: rotate(180deg);
 }
 .faq-accordion .tgg-title:checked ~ .faq-accordion-content{
 will-change: max-height;
 max-height: 80px;
 }
-#keret{
+.keret{
   background-color: black;
   border: 5px solid #FFD700;
   border-radius: 30px;
-  margin-right: 800px;
   padding-left: 40px;
 }
 #szoveg{
   color: white;
 }
-#arrow{
-  width: 12px;
-  height: 12px;
-}
-#arrow1{
-  margin-left: 405px;
-}
-#arrow2{
-  margin-left: 373px;
-}
-#arrow3{
-  margin-left: 369px;
-}
-#arrow4{
-  margin-left: 495px;
-}
-#arrow5{
-  margin-left: 147px;
-}
+
 #foot{
   margin-top: 100px;
   text-align: center;
@@ -389,7 +380,6 @@ max-height: 80px;
 }
 #jog{
   color: #AEAEAE;
-  background-color: black;
 }
 @media only screen and (max-width:1850px){
   #ValasztekKapcsolat{
@@ -417,9 +407,8 @@ max-height: 80px;
   #slidediv{
     width: 500px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 600px;
     padding-left: 40px;
   }
 }
@@ -435,24 +424,21 @@ max-height: 80px;
   #slidediv{
     width: 450px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 530px;
     padding-left: 40px;
   }
 }
 
 @media only screen and (max-width: 1550px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 480px;
     padding-left: 40px;
   }
 }
 @media only screen and (max-width: 1500px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 430px;
     padding-left: 40px;
   }
 }
@@ -468,9 +454,8 @@ max-height: 80px;
   #slidediv{
     width: 400px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 380px;
     padding-left: 40px;
   }
 }
@@ -494,9 +479,8 @@ max-height: 80px;
 
 }
 @media only screen and (max-width: 1405px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 330px;
     padding-left: 40px;
   }
 }
@@ -512,9 +496,8 @@ max-height: 80px;
   }
 }
 @media only screen and (max-width: 1350px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 280px;
     padding-left: 40px;
   }
 }
@@ -530,9 +513,8 @@ max-height: 80px;
   #slidediv{
     width: 400px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 230px;
     padding-left: 40px;
   }
   #madelyndiv{
@@ -545,16 +527,14 @@ max-height: 80px;
   }
 }
 @media only screen and (max-width: 1260px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 200px;
     padding-left: 40px;
   }
 }
 @media only screen and (max-width: 1225px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 160px;
     padding-left: 40px;
   }
 }
@@ -570,9 +550,8 @@ max-height: 80px;
   #slidediv{
     width: 350px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 120px;
     padding-left: 40px;
   }
   #madelyndiv{
@@ -585,23 +564,20 @@ max-height: 80px;
   }
 }
 @media only screen and (max-width: 1145px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 70px;
     padding-left: 40px;
   }
 }
 @media only screen and (max-width: 1090px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 40px;
     padding-left: 40px;
   }
 }
 @media only screen and (max-width: 1060px) {
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 0px;
     padding-left: 40px;
   }
   #hero-mobile-wrap {
@@ -824,9 +800,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 120px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 40px;
     padding-left: 40px;
   }
   .faq-content {
@@ -877,9 +852,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 110px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
@@ -922,9 +896,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 90px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
@@ -967,9 +940,8 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 90px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
@@ -977,69 +949,8 @@ max-height: 80px;
     margin-left: -70px;
   }
 }
-@media only screen and (max-width: 810px) {
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 375px;
-  }
-  #arrow2{
-    margin-left: 343px;
-  }
-  #arrow3{
-    margin-left: 339px;
-  }
-  #arrow4{
-    margin-left: 465px;
-  }
-  #arrow5{
-    margin-left: 117px;
-  }
-}
 
-@media only screen and (max-width: 750px) {
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 345px;
-  }
-  #arrow2{
-    margin-left: 313px;
-  }
-  #arrow3{
-    margin-left: 309px;
-  }
-  #arrow4{
-    margin-left: 435px;
-  }
-  #arrow5{
-    margin-left: 87px;
-  }
-}
 @media only screen and (max-width: 720px) {
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 315px;
-  }
-  #arrow2{
-    margin-left: 283px;
-  }
-  #arrow3{
-    margin-left: 279px;
-  }
-  #arrow4{
-    margin-left: 405px;
-  }
-  #arrow5{
-    margin-left: 57px;
-  }
   #alekoszvd{
     width: 500px;
     height: 1000px;
@@ -1062,35 +973,13 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 60px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
     padding: 9px 15px 0; 
     margin-left: -70px;
-  }
-}
-@media only screen and (max-width: 690px) {
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 285px;
-  }
-  #arrow2{
-    margin-left: 253px;
-  }
-  #arrow3{
-    margin-left: 249px;
-  }
-  #arrow4{
-    margin-left: 375px;
-  }
-  #arrow5{
-    margin-left: 27px;
   }
 }
 @media only screen and (max-width: 660px) {
@@ -1116,49 +1005,60 @@ max-height: 80px;
     padding-left: 40px;
     margin-left: 30px;
   }
-  #keret{
+  .keret{
     border-radius: 30px;
-    margin-right: 20px;
     padding-left: 20px;
   }
   .faq-content {
     padding: 9px 15px 0; 
     margin-left: -70px;
   }
-  #arrow{
-    width: 12px;
-    height: 12px;
-  }
-  #arrow1{
-    margin-left: 285px;
-    padding-right: 30px;
-  }
-  #arrow2{
-    margin-left: 253px;
-    padding-right: 30px;
-  }
-  #arrow3{
-    margin-left: 249px;
-    padding-right: 30px;
-  }
-  #arrow4{
-    margin-left: 375px;
-    padding-right: 30px;
-  }
-  #arrow5{
-    margin-left: 27px;
-    padding-right: 30px;
-  }
   .faq-accordion-title h2{
     font-size: 16px;
     padding-right: 10px;
     }
 }
+@media only screen and (max-width:639px){
+  #footernev{
+      font-size: 25px;
+      margin-right: 30px;
+  }
+  #insta{
+      font-size: 30px;
+  }
+  #twitter{
+      font-size: 30px;
+  }
+  #facebook{
+      font-size: 30px;
+  }
 
-@media only screen and (max-width:650px){
-  #arrow4{
-    margin-left: 345px;
-    padding-right: 30px;
+}
+@media only screen and (max-width: 625px) {
+  #alekoszvd{
+    width: 500px;
+    height: 800px;
+  }
+  #madelynvd{
+    width: 500px;
+    height: 800px;
+  }
+  #slidediv{
+    width: 500px;
+    margin-left: 20px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+  #foot{
+    padding-right: 40px;
   }
 }
 @media only screen and (max-width:590px){
@@ -1195,18 +1095,29 @@ max-height: 80px;
       padding-top: 0;
   }
 }
-@media only screen and (max-width:530px){
-  #arrow4{
-    margin-left: 315px;
-    padding-right: 30px;
+@media only screen and (max-width: 560px) {
+  #alekoszvd{
+    width: 400px;
+    height: 700px;
   }
-  #arrow1{
-    margin-left: 255px;
-    padding-right: 30px;
+  #madelynvd{
+    width: 400px;
+    height: 700px;
   }
-  #arrow2{
-    margin-left: 233px;
-    padding-right: 30px;
+  #slidediv{
+    width: 400px;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 30px;
+    margin-left: 10px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 30px;
+    margin-left: 10px;
   }
 }
 @media only screen and (max-width:495px){
@@ -1230,4 +1141,161 @@ max-height: 80px;
       margin: 15px 0;
       float: none;
       padding-top: 0;
-  } }
+  } 
+}
+@media only screen and (max-width: 475px) {
+  #alekoszvd{
+    width: 350px;
+    height: 700px;
+  }
+  #madelynvd{
+    width: 350px;
+    height: 700px;
+  }
+  #slidediv{
+    width: 350px;
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width:447px){
+  #footernev{
+    font-size: 25px;
+  }
+  #insta{
+    font-size: 25px;
+  }
+  #twitter{
+    font-size: 25px;
+  }
+  #facebook{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 410px){
+  .arrow-icon{
+    margin-left: 20px;
+    flex-shrink: 0;  
+    padding-right: 25px; 
+  }
+  .keret{
+    padding-left: 10px;
+  }
+  #alekoszvd{
+    width: 300px;
+    height: 700px;
+  }
+  #madelynvd{
+    width: 300px;
+    height: 700px;
+  }
+  #slidediv{
+    width: 300px;
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width:435px){
+  #footernev{
+      font-size: 20px;
+      margin-right: 20px;
+  }
+  #insta{
+      font-size: 20px;
+  }
+  #twitter{
+      font-size: 20px;
+  }
+  #facebook{
+      font-size: 20px;
+  }
+ 
+}
+@media only screen and (max-width:390px){
+  #footernev{
+      font-size: 20px;
+      margin-right: 10px;
+  }
+  #insta{
+      font-size: 20px;
+  }
+  #twitter{
+      font-size: 20px;
+  }
+  #facebook{
+      font-size: 20px;
+  }
+ 
+}
+@media only screen and (max-width: 383px){
+  .arrow-icon{
+    margin-left: 30px;
+    flex-shrink: 0;  
+    padding-right: 10px; 
+  }
+  .keret{
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width:368px){
+  #footernev{
+      font-size: 17px;
+  }
+  #insta{
+      font-size: 17px;
+  }
+  #twitter{
+      font-size: 17px;
+  }
+  #facebook{
+      font-size: 17px;
+  }
+ 
+}
+
+@media only screen and (max-width: 360px) {
+  #alekoszvd{
+    width: 300px;
+    height: 700px;
+  }
+  #madelynvd{
+    width: 300px;
+    height: 700px;
+  }
+  #slidediv{
+    width: 300px;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+  #madelyndiv{
+    padding-right: 40px;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+  #alekoszdiv{
+    padding-right: 40px;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+}
