@@ -86,6 +86,7 @@ html {
     margin-left: 10%;
     background-image: linear-gradient(to bottom,#FFD700, #000000);
     display: inline-block;
+    transition: margin-top 0.3s ease;
 }
 #MADkep{
     width:430px;
@@ -870,7 +871,7 @@ html {
     #MADISON{
         width:270px;
         height: 300px;
-        margin-top: 10%;
+        margin-top: 15%;
     }
     #MADkep{
         width: 270px;
