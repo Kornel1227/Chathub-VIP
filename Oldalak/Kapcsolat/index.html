@@ -16,19 +16,19 @@
             <img src="../../Képek/Képernyőfelvétel (21).png" alt="Logó" id="h_logo">
             <div id="valassz">
                 <h1 id="Valasztek">
-                    Külföldi Hölgyek
+                    <a href="#slidediv">Csapat tagok</a>
                 </h1>
                 <h1 id="Valasztek">
-                    Külföldi Férfiak
+                    Alekosz video
                 </h1>
                 <h1 id="Valasztek">
-                    Magyar Hölgyek
+                    Madelyn Cline video
                 </h1>
                 <h1 id="Valasztek">
-                    Magyar Férfiak
+                    Gyakori kérdések
                 </h1>
                 <h1 id="ValasztekKapcsolat">
-                    Kapcsolat
+                    Főoldal
                 </h1>
                
             </div>
@@ -242,5 +242,25 @@ checkboxes.forEach((checkbox) => {
     }
   });
 });
+function adjustSlideForMenu() {
+    const menu = document.getElementById("valassz");
+    const slide = document.getElementById("slidediv");
+    const screenWidth = window.innerWidth;
+    if (screenWidth <= 577) {
+        if (menu.classList.contains("open")) {
+            slide.style.marginTop = menu.scrollHeight + 20 + "px"; 
+        } else {
+            slide.style.marginTop = "0px";
+        }
+    } else {
+        slide.style.marginTop = "0px";
+    }
+}
+function myFunction() {
+    const menu = document.getElementById("valassz");
+    menu.classList.toggle("open");
+    adjustSlideForMenu();
+}
+window.addEventListener("resize", adjustSlideForMenu);
 </script>
 </html>

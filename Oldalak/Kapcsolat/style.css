@@ -95,6 +95,8 @@ body{
 #slidediv{
   width: 600px;
   display: inline-block;
+  transition: margin-top 0.3s ease;
+
 }
 
 #alekoszdiv{
