@@ -469,6 +469,35 @@
           menu.classList.toggle("open");
         }
 
+function myFunction() {
+    const menu = document.getElementById("valassz");
+    const firstCard = document.getElementById("MADISON");
+
+    menu.classList.toggle("open");
+
+    // Csak mobil nézetben működjön
+    if (window.innerWidth <= 576) {
+
+        if (menu.classList.contains("open")) {
+            // Menü magassága
+            const menuHeight = menu.scrollHeight;
+
+            // Toljuk le az első kártyát
+            firstCard.style.marginTop = menuHeight + 20 + "px";
+        } else {
+            // Vissza alaphelyzetbe
+            firstCard.style.marginTop = "20px";
+        }
+    }
+}
+
+// Ha átméretezik a képernyőt, állítsa vissza
+window.addEventListener("resize", function() {
+    if (window.innerWidth > 576) {
+        document.getElementById("MADISON").style.marginTop = "0px";
+    }
+});
+
     </script>
 
 </body>
