@@ -95,6 +95,8 @@ body{
 #slidediv{
   width: 600px;
   display: inline-block;
+  transition: margin-top 0.3s ease;
+
 }
 
 #alekoszdiv{
@@ -1060,6 +1062,16 @@ max-height: 80px;
   #foot{
     padding-right: 40px;
   }
+}
+@media only screen and (max-width:595px){
+  #p {
+    margin-bottom: 10px;
+    border-radius: 3px;
+    line-height: 1;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    }
 }
 @media only screen and (max-width:590px){
   #h_logo{

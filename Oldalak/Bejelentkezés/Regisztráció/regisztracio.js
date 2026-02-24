@@ -46,11 +46,21 @@ form.addEventListener("submit", function (e) {
 
 
 const form = document.getElementById("regisz");
-const input = document.getElementById("input1");
-const password = document.getElementById("passes");
+const felhasznalon = document.getElementById("felhnev");
+const jelsz = document.getElementById("jelszo");
 const email = document.getElementById("email");
 
-form.addEventListener("keydown", function (event) {
+form.addEventListener("submit", function (event) {
+  
+  const felhasznalo = felhasznalon.value;
+  const jelszo = jelsz.value;
+  const emailek = email.value;
+
+  if (!felhasznalo ||!jelszo || !emailek){
+    alert("Töltsd ki a mezőket!");
+    return;
+  }
+ /*
   if (event.key == "Enter") {
     event.preventDefault();
 
@@ -64,4 +74,5 @@ form.addEventListener("keydown", function (event) {
       alert("Hibás felhasználónév vagy jelszó!");
     }
   }
+    */
 });

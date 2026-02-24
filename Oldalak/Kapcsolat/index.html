@@ -16,19 +16,19 @@
             <img src="../../Képek/Képernyőfelvétel (21).png" alt="Logó" id="h_logo">
             <div id="valassz">
                 <h1 id="Valasztek">
-                    Külföldi Hölgyek
+                    <a href="#slidediv" style="color: white; text-decoration: none;">Csapat tagok</a>
                 </h1>
                 <h1 id="Valasztek">
-                    Külföldi Férfiak
+                    <a href="#alekoszdiv" style="color: white; text-decoration: none;">Alekosz video</a>
                 </h1>
                 <h1 id="Valasztek">
-                    Magyar Hölgyek
+                    <a href="#madelyndiv" style="color: white; text-decoration: none;">Madelyn Cline video</a>
                 </h1>
                 <h1 id="Valasztek">
-                    Magyar Férfiak
+                    <a href="#szoveg" style="color: white; text-decoration: none;">Gyakori kérdések</a>
                 </h1>
                 <h1 id="ValasztekKapcsolat">
-                    Kapcsolat
+                    <a href="../Főoldal/index.html" style="color: #FFD700; text-decoration: none;" >Főoldal</a>
                 </h1>
                
             </div>
@@ -98,7 +98,7 @@
             </div>
   
             <div class="faq-accordion-content">
-              <p id="p">Madison Beerrel; Cristiano Ronaldoval; Lebron Jamesel; Alekosszal; Szoboszlai Dominikkal és sok más hírességgel!</p>
+              <p id="p">Madison Beerrel; Cristiano Ronaldoval; Lebron Jamesel; Alekosszal; Szoboszlaival és sok más hírességgel!</p>
             </div>
   
           </article>
@@ -242,5 +242,25 @@ checkboxes.forEach((checkbox) => {
     }
   });
 });
+function adjustSlideForMenu() {
+    const menu = document.getElementById("valassz");
+    const slide = document.getElementById("slidediv");
+    const screenWidth = window.innerWidth;
+    if (screenWidth <= 577) {
+        if (menu.classList.contains("open")) {
+            slide.style.marginTop = menu.scrollHeight + 20 + "px"; 
+        } else {
+            slide.style.marginTop = "0px";
+        }
+    } else {
+        slide.style.marginTop = "0px";
+    }
+}
+function myFunction() {
+    const menu = document.getElementById("valassz");
+    menu.classList.toggle("open");
+    adjustSlideForMenu();
+}
+window.addEventListener("resize", adjustSlideForMenu);
 </script>
 </html>
