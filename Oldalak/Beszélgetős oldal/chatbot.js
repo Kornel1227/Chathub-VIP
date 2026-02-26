@@ -1,8 +1,13 @@
 document.getElementById("enChat").style.display = "none";
-document.getElementById("celebChat").style.display = "none";
+document.getElementById("celebChat").style.display = "block";
 
+fetch('./data.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data.nev);
+  });
 
-
+let ME = document.getElementsByClassName("userInput")[0];
 
 const textarea = document.getElementsByClassName("userInput")[0];
 
@@ -10,13 +15,14 @@ textarea.addEventListener("keydown", function(e) {
 if (e.key === "Enter") {
 e.preventDefault();   // megakadályozza az új sort
 
-document.getElementById("enChat").style.display = "block";
+document.getElementById("enChat").style.display = "grid";
 document.getElementById("en_chatbox").innerText = textarea.value;
 textarea.value = "";  // törli a szöveget
 
 }
 });
 
+let random = Math.random(0, 10);
 
 
 
@@ -31,6 +37,8 @@ textarea.value = "";  // törli a szöveget
 
 
 
+
+//git comment =======>  CV-valahany beszélgetős oldal, css chat formázás
 
 
 

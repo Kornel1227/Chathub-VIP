@@ -1,23 +1,21 @@
-{
-    "intents": [
+
+
+
+  {
+    "Ronaldo": [
       {
-        "patterns": ["szia", "hello", "hi"],
-        "responses": [
-          "Szia 💛 örülök, hogy írtál",
-          "Hey… mi jár a fejedben? 😉"
-        ]
-      },
+        "intents":[
       {
-        "patterns": ["hogy vagy"],
-        "responses": [
-          "Most jobb lett, hogy itt vagy ✨",
-          "Egész jól… mesélj magadról"
+        "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "Csao"],
+        "respons": [
+          "Csaoo, család megvan foci megy?",
+          "Csaoo, miujság bajnok?",
+          "Szevasz, örülök, hogy látlak!"
         ]
       }
-    ],
-    "fallback": [
-      "Hmm… ezt most nem teljesen értem 😌",
-      "Mondanád ezt máshogy?"
     ]
+      }
+    ]
+    
+    
   }
-  
