@@ -1,21 +1,28 @@
-
-
-
   {
     "Ronaldo": [
       {
         "intents":[
       {
-        "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "Csao"],
+        "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
         "respons": [
           "Csaoo, család megvan foci megy?",
           "Csaoo, miujság bajnok?",
-          "Szevasz, örülök, hogy látlak!"
+          "Szia, hogy vagy?"
         ]
+      },
+      {
+        "pattern": ["persze", "hogyne menne", "megvan", "minden rendben", "megvagyok", "minden fasza", "veled miújság?", "köszönöm kérdésed, veled?", "minden jó papa",
+         "én is örülök", "szintúgy", "téged is", "én jobban örülök", "jól köszönöm",  "jól köszi remélem te is"],
+         "respons": [
+            "Annak örülök, remélem így marad.",
+            "Na az a lényeg, csak így tovább.",
+            "Velem is minden rendben."
+         ]
+      },
+      {
+        "pattern": ["én is remélem", "hát legyen úgy", "köszönöm", "annak örülök", ""]
       }
     ]
       }
     ]
-    
-    
   }
