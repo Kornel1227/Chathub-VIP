@@ -45,21 +45,40 @@ form.addEventListener("submit", function (e) {
 */
 
 
-const form = document.getElementById("regisz");
-const felhasznalon = document.getElementById("felhnev");
-const jelsz = document.getElementById("jelszo");
-const email = document.getElementById("email");
+let form = document.getElementById("regisz");
+let felhasznalon = document.getElementById("felhnev");
+let jelsz = document.getElementById("jelszo");
+let email = document.getElementById("email");
 
 form.addEventListener("submit", function (event) {
-  
-  const felhasznalo = felhasznalon.value;
-  const jelszo = jelsz.value;
-  const emailek = email.value;
+  event.preventDefault();
+  let felhasznalo = felhasznalon.value;
+  let jelszo = jelsz.value;
+  let emailek = email.value;
 
-  if (!felhasznalo ||!jelszo || !emailek){
+  if (!felhasznalo || !jelszo || !emailek){
     alert("Töltsd ki a mezőket!");
     return;
   }
+  let felhasznalok = JSON.parse(localStorage.getItem("users")) || [];
+  let letezik = felhasznalok.find(user => user.felhasznalo === felhasznalo);
+
+  if (letezik){
+    alert("Ez a fiók már létezik!");
+    return;
+
+  }
+  else{
+      felhasznalok.push({
+      felhasznalo: felhasznalo,
+      jelszo: jelszo,
+      email: emailek
+    });
+    localStorage.setItem("users", JSON.stringify(felhasznalok));
+    document.getElementById("felhnev").innerHTML="";
+    window.location.href = "bejelentkezes.html";
+  }
+
  /*
   if (event.key == "Enter") {
     event.preventDefault();
