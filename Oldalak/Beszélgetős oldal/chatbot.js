@@ -1,10 +1,13 @@
 document.getElementById("enChat").style.display = "none";
 document.getElementById("celebChat").style.display = "block";
 
+let data;
+
 fetch('./data.json')
   .then(response => response.json())
-  .then(data => {
-    console.log(data.nev);
+  .then(json => {
+    data = json;
+    console.log(data);
   });
 
 let ME = document.getElementsByClassName("userInput")[0];
@@ -17,97 +20,82 @@ e.preventDefault();   // megakadályozza az új sort
 
 document.getElementById("enChat").style.display = "grid";
 document.getElementById("en_chatbox").innerText = textarea.value;
-textarea.value = "";  // törli a szöveget
 
+let userText = textarea.value.toLowerCase();
+let intents = data.Ronaldo[0].intents;
+
+let foundResponse = null;
+
+for (let intent of intents) {
+
+  if (!intent.pattern || !intent.respons) continue;
+
+  let found = intent.pattern.some(pattern =>
+    userText.includes(pattern.toLowerCase())
+  );
+
+  if (found) {
+    let responses = intent.respons;
+    let random = Math.floor(Math.random() * responses.length);
+    foundResponse = responses[random];
+    break; // ha talált, ne menjen tovább
+  }
+}
+
+if (foundResponse) {
+  //document.getElementById("celeb_chatbox").innerHTML = foundResponse;
+  ujDobozCsinalas(foundResponse);
+}
+
+
+
+textarea.value = "";  // törli a szöveget
 }
 });
 
-let random = Math.random(0, 10);
+function ujDobozCsinalas(szovegHozza){
+  
+  const ujDoboz = document.createElement("div");
+  
+  ujDoboz.textContent = szovegHozza;
+
+  document.getElementById("celeb_chatbox").appendChild(ujDoboz);
+}
 
 
-
-
-
-
-
-
-
-
-
-
+data.Ronaldo[0].intents[0].pattern //amit beirunk pl szia, szevasz
+data.Ronaldo[0].intents[0].respons //amit vissza kapunk pl szia,hogy vagy?
 
 
 
 //git comment =======>  CV-valahany beszélgetős oldal, css chat formázás
 
 
+/*
 
+let userText = textarea.value.toLowerCase();
 
+let patterns = data.Ronaldo[0].intents[0].pattern;
 
+let found = patterns.some(pattern => userText.includes(pattern.toLowerCase()));
 
+if (found) {
+  let responses = data.Ronaldo[0].intents[0].respons;
+  let random = Math.floor(Math.random() * responses.length);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*let data;
-
-fetch("data.json")
-  .then(res => res.json())
-  .then(json => data = json);
-
-function handleKey(e) {
-  if (e.key === "Enter") {
-    sendMessage();
-  }
+  document.getElementById("celeb_chatbox").innerHTML = responses[random];
 }
 
-function sendMessage() {
-    console.log("SEND MESSAGE FUT");
-  const input = document.getElementById("userInput");
-  const message = input.value.trim().toLowerCase();
-  if (!message) return;
+*/
+/*
 
-  input.value = "";
 
-  addMessage(message, "user");
 
-  const response = getResponse(message);
-  setTimeout(() => {
-    addMessage(response, "bot");
-  }, 500);
+if (data.Ronaldo[0].intents[0].pattern.includes(textarea.value.toLowerCase())){
+  let responses = data.Ronaldo[0].intents[0].respons;
+  let random = Math.floor(Math.random() * responses.length);
+
+  document.getElementById("celeb_chatbox").innerHTML = responses[random];
 }
 
-function getResponse(message) {
-  for (let intent of data.intents) {
-    for (let pattern of intent.patterns) {
-      if (message.includes(pattern)) {
-        return random(intent.responses);
-      }
-    }
-  }
-  return random(data.fallback);
-}
-
-function random(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
-}
-
-function addMessage(text, sender) {
-  const chat = document.getElementById("chat");
-  const div = document.createElement("div");
-  div.className = sender;
-  div.innerText = text;
-  chat.appendChild(div);
-  chat.scrollTop = chat.scrollHeight;
-}
 */
