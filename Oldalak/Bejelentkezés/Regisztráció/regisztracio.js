@@ -68,16 +68,17 @@ form.addEventListener("submit", function (event) {
     return;
 
   }
-  else{
-      felhasznalok.push({
-      felhasznalo: felhasznalo,
-      jelszo: jelszo,
-      email: emailek
+
+    felhasznalok.push({
+    felhasznalo: felhasznalo,
+    jelszo: jelszo,
+    email: emailek
     });
     localStorage.setItem("users", JSON.stringify(felhasznalok));
-    document.getElementById("felhnev").innerHTML="";
+    alert("Sikeres regisztráció!")
+    form.reset();
     window.location.href = "bejelentkezes.html";
-  }
+
 
  /*
   if (event.key == "Enter") {

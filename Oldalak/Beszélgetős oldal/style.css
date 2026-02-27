@@ -60,7 +60,7 @@ body{
     overflow-y: auto;
     margin-bottom: 20px;
   }
-  
+
   .user, .bot {
     max-width: 80%;
     margin: 10px auto;
