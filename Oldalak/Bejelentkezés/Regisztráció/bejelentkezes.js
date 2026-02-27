@@ -32,27 +32,36 @@ input.addEventListener("submit", function (event) {
 });
 */
 
+let form = document.getElementById("login");
+let felhasznalonev = document.getElementById("input1");
+let jelszo = document.getElementById("passes");
 
-
-const form = document.getElementById("login");
-const input = document.getElementById("input1");
-const password = document.getElementById("passes");
-
-form.addEventListener("keydown", function (event) {
-  if (event.key == "Enter") {
+form.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const value = input.value;
-    const pass = password.value;
+    let felh = felhasznalonev.value.trim();
+    let jelsz = jelszo.value.trim();
 
-    if ((value === "denesmor" && pass === "keksz") || (value === "kornel" && pass === "futykos") || (value === "aron" && pass === "kuksimuksi")) {
-      form.submit();
-    } else {
-      alert("Hibás felhasználónév vagy jelszó!");
+    if (!felh || !jelsz) {
+        alert("Töltsd ki az összes mezőt!");
+        return;
     }
-  }
-});
 
+    let felhasznalok = JSON.parse(localStorage.getItem("users")) || [];
+
+    let van = felhasznalok.find(user =>
+        user.felhasznalo === felh &&
+        user.jelszo === jelsz
+    );
+
+    if (van) {
+        alert("Sikeres bejelentkezés!");
+        localStorage.setItem("bejelentkezett", felh);
+        window.location.href = "../../Főoldal/index.html";
+    } else {
+        alert("Hibás felhasználónév vagy jelszó!");
+    }
+});
 
 /*
 const form = document.getElementById("login");
