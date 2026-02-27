@@ -11,16 +11,23 @@
         ]
       },
       {
-        "pattern": ["persze", "hogyne menne", "megvan", "minden rendben", "megvagyok", "minden fasza", "veled miújság?", "köszönöm kérdésed, veled?", "minden jó papa",
-         "én is örülök", "szintúgy", "téged is", "én jobban örülök", "jól köszönöm",  "jól köszi remélem te is"],
+        "pattern": ["persze", "hogyne menne", "megvan", "minden rendben", "megvagyok", "minden fasza", "köszönöm kérdésed", "minden jó papa",
+                    "minden jó", "jól köszönöm",  "jól köszi"],
          "respons": [
             "Annak örülök, remélem így marad.",
-            "Na az a lényeg, csak így tovább.",
-            "Velem is minden rendben."
+            "Na az a lényeg, csak így tovább."
          ]
       },
       {
-        "pattern": ["én is remélem", "hát legyen úgy", "köszönöm", "annak örülök", ""]
+        "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?"],
+        "respons": [
+          "Én is jól vagyok, köszönöm.",
+          "Minden rendben.",
+          "Minden okés."
+        ]
+      },
+      {
+        "pattern": ["milyen csapatban játszol?", ""]
       }
     ]
       }
