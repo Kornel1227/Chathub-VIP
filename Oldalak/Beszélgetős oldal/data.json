@@ -27,7 +27,12 @@
         ]
       },
       {
-        "pattern": ["milyen csapatban játszol?", ""]
+        "pattern": ["milyen csapatban játszol?"],
+        "respons": ["en-Naszr-ban játszom jelenleg?"]
+      },
+      {
+        "pattern": ["tudnál motiválni?"],
+        "respons": ["Persze, itt van a kedvenc motivációm: Ne kifogásokat keress, hanem megoldásokat!"]
       }
     ]
       }
