@@ -38,7 +38,7 @@ for (let intent of intents) {
     let responses = intent.respons;
     let random = Math.floor(Math.random() * responses.length);
     foundResponse = responses[random];
-    break; // ha talált, ne menjen tovább
+    break;
   }
 }
 
@@ -66,9 +66,6 @@ function ujDobozCsinalas(szovegHozza){
 data.Ronaldo[0].intents[0].pattern //amit beirunk pl szia, szevasz
 data.Ronaldo[0].intents[0].respons //amit vissza kapunk pl szia,hogy vagy?
 
-
-
-//git comment =======>  CV-valahany beszélgetős oldal, css chat formázás
 
 
 /*
