@@ -14,7 +14,24 @@ body{
     text-align: center;
     margin-bottom: 10px;
 }
-
+#bejelentkezesGomb{
+    background: linear-gradient(135deg, #FFD700, #E6B800);
+    color: #000;
+    border: 2px solid #FFD700;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding-left: 3%;
+    padding: 2%;
+    margin-top: 2%;
+    border: solid black;
+}
+#bejelentkezesGomb:hover {
+    background: linear-gradient(135deg, #E6B800, #FFD700);
+    box-shadow: 0 0 10px #FFD700;
+}
 #keret{
     background-image: url(/Képek/hatterJPG.jpg);
     background-repeat: no-repeat;
