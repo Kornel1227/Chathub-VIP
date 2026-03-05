@@ -35,7 +35,7 @@
         "respons": ["Rendben, itt van a kedvenc motivációm: Ne kifogásokat keress, hanem megoldásokat!"]
       },
       {
-        "pattern": ["mennyi a gól rekordod?", "mennyi a gól rekordod?", "mennyi gólt rugtál?"],
+        "pattern": ["mennyi a gól rekordod?", "mennyi a gólrekordod?", "mennyi gólt rugtál?"],
         "respons": ["Több mint 850 gólt rugtam már életemben."]
       },
       {
@@ -43,7 +43,7 @@
         "respons": ["1985. február 5-én születtem, így 41 éves vagyok. "]
       },
       {
-        "pattern": ["ki a véleményed Messről?", "Messiről"],
+        "pattern": ["mi a véleményed Messről?", "Messiről"],
         "respons": ["Tisztelem őt, de én mindig magamat akarom legyőzni."]
       },
       {
@@ -67,6 +67,28 @@
           "Feladnád, vagy inkább erősebb leszel?",
           "A kifogásaid erősebbek, mint az álmaid?",
           "Mit teszel ma azért, hogy holnap büszke legyél?"
+        ]
+      },
+      {
+        "pattern": ["nem még nem edzettem", "nem még nem", "nem edzettem", "nem még", "nem", "még nem"],
+        "respons": ["Muszáj lesz edezened, ha a legjobb szeretnél lenni."]
+      },
+      {
+        "pattern": ["igen már edzettem", "igen edzettem", "igen", "igen már igen", "már igen"],
+        "respons": ["Büszke vagyok rád, csak így tovább, egyszer még eljuthatsz ahol én vagyok."]
+      },
+      {
+        "pattern": ["nem megbukni az érettségin", "átmenni az érettségin", "érettségi"],
+        "respons": [
+          "Sikerülni fog, csak tanulni kell rá.",
+          "Én hiszek benned, hogy sikerülni fog."
+        ]
+      },
+      {
+        "pattern": ["még többet edzeni", "jobb lenni", "többet edzeni", "ügyesebb lenni"],
+        "respons": [
+          "Ha van akarat erőd és kitartásod akkor sikerülni fog.",
+          "Muszáj lesz sikerülnie, nincs olyan opció, hogy nem!"
         ]
       }
     ]

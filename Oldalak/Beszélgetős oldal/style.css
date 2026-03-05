@@ -218,11 +218,11 @@ footer{
 }
 
 #celeb_chatbox{
-  background-color: white;
   color: black;
   text-align: left;
-  border: 5px solid white;
   margin-top: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 #enChat{
@@ -238,14 +238,34 @@ footer{
 }
 
 #en_chatbox{
-  background-color: white;
   color: black;
   text-align: left;
-  border: 5px solid white;
   margin-top: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
+.user, .bot{
+  max-width: 80%;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  display: inline-block;
+}
 
+.user{
+  background: #FFD700;
+  color: black;
+  text-align: right;
+  margin-left: auto;
+}
+
+.bot{
+  background: white;
+  color: black;
+  text-align: left;
+}
 
 @media only screen and (max-width:1850px){
   #ValasztekKapcsolat{
