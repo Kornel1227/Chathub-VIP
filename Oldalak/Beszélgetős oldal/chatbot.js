@@ -1,5 +1,5 @@
 document.getElementById("enChat").style.display = "none";
-document.getElementById("celebChat").style.display = "block";
+document.getElementById("celebChat").style.display = "none";
 
 let data;
 
@@ -19,7 +19,10 @@ if (e.key === "Enter") {
 e.preventDefault();   // megakadályozza az új sort
 
 document.getElementById("enChat").style.display = "grid";
-document.getElementById("en_chatbox").innerText = textarea.value;
+document.getElementById("celebChat").style.display = "grid";
+
+//document.getElementById("en_chatbox").innerText = textarea.value;
+ujDobozCsinalasFelhasznalo(textarea.value);
 
 let userText = textarea.value.toLowerCase();
 let intents = data.Ronaldo[0].intents;
@@ -54,17 +57,39 @@ textarea.value = "";  // törli a szöveget
 });
 
 function ujDobozCsinalas(szovegHozza){
-  
   const ujDoboz = document.createElement("div");
-  
+
   ujDoboz.textContent = szovegHozza;
+  ujDoboz.classList.add("bot");   // EZ HIÁNYZIK
 
   document.getElementById("celeb_chatbox").appendChild(ujDoboz);
 }
 
+function ujDobozCsinalasFelhasznalo(szovegHozza){
+  const ujDoboz = document.createElement("div");
+
+  ujDoboz.textContent = szovegHozza;
+  ujDoboz.classList.add("user");   // EZ HIÁNYZIK
+
+  document.getElementById("en_chatbox").appendChild(ujDoboz);
+}
+
+
 
 data.Ronaldo[0].intents[0].pattern //amit beirunk pl szia, szevasz
 data.Ronaldo[0].intents[0].respons //amit vissza kapunk pl szia,hogy vagy?
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

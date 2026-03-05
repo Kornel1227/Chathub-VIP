@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    font-family: 'Graduate', serif;
+    overflow: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+#h_logo{
+    height: 100px;
+    width: 130px;
+    float: left;
+    margin-right: 100px;
+    
+}
+#fejleckep{
+    width: 100%;
+
+}
+#header_{
+    border-bottom: solid #FFD700 4px;
+    font-family: 'Graduate', serif;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    font-size: 35px;
+}
+#adatok{
+    margin-top: 2%;
+
+}
+#bej{
+    margin-left: 23%;
+    background-image: linear-gradient(to top,#F8892F, #F8C354);
+    color: transparent;
+    background-clip: text;
+}
+#reg{
+    margin-left: 2%;
+}
+#szoveg{
+    background-image: linear-gradient(to top,#F8892F, #F8C354);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 25px;
+}
