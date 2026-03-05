@@ -57,10 +57,10 @@ textarea.value = "";  // törli a szöveget
 });
 
 function ujDobozCsinalas(szovegHozza){
-  
   const ujDoboz = document.createElement("div");
-  
+
   ujDoboz.textContent = szovegHozza;
+  ujDoboz.classList.add("bot");   // EZ HIÁNYZIK
 
   document.getElementById("celeb_chatbox").appendChild(ujDoboz);
 }
@@ -69,6 +69,7 @@ function ujDobozCsinalasFelhasznalo(szovegHozza){
   const ujDoboz = document.createElement("div");
 
   ujDoboz.textContent = szovegHozza;
+  ujDoboz.classList.add("user");   // EZ HIÁNYZIK
 
   document.getElementById("en_chatbox").appendChild(ujDoboz);
 }
