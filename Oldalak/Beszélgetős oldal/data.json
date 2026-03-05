@@ -39,7 +39,7 @@
         "respons": ["Több mint 850 gólt rugtam már életemben."]
       },
       {
-        "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?"],
+        "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?", "korod?"],
         "respons": ["1985. február 5-én születtem, így 41 éves vagyok. "]
       },
       {
@@ -58,7 +58,7 @@
           "Mi a célod erre az évre?",
           "Hány fekvőtámaszt tudsz most lenyomni?",
           "Mi motivál téged igazán?",
-          "Készen állsz arra, hogy jobb legyél tegnapnál?"
+          "Készen állsz arra, hogy jobb legyél a tegnapnál?"
         ]
       },
       {
@@ -90,8 +90,72 @@
           "Ha van akarat erőd és kitartásod akkor sikerülni fog.",
           "Muszáj lesz sikerülnie, nincs olyan opció, hogy nem!"
         ]
+      },
+      {
+        "pattern": ["bármennyit", "10","10-et", "20-at","20","40"],
+        "respons": [
+          "Ügyes vagy, ha még továb gyakorolsz, még többet meg fogsz tudni csinálni."
+        ]
+      },
+      {
+        "pattern": ["hogy még jobb legyek", "te motiválsz engem", "a tanárom motivál", "jobb legyek"],
+        "respons": ["Ez a beszéd, ne hagyd hogy a motiváció elhagyjon, ha mégis csak csinád tovább!"]
+      },
+      {
+        "pattern": ["készen állok", "természetesen", "persze hogy készen állok", "készen"],
+        "respons": ["Erről van itt szó."]
+      },
+      {
+        "pattern": ["megyek edzeni","holnap beszélünk", "viszlát", "még beszélünk", "én most mentem"],
+        "respons": ["Rendben, majd még beszélünk, szia!"]
       }
     ]
       }
-    ]
-  }
+    ],
+
+
+  "Madison":[
+    {
+      "intents": [
+        {
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "respons": [
+            "Sziaa, mizuu?",
+            "Szia, miujság?",
+            "Sziaaa, hogy vagy?"
+          ]
+        },
+        {
+          "pattern": ["minden rendben", "minden okés", "megvagyok", "jól köszi", "jól köszönöm", "minden szuper", "köszönöm a kérdést, minden szuper", "jól vagyok",  "jól vagyok köszi"],
+           "respons": [
+              "Annak örülök, remélem így marad.",
+              "Nagyon örülök neki, van kedved velem beszélgetni?"
+           ]
+        },
+        {
+          "pattern": ["minden jó szépség","jól vagyok szépség"],
+          "respons": ["Igeen, szépség, szerinted az vagyok?😍"]
+        },
+        {
+          "pattern": ["persze, hogy van", "persze", "persze hogy van", "igen van", "igeen", "igen"],
+          "respons": ["Naa szuper, kérdezz nyugodtan valamit."]
+        },
+        {
+          "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?"],
+          "respons": [
+            "Én is jól vagyok, köszönöm.",
+            "Minden rendben, köszii.",
+            "Minden okés."
+          ]
+        },
+        {
+          "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?", "korod?"],
+          "respons": [
+            "1999. március 5-én születtem, így 27 éves vagyok.",
+            "Remélem nem túl idős hozzád. 😉😘"
+          ]
+        }
+      ]
+    }
+  ]
+}
