@@ -29,6 +29,11 @@ html {
     margin-top: 2%;
 
 }
+#alekosz{
+    width: 100%;
+    height: 500px;
+    display: none;
+}
 #bej{
     margin-left: 23%;
     background-image: linear-gradient(to top,#F8892F, #F8C354);
@@ -44,4 +49,36 @@ html {
     background-clip: text;
     text-align: center;
     font-size: 25px;
+}
+@media only screen and (max-width:1200px){
+    #bej{
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width:930px){
+    #bej{
+        margin-left: 2%;
+    }
+    #h_logo{
+        margin-right: 2%;
+    }
+}
+@media only screen and (max-width:750px){
+    #header_{
+        font-size: 25px;
+    }
+    #adatok{
+        margin-top: 5%;
+    }
+}
+@media only screen and (max-width:590px){
+    #header_{
+        font-size: 20px;
+    }
+    #adatok{
+        margin-top: 8%;
+    }
+    #alekosz{
+        display: block;
+    }
 }
