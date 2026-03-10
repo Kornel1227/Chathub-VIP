@@ -199,7 +199,7 @@
           ]
         },
         {
-          "pattern": ["igen az vagy", "igen az ám", "de még mennyire", "az hát"],
+          "pattern": ["igen, az vagy", "igen, az ám", "de még mennyire", "az hát"],
           "respons": ["Ez nagyon kedves tőled.😍"]
         },
         {
@@ -245,6 +245,14 @@
           "respons": ["Annak nagyon örülök, akkor ez is közös bennünk."]
         }
       ]
+    }
+  ],
+  
+  
+  
+  "Madelyn": [
+    {
+      "intents":
     }
   ]
 }
