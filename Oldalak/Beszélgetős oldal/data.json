@@ -183,7 +183,7 @@
           "respons": ["Énekes és dalszerző vagyok, te mivel foglalkozól?"]
         },
         {
-          "pattern": ["programzó vagyok","programozással", "informatikus vagyok", "informatikával"],
+          "pattern": ["programozó vagyok","programozással", "informatikus vagyok", "informatikával"],
           "respons": ["Az nagyon érdekes, szereted csinálni?"]
         },
         {
@@ -245,6 +245,14 @@
           "respons": ["Annak nagyon örülök, akkor ez is közös bennünk."]
         }
       ]
+    }
+  ],
+  
+  
+  
+  "Madelyn": [
+    {
+      "intents":
     }
   ]
 }
