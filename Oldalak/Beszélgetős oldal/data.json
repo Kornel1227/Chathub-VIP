@@ -6,7 +6,7 @@
         "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
         "respons": [
           "Csaoo, család megvan foci megy?",
-          "Csaoo, miujság bajnok?",
+          "Sziaa, miujság bajnok?",
           "Szia, hogy vagy?"
         ]
       },
@@ -217,6 +217,32 @@
         {
           "pattern": ["milyen zenéket csinálsz?", "milyen műfajú zenét csinálsz?"],
           "respons": ["Legfőképpen Pop, de előfordul, hogy R&B vagy estleg, Alternative popot."]
+        },
+        {
+          "pattern": ["mi a kedvenc dalod?", "kedvenc zenéd?", "melyik dalodat szereted a legjobban?", "melyik a kedvenc zenéd?"],
+          "respons": [
+            "Nehéz választani, de a Selfish nagyon közel áll hozzám.",
+            "Talán a Selfish vagy a Good in Goodbye."
+          ]
+        },
+        {
+          "pattern": ["van barátod?", "kapcsolatban vagy?", "van pasid?"],
+          "respons": [
+            "A magánéletemet igyekszem kicsit megtartani magamnak.",
+            "Erről nem szívesen beszélek túl sokat."
+          ]
+        },
+        {
+          "pattern": ["nekem elmondhatod", "en vagyok az nem?"],
+          "respons": ["Te vagy a barátom.❤"]
+        },
+        {
+          "pattern": ["sajnos azt nem ismerem","nem ismerem", "majd meghallgatom"],
+          "respons": ["Mindenképp adnék neki egy próbát."]
+        },
+        {
+          "pattern": ["azt én is szeretem","nekem is", "nekem is ezek a kedvenceim"],
+          "respons": ["Annak nagyon örülök, akkor ez is közös bennünk."]
         }
       ]
     }
