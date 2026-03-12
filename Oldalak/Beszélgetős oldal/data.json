@@ -63,7 +63,7 @@
       },
       {
         "pattern": ["fáradt vagyok","nincs kedvem","nem megy","feladom"],
-        "response": [
+        "respons": [
           "Feladnád, vagy inkább erősebb leszel?",
           "A kifogásaid erősebbek, mint az álmaid?",
           "Mit teszel ma azért, hogy holnap büszke legyél?"
