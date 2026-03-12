@@ -29,6 +29,10 @@ else if (valtozo === "2"){
   dataData = data.Madison[0].intents;
 }
 
+else if (valtozo === "8"){
+  dataData = data.Alekosz[0].intents;
+}
+
 
 document.getElementById("enChat").style.display = "grid";
 document.getElementById("celebChat").style.display = "grid";
