@@ -266,14 +266,30 @@
     {
       "intents": [
         {
-          "pattern": []
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "respons": [
+            "Sziaa, mizuu?",
+            "Szia, miujság?",
+            "Sziaaa, hogy vagy?"
+          ]
         }
       ]
     }
   ],
+
+
+
   "Alekosz": [
       {
         "intents": [
+          {
+            "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+            "respons": [
+              "Csao, mizuu?",
+              "Cső, miujság?",
+              "Mélységes tisztelet az úrnak."
+            ]
+          },
           {
             "pattern": ["hogy vagy?", "miujsag?", "mi a helyzet?", "mi a pálya?", "mi a szitu?"],
             "respons": [
