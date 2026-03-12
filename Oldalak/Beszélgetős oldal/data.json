@@ -70,7 +70,7 @@
         ]
       },
       {
-        "pattern": ["nem még nem edzettem", "nem még nem", "nem edzettem", "nem még", "nem", "még nem"],
+        "pattern": ["nem még nem edzettem", "nem még nem", "nem edzettem", "nem még", "még nem"],
         "respons": ["Muszáj lesz edezened, ha a legjobb szeretnél lenni."]
       },
       {
@@ -137,7 +137,7 @@
           "respons": ["Igeen? Szépség? Szerinted az vagyok?😍"]
         },
         {
-          "pattern": ["persze, hogy van", "persze", "persze hogy van", "igen van", "igeen", "igen", "hogyne lenne"],
+          "pattern": ["persze, hogy van", "persze", "persze hogy van", "igen van", "igeen", "hogyne lenne"],
           "respons": ["Naa szuper, kérdezz nyugodtan valamit."]
         },
         {
@@ -252,7 +252,11 @@
   
   "Madelyn": [
     {
-      "intents":
+      "intents": [
+        {
+          "pattern": []
+        }
+      ]
     }
   ]
 }
