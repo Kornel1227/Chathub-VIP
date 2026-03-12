@@ -23,12 +23,24 @@
         "respons": [
           "Én is jól vagyok, köszönöm.",
           "Minden rendben.",
-          "Minden okés."
+          "Minden okés.",
+          "Éppen fáj a zacskóm bal oldali tartalma.😥"
         ]
       },
       {
-        "pattern": ["milyen csapatban játszol?"],
-        "respons": ["en-Naszr-ban játszom jelenleg?"]
+        "pattern": ["miért fáj?"],
+        "respons": [
+          "Becsíptem.",
+          "Egy mérkőzés következtében, egy jól irányzott rugás után, megkongatták. "
+        ]
+      },
+      {
+        "pattern": ["részvétem"],
+        "respons": ["Köszönöm szépen."]
+      },
+      {
+        "pattern": ["melyik csapatban játszol?"],
+        "respons": ["Al-Nassrben a csapatában játszom jelenleg."]
       },
       {
         "pattern": ["tudnál motiválni?", "motiválj", "mondj egy motivácót,"],
@@ -74,7 +86,7 @@
         "respons": ["Muszáj lesz edezened, ha a legjobb szeretnél lenni."]
       },
       {
-        "pattern": ["igen már edzettem", "igen edzettem", "igen", "igen már igen", "már igen"],
+        "pattern": ["igen már edzettem", "igen edzettem", "igen már igen", "már igen"],
         "respons": ["Büszke vagyok rád, csak így tovább, egyszer még eljuthatsz ahol én vagyok."]
       },
       {
@@ -156,7 +168,7 @@
           ]
         },
         {
-          "pattern": ["nem", "pont egy idősek vagyunk", "dehogy", "dehogy is", "egyeltalán nem"],
+          "pattern": ["pont egy idősek vagyunk", "dehogy", "dehogy is", "egyeltalán nem"],
           "respons": ["Akkor jooo, te mennyi idős vagy?"]
         },
         {
@@ -187,7 +199,7 @@
           "respons": ["Az nagyon érdekes, szereted csinálni?"]
         },
         {
-          "pattern": ["igen szeretem csinálni", "igen szeretem","szeretem", "szeretem csinálni"],
+          "pattern": ["igen szeretem csinálni", "igen szeretem", "szeretem csinálni"],
           "respons": ["Az a lényeg, máshogy nem lehet csinálni."]
         },
         {
