@@ -65,7 +65,22 @@ html {
     float: left;
     padding-top: 25px;
     color: #FFD700;
+    text-decoration: none;
     
+}
+.emberek{
+    color: white;
+    text-decoration: none;
+}
+.emberek:hover{
+    color: #FFD700;
+}
+#val{
+    color: #FFD700;
+    text-decoration: none;
+}
+#val:hover{
+    color: white;
 }
 #fejleckep{
     width: 1895px;

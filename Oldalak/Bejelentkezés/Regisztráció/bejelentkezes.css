@@ -15,22 +15,23 @@ body{
     margin-bottom: 10px;
 }
 #bejelentkezesGomb{
-    background: linear-gradient(135deg, #FFD700, #E6B800);
+    background: linear-gradient(145deg, #ffd700, #b89600);
     color: #000;
-    border: 2px solid #FFD700;
-    padding: 6px 14px;
-    border-radius: 6px;
+    border: 2px solid #ffd700;
+    padding: 12px 28px;
+    font-size: 24px;
     font-weight: bold;
+    border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s ease;
-    padding-left: 3%;
-    padding: 2%;
-    margin-top: 2%;
-    border: solid black;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(255,215,0,0.4);
+    margin-left: 36%;
+    margin-top: 3%;
 }
 #bejelentkezesGomb:hover {
-    background: linear-gradient(135deg, #E6B800, #FFD700);
-    box-shadow: 0 0 10px #FFD700;
+    background: linear-gradient(145deg, #fff2a8, #ffd700);
+    box-shadow: 0 0 20px rgba(255,215,0,0.8);
+    transform: scale(1.05);
 }
 #keret{
     background-image: url(/Képek/hatterJPG.jpg);
@@ -254,5 +255,8 @@ footer{
     .inputok{
         width: 93%;
         margin-left: 3px;
+    }
+    #bejelentkezesGomb{
+        margin-left: 15%;
     }
 }
