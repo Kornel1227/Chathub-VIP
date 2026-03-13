@@ -29,9 +29,47 @@ else if (valtozo === "2"){
   dataData = data.Madison[0].intents;
 }
 
+else if(valtozo === "3"){
+  dataData = data.Lebron[0].intents;
+}
+
+else if(valtozo === "4"){
+  dataData = data.Dicaprio[0].intents;
+}
+
+else if(valtozo === "5"){
+  dataData = data.Madelyn[0].intents;
+}
+
+else if(valtozo === "6"){
+  dataData = data.Majka[0].intents;
+}
+
+else if(valtozo === "7"){
+  dataData = data.Margot[0].intents;
+}
+
 else if (valtozo === "8"){
   dataData = data.Alekosz[0].intents;
 }
+
+else if(valtozo === "9"){
+  dataData = data.Palvin[0].intents;
+}
+
+else if(valtozo === "10"){
+  dataData = data.Rubint[0].intents;
+}
+
+else if(valtozo === "11"){
+  dataData = data.Szoboszlai[0].intents;
+}
+
+else if(valtozo === "12"){
+  dataData = data.TothGabi[0].intents;
+}
+
+
 
 
 document.getElementById("enChat").style.display = "grid";
