@@ -29,6 +29,20 @@ body{
   font-size: 30px;
  
 }
+.emberek{
+  color: white;
+  text-decoration: none;
+}
+.emberek:hover{
+  color: #FFD700;
+}
+.valasz{
+  color: #FFD700;
+  text-decoration: none;
+}
+.valasz:hover{
+  color: white;
+}
 .icon{
   margin-right: 2%;
   visibility: hidden;
