@@ -16,7 +16,7 @@ const textarea = document.getElementsByClassName("userInput")[0];
 
 textarea.addEventListener("keydown", function(e) {
 if (e.key === "Enter") {
-e.preventDefault();   // megakadályozza az új sort
+e.preventDefault();
 
 let valtozo = document.getElementById("p").dataset.person;
 let dataData;
@@ -101,7 +101,10 @@ for (let intent of intents) {
 
 if (foundResponse) {
   //document.getElementById("celeb_chatbox").innerHTML = foundResponse;
-  ujDobozCsinalas(foundResponse);
+  //ujDobozCsinalas(foundResponse);
+  setTimeout(() => {
+    ujDobozCsinalas(foundResponse);
+  }, 1000);
 }
 
 textarea.value = "";  // törli a szöveget
@@ -117,16 +120,13 @@ textarea.value = "";  // törli a szöveget
 
 
 
-
-
-
 function ujDobozCsinalas(szovegHozza){
   const ujDoboz = document.createElement("div");
 
-  ujDoboz.textContent = szovegHozza;
   ujDoboz.classList.add("bot");
-
   document.getElementById("celeb_chatbox").appendChild(ujDoboz);
+
+  gepel(ujDoboz, szovegHozza);
 }
 
 function ujDobozCsinalasFelhasznalo(szovegHozza){
@@ -138,50 +138,18 @@ function ujDobozCsinalasFelhasznalo(szovegHozza){
   document.getElementById("en_chatbox").appendChild(ujDoboz);
 }
 
+//csak dizájn
 
+function gepel(elem, text, speed = 80) {
+  let i = 0;
 
-data.Ronaldo[0].intents[0].pattern //amit beirunk pl szia, szevasz
-data.Ronaldo[0].intents[0].respons //amit vissza kapunk pl szia,hogy vagy?
+  function ir() {
+    if (i < text.length) {
+      elem.textContent += text.charAt(i);
+      i++;
+      setTimeout(ir, speed);
+    }
+  }
 
-data.Madison[0].intents[0].pattern
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-let userText = textarea.value.toLowerCase();
-
-let patterns = data.Ronaldo[0].intents[0].pattern;
-
-let found = patterns.some(pattern => userText.includes(pattern.toLowerCase()));
-
-if (found) {
-  let responses = data.Ronaldo[0].intents[0].respons;
-  let random = Math.floor(Math.random() * responses.length);
-
-  document.getElementById("celeb_chatbox").innerHTML = responses[random];
+  ir();
 }
-
-*/
-/*
-
-
-
-if (data.Ronaldo[0].intents[0].pattern.includes(textarea.value.toLowerCase())){
-  let responses = data.Ronaldo[0].intents[0].respons;
-  let random = Math.floor(Math.random() * responses.length);
-
-  document.getElementById("celeb_chatbox").innerHTML = responses[random];
-}
-
-*/
