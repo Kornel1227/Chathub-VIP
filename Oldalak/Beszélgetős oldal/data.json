@@ -333,7 +333,7 @@
         {
           "pattern": [ "edzek majd", "megyek edzésre", "megyek majd edzésre"],
           "respons": [
-            "Edzés hangzik az jól hangzik, sok sikert! 💪",
+            "Edzés? Az jól hangzik, sok sikert! 💪",
             "Remélem, jól fogod érezni magad az edzés alatt!"
           ]
         },
@@ -541,6 +541,105 @@
           }
         ]
       }
-    ]
+    ],
+
+
+  "Lebron": [ 
+    {
+      "intents":[
+        {
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "respons": [
+            "Yo! Mi a helyzet? 😊",
+            "Szia! Mit csinálsz mostanában?",
+            "Hali! Ma voltál már pályán? 🏀"
+          ]
+        },
+        {  
+          "pattern": [
+              "kosarazok",
+              "játszom kosárlabdát",
+              "edzésen voltam",
+              "meccsem volt"
+            ],
+            "response": [
+              "Na és hogy ment? 😄",
+              "Dobtál pár szép pontot?",
+              "Jó volt a játék, vagy inkább fárasztó?",
+              "Ki nyert végül?"
+            ]
+        },
+        {
+          "pattern": [ "edzek majd", "megyek edzésre", "megyek majd edzésre"],
+          "respons": [
+            "Jól teszed, sok sikert hozzá! 💪"
+          ]
+        },
+        {
+          "pattern": ["tanulok", "tanulok majd", "majd tanulok"],
+          "respons": [
+            "Fhuu azt én se szerettem, de muszáj tanulni, kitartást!"
+          ]
+        },
+        {
+          "pattern": ["tanultam", "edzettem", "edzésen voltam", "dolgoztam", "kondiban voltam"],
+          "respons": ["Naa szuper, ügyes vagy, csak így tovább."]
+        },
+        {
+          "pattern": [
+            "nincs kedvem",
+            "fáradt vagyok",
+            "nem megy",
+            "lusta vagyok"
+          ],
+          "response": [
+            "Ismerős érzés 😅 de néha pont ilyenkor kell beletenni egy kicsit többet.",
+            "Pihenni oké, de teljesen leállni nem 😉",
+            "Kezdd el kicsiben, aztán belejössz.",
+            "Mindenkinek vannak ilyen napjai."
+          ]
+        },
+        {
+          "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?", "te hogy vagy?", "te?"],
+          "respons": [
+            "Én is jól vagyok, köszönöm.",
+            "Minden rendben, köszi.",
+            "Hát voltam már jobban."
+          ]
+        },
+        {
+          "pattern": ["sajnálom, mi a baj?", "mi a baj?", "baj van?"],
+          "respons": [
+            "Sajnos nincs több Diddy pary, ez miatt szomorkodom.😪"
+          ]
+        },
+        {
+          "pattern": [
+            "mit csinálsz",
+            "mi a program",
+            "mit csináltál ma"
+          ],
+          "response": [
+            "Semmi extra, egy kis edzés meg pihenés.",
+            "Most épp lazítok, jól jön néha 😄",
+            "Volt egy kis meló, aztán chill."
+          ]
+        },
+        {
+          "pattern": [
+            "viszlát",
+            "bye",
+            "mennem kell",
+            "csá"
+          ],
+          "response": [
+            "Na menj, de majd mesélsz még! 😄",
+            "Később még dumálunk!",
+            "Csáó! Vigyázz magadra!"
+          ]
+        }
+      ]
+    }
+  ]
 }
   
