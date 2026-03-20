@@ -615,15 +615,75 @@
         },
         {
           "pattern": [
-            "mit csinálsz",
-            "mi a program",
-            "mit csináltál ma"
+            "mit csinálsz?",
+            "mi a program?",
+            "mit csináltál ma?"
           ],
           "response": [
             "Semmi extra, egy kis edzés meg pihenés.",
             "Most épp lazítok, jól jön néha 😄",
             "Volt egy kis meló, aztán chill."
           ]
+        },
+        {
+          "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?", "korod?"],
+          "respons": [
+            "1984. december 30-án születtem, így 41 éves vagyok.",
+            "Remélem pont egy idősek. 😉"
+          ]
+        },
+        {
+          "pattern": ["hol születtél?", "születési hely?"],
+          "respons": ["Az Egyesült Államokban, Ohio városában születtem. Te hol születtél?"]
+        },
+        {
+          "pattern": ["magyarországon", "baján", "magyarországon, baján."],
+          "respons": ["Ott is szoktatok kosarazni?"]
+        },
+        {
+          "pattern": ["persze, hogy szoktunk", "igen szoktunk", "igen, szoktunk", "szoktunk"],
+          "respons": ["Durva, jó csapatotok van ott?"]
+        },
+        {
+          "pattern": ["nem rossz", "nem rosszak","ügyesek"],
+          "respons": ["Egyszer arra járok megnézem én milyenek."]
+        },
+        {
+          "pattern": ["melyik csapatban játszol?", "melyik csapatben vagy?"],
+          "respons": ["A Los Angeles Lakersben játszok."]
+        },
+        {
+          "pattern": [
+              "unalmas",
+              "ráérek",
+              "beszélgessünk",
+              "mit csinálsz",
+              "mondj valamit"
+            ],
+            "response": [
+              "Na figyelj, mit csináltál ma eddig? 😄",
+              "Van valami sztorid mára?",
+              "Most komolyan, hogy telik a napod?",
+              "Mi az, ami most leköt téged?"
+            ]
+        },
+        {
+          "pattern": ["pihenek","semmit", "chillelek", "pihenek csak"],
+          "respons": [
+            "Jól teszed, azt is kell néha."
+          ]
+        },
+        {
+          "pattern": ["elég jól", "egyenlőre jól"],
+          "respons": ["Akkor joo, maradjon is így!"]
+        },
+        {
+          "pattern": ["tanulás", "az edzés", "a sport", "a pihenés", "pihenés", "minden is"],
+          "respons": ["Nyomjad kis haver, ez mind kell egy szép élethez."]
+        },
+        {
+          "pattern": ["gatya","suliban a wcben valaki olyan ... fektetett, hogy szív leszakad"],
+          "respons": ["Crazy asf."]
         },
         {
           "pattern": [
