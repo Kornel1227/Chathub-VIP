@@ -280,7 +280,7 @@
         {
           "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
           "respons": [
-            "Szia! Örülök, hogy írtál 😊",
+            "Szia! Örülök, hogy írtál, miújság?😊",
             "Helloo! Mi újság?",
             "Szia! Hogy telik a napod?"
           ]
@@ -696,6 +696,22 @@
             "Na menj, de majd mesélsz még! 😄",
             "Később még dumálunk!",
             "Csáó! Vigyázz magadra!"
+          ]
+        }
+      ]
+    }
+  ],
+  
+
+  "Margot": [
+    {
+      "intents": [
+        {
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "respons": [
+            "Szia! Örülök, hogy írtál, miújság?😊",
+            "Helloo! Mi újság?",
+            "Szia! Hogy telik a napod?"
           ]
         }
       ]
