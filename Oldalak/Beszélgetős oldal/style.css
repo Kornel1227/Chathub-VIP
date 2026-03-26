@@ -49,8 +49,11 @@ body{
     margin-top: 200px;
 }
 .chatbox {
-    width: 700px;
-    margin: 30px auto;
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     justify-content: center;
   }
@@ -175,14 +178,11 @@ footer{
   margin: auto;
 }
 #Valasztek{
-
   color: white;
   font-size: 20px;
   margin-left: 100px;
   float: left;
   padding-top: 25px;
- 
-
 }
 #ValasztekKapcsolat{
   display: inline;
@@ -201,7 +201,7 @@ footer{
 .chat{
   display: grid;
   grid-template-columns: auto auto;
-  gap: 100px;
+  gap: 0px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -217,6 +217,7 @@ footer{
   color: white;
   text-align: left;
   margin-bottom: 0px;
+  min-width: 500px;
 }
 
 #celeb_chatbox{
@@ -225,6 +226,7 @@ footer{
   margin-top: 5px;
   display: flex;
   flex-direction: column;
+  max-width: 500px;
 }
 
 #enChat{
@@ -237,6 +239,7 @@ footer{
   color: white;
   text-align: left;
   margin-bottom: 0px;
+  min-width: 500px;
 }
 
 #en_chatbox{
@@ -245,9 +248,10 @@ footer{
   margin-top: 5px;
   display: flex;
   flex-direction: column;
+  max-width: 500px;
 }
 
-.user, .bot{
+.user, .bot, .bufferUser, .bufferBot{
   max-width: 80%;
   margin: 10px;
   padding: 10px 15px;
@@ -267,6 +271,21 @@ footer{
   background: white;
   color: black;
   text-align: left;
+}
+
+.bufferUser{
+  background-color: black;
+  color: black;
+  text-align: right;
+  margin-left: auto;
+  height: 30px;
+}
+
+.bufferBot{
+  background-color: black;
+  color: black;
+  text-align: left;
+  height: 30px;
 }
 
 @media only screen and (max-width:1850px){
@@ -313,6 +332,48 @@ footer{
   }
   #h_logo{
       margin-right: 2%;
+  }
+}
+
+@media only screen and (max-width:1050px){
+  #enChat{
+    max-width: 300px;
+  }
+
+  #celebChat{
+    max-width: 300px;
+  }
+
+  #celeb_chatbox{
+    max-width: 300px;
+  }
+
+  #en_chatbox{
+    max-width: 300px;
+  }
+  
+  #en{
+    max-width: 300px;
+  }
+
+  #celeb{
+    max-width: 300px;
+  }
+
+  .userInput{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width:1030px){
+  #p{
+   text-align: center;
+  }
+}
+
+@media only screen and (max-width:980px){
+  .chatbox {
+    width: 800px;
   }
 }
 
