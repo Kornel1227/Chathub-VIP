@@ -280,7 +280,7 @@
         {
           "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
           "respons": [
-            "Szia! Örülök, hogy írtál 😊",
+            "Szia! Örülök, hogy írtál, miújság?😊",
             "Helloo! Mi újság?",
             "Szia! Hogy telik a napod?"
           ]
@@ -333,7 +333,7 @@
         {
           "pattern": [ "edzek majd", "megyek edzésre", "megyek majd edzésre"],
           "respons": [
-            "Edzés hangzik az jól hangzik, sok sikert! 💪",
+            "Edzés? Az jól hangzik, sok sikert! 💪",
             "Remélem, jól fogod érezni magad az edzés alatt!"
           ]
         },
@@ -541,6 +541,181 @@
           }
         ]
       }
-    ]
+    ],
+
+
+  "Lebron": [ 
+    {
+      "intents":[
+        {
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "respons": [
+            "Yo! Mi a helyzet? 😊",
+            "Szia! Mit csinálsz mostanában?",
+            "Hali! Ma voltál már pályán? 🏀"
+          ]
+        },
+        {  
+          "pattern": [
+              "kosarazok",
+              "játszom kosárlabdát",
+              "edzésen voltam",
+              "meccsem volt"
+            ],
+            "response": [
+              "Na és hogy ment? 😄",
+              "Dobtál pár szép pontot?",
+              "Jó volt a játék, vagy inkább fárasztó?",
+              "Ki nyert végül?"
+            ]
+        },
+        {
+          "pattern": [ "edzek majd", "megyek edzésre", "megyek majd edzésre"],
+          "respons": [
+            "Jól teszed, sok sikert hozzá! 💪"
+          ]
+        },
+        {
+          "pattern": ["tanulok", "tanulok majd", "majd tanulok"],
+          "respons": [
+            "Fhuu azt én se szerettem, de muszáj tanulni, kitartást!"
+          ]
+        },
+        {
+          "pattern": ["tanultam", "edzettem", "edzésen voltam", "dolgoztam", "kondiban voltam"],
+          "respons": ["Naa szuper, ügyes vagy, csak így tovább."]
+        },
+        {
+          "pattern": [
+            "nincs kedvem",
+            "fáradt vagyok",
+            "nem megy",
+            "lusta vagyok"
+          ],
+          "response": [
+            "Ismerős érzés 😅 de néha pont ilyenkor kell beletenni egy kicsit többet.",
+            "Pihenni oké, de teljesen leállni nem 😉",
+            "Kezdd el kicsiben, aztán belejössz.",
+            "Mindenkinek vannak ilyen napjai."
+          ]
+        },
+        {
+          "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?", "te hogy vagy?", "te?"],
+          "respons": [
+            "Én is jól vagyok, köszönöm.",
+            "Minden rendben, köszi.",
+            "Hát voltam már jobban."
+          ]
+        },
+        {
+          "pattern": ["sajnálom, mi a baj?", "mi a baj?", "baj van?"],
+          "respons": [
+            "Sajnos nincs több Diddy pary, ez miatt szomorkodom.😪"
+          ]
+        },
+        {
+          "pattern": [
+            "mit csinálsz?",
+            "mi a program?",
+            "mit csináltál ma?"
+          ],
+          "response": [
+            "Semmi extra, egy kis edzés meg pihenés.",
+            "Most épp lazítok, jól jön néha 😄",
+            "Volt egy kis meló, aztán chill."
+          ]
+        },
+        {
+          "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?", "korod?"],
+          "respons": [
+            "1984. december 30-án születtem, így 41 éves vagyok.",
+            "Remélem pont egy idősek. 😉"
+          ]
+        },
+        {
+          "pattern": ["hol születtél?", "születési hely?"],
+          "respons": ["Az Egyesült Államokban, Ohio városában születtem. Te hol születtél?"]
+        },
+        {
+          "pattern": ["magyarországon", "baján", "magyarországon, baján."],
+          "respons": ["Ott is szoktatok kosarazni?"]
+        },
+        {
+          "pattern": ["persze, hogy szoktunk", "igen szoktunk", "igen, szoktunk", "szoktunk"],
+          "respons": ["Durva, jó csapatotok van ott?"]
+        },
+        {
+          "pattern": ["nem rossz", "nem rosszak","ügyesek"],
+          "respons": ["Egyszer arra járok megnézem én milyenek."]
+        },
+        {
+          "pattern": ["melyik csapatban játszol?", "melyik csapatben vagy?"],
+          "respons": ["A Los Angeles Lakersben játszok."]
+        },
+        {
+          "pattern": [
+              "unalmas",
+              "ráérek",
+              "beszélgessünk",
+              "mit csinálsz",
+              "mondj valamit"
+            ],
+            "response": [
+              "Na figyelj, mit csináltál ma eddig? 😄",
+              "Van valami sztorid mára?",
+              "Most komolyan, hogy telik a napod?",
+              "Mi az, ami most leköt téged?"
+            ]
+        },
+        {
+          "pattern": ["pihenek","semmit", "chillelek", "pihenek csak"],
+          "respons": [
+            "Jól teszed, azt is kell néha."
+          ]
+        },
+        {
+          "pattern": ["elég jól", "egyenlőre jól"],
+          "respons": ["Akkor joo, maradjon is így!"]
+        },
+        {
+          "pattern": ["tanulás", "az edzés", "a sport", "a pihenés", "pihenés", "minden is"],
+          "respons": ["Nyomjad kis haver, ez mind kell egy szép élethez."]
+        },
+        {
+          "pattern": ["gatya","suliban a wcben valaki olyan ... fektetett, hogy szív leszakad"],
+          "respons": ["Crazy asf."]
+        },
+        {
+          "pattern": [
+            "viszlát",
+            "bye",
+            "mennem kell",
+            "csá"
+          ],
+          "response": [
+            "Na menj, de majd mesélsz még! 😄",
+            "Később még dumálunk!",
+            "Csáó! Vigyázz magadra!"
+          ]
+        }
+      ]
+    }
+  ],
+  
+
+  "Margot": [
+    {
+      "intents": [
+        {
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "respons": [
+            "Szia! Örülök, hogy írtál, miújság?😊",
+            "Helloo! Mi újság?",
+            "Szia! Hogy telik a napod?"
+          ]
+        }
+      ]
+    }
+  ]
 }
   
