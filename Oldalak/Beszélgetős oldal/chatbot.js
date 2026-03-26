@@ -18,6 +18,8 @@ textarea.addEventListener("keydown", function(e) {
 if (e.key === "Enter") {
 e.preventDefault();
 
+document.getElementById("p").style.display = "none";
+
 let valtozo = document.getElementById("p").dataset.person;
 let dataData;
 
@@ -123,14 +125,28 @@ textarea.value = "";  // törli a szöveget
 function ujDobozCsinalas(szovegHozza){
   const ujDoboz = document.createElement("div");
 
+  const bufferDoboz = document.createElement("div");                  //)
+  bufferDoboz.classList.add("bufferBot");                             //)--->buffer
+  document.getElementById("celeb_chatbox").appendChild(bufferDoboz);  //)
+
   ujDoboz.classList.add("bot");
   document.getElementById("celeb_chatbox").appendChild(ujDoboz);
 
   gepel(ujDoboz, szovegHozza);
+  id = 2;
 }
+
+let id = document.getElementById("en_chatbox").value;
 
 function ujDobozCsinalasFelhasznalo(szovegHozza){
   const ujDoboz = document.createElement("div");
+  
+  if(id === 2)
+  {
+    const bufferDoboz = document.createElement("div");                  //)
+    bufferDoboz.classList.add("bufferUser");                            //)--->buffer
+    document.getElementById("en_chatbox").appendChild(bufferDoboz);     //)
+  }
 
   ujDoboz.textContent = szovegHozza;
   ujDoboz.classList.add("user");
@@ -138,7 +154,9 @@ function ujDobozCsinalasFelhasznalo(szovegHozza){
   document.getElementById("en_chatbox").appendChild(ujDoboz);
 }
 
-//csak dizájn
+//            I
+//csak dizájn I
+//            V
 
 function gepel(elem, text, speed = 80) {
   let i = 0;
