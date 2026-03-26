@@ -24,8 +24,12 @@
           "Én is jól vagyok, köszönöm.",
           "Minden rendben.",
           "Minden okés.",
-          "Éppen fáj a zacskóm bal oldali tartalma.😥"
+          "Van egy kis gondom.😪"
         ]
+      },
+      {
+        "pattern": ["mi a baj?", "mi a gond?"],
+        "respons": ["Éppen fáj a zacskóm bal oldali tartalma.😥"]
       },
       {
         "pattern": ["miért fáj?"],
@@ -262,7 +266,7 @@
         },
         {
           "pattern": ["viszlát","bye","mennem kell","szia szia"],
-          "response": [
+          "respons": [
             "Szép napot neked!",
             "Köszi a beszélgetést!",
             "Remélem hamarosan újra beszélünk!"
@@ -287,7 +291,7 @@
         },
         {
           "pattern": ["minden rendben", "minden okés", "megvagyok", "jól köszi", "jól köszönöm", "minden szuper", "köszönöm a kérdést, minden szuper", "jól vagyok",  "jól vagyok köszi"],
-          "response": [
+          "respons": [
             "Örülök, hogy jól vagy! 😊",
             "Ez jó hír! Mit csináltál ma?",
             "Szuper! Mesélsz a napodról?",
@@ -304,7 +308,7 @@
         },
         {
           "pattern": ["sorozatot nézek", "sorozatozok", "filmet nézek majd", "filmezek"],
-          "response": [
+          "respons": [
             "Jó választás! 😊 Melyik sorozatot nézed?",
             "Filmezés mindig jó pihenés! Mit választottál?",
             "Filmezés vagy sorozat? Kíváncsi vagyok a kedvencedre!"
@@ -448,7 +452,7 @@
         },
         {
           "pattern": ["viszlát","bye","mennem kell","szia szia"],
-          "response": [
+          "respons": [
             "Szép napot neked!",
             "Köszi a beszélgetést! 😊",
             "Remélem hamarosan újra beszélünk!"
@@ -562,7 +566,7 @@
               "edzésen voltam",
               "meccsem volt"
             ],
-            "response": [
+            "respons": [
               "Na és hogy ment? 😄",
               "Dobtál pár szép pontot?",
               "Jó volt a játék, vagy inkább fárasztó?",
@@ -592,7 +596,7 @@
             "nem megy",
             "lusta vagyok"
           ],
-          "response": [
+          "respons": [
             "Ismerős érzés 😅 de néha pont ilyenkor kell beletenni egy kicsit többet.",
             "Pihenni oké, de teljesen leállni nem 😉",
             "Kezdd el kicsiben, aztán belejössz.",
@@ -619,7 +623,7 @@
             "mi a program?",
             "mit csináltál ma?"
           ],
-          "response": [
+          "respons": [
             "Semmi extra, egy kis edzés meg pihenés.",
             "Most épp lazítok, jól jön néha 😄",
             "Volt egy kis meló, aztán chill."
@@ -660,7 +664,7 @@
               "mit csinálsz",
               "mondj valamit"
             ],
-            "response": [
+            "respons": [
               "Na figyelj, mit csináltál ma eddig? 😄",
               "Van valami sztorid mára?",
               "Most komolyan, hogy telik a napod?",
@@ -692,7 +696,7 @@
             "mennem kell",
             "csá"
           ],
-          "response": [
+          "respons": [
             "Na menj, de majd mesélsz még! 😄",
             "Később még dumálunk!",
             "Csáó! Vigyázz magadra!"
@@ -712,6 +716,125 @@
             "Szia! Örülök, hogy írtál, miújság?😊",
             "Helloo! Mi újság?",
             "Szia! Hogy telik a napod?"
+          ]
+        },
+        {
+          "pattern": ["minden rendben", "minden okés", "megvagyok", "jól köszi", "jól köszönöm", "minden szuper", "köszönöm a kérdést, minden szuper", "jól vagyok",  "jól vagyok köszi"],
+          "respons": [
+            "Örülök, hogy jól vagy! 😊",
+            "Ez jó hír! Mit csináltál ma?",
+            "Szuper! Mesélsz a napodról?",
+            "Örülök neki! Van valami izgalmas terved ma?"
+          ]
+        },
+        {
+          "pattern": ["tanultam", "edzettem", "edzésen voltam", "dolgoztam", "kondiban voltam"],
+          "respons": ["Naa szuper, büszke vagyok rád csak így tovább.😊"]
+        },
+        {
+          "pattern": [
+            "filmet nézek",
+            "filmezek"
+          ],
+          "respons": [
+            "Na és mit nézel? 👀",
+            "Imádom a filmeket! Melyiket választottad?",
+            "Mostanában milyen filmek jönnek be neked?"
+          ]
+        },
+        {
+          "pattern": ["jokert","barbiet","a wall street farkasát","az öngyilkos osztagot"],
+          "respons": ["Remélem tetszik, nagyon sokat dolgoztunk vele.🥰"]
+        },
+        {
+          "pattern": ["igen tetszik", "nagyon tetszik","jó kis film", "jó film"],
+          "respons": ["Ezt nagyon jó hallani!😍"]
+        },
+        {
+          "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?", "te hogy vagy?", "te?"],
+          "respons": [
+            "Én is jól vagyok, köszönöm.",
+            "Minden rendben, köszi."
+          ]
+        },
+        {
+          "pattern": ["te mit csinálsz?", "te mit fogsz csinálni?", "mesélj a napodról", "van valami izgalmas terved mára?"],
+          "respons": [
+            "Most épp pihenek egy kicsit, elég sűrű nap volt 😊",
+            "Kicsit dolgoztam, most lazítok és próbálok kikapcsolni",
+            "Semmi extra, csak egy nyugis nap, ami néha a legjobb 😄"
+          ]
+        },
+
+        {
+          "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?", "korod?"],
+          "respons": [
+            "1990. július 2-án születtem, így 35 éves vagyok."
+          ]
+        },
+        {
+          "pattern": ["van férjed?", "férjed?","házas vagy?"],
+          "respons": ["Igen, van egy férjem és gyermekem."]
+        },
+        {
+          "pattern": ["hogy hívják őket?", "mi a nevük?", "nevük?"],
+          "respons": ["A férjem neve: Tom Ackerley, 2016 óta vagyunk házasok. A gyerekem nevét nem szeretném megosztani neharagudj."]
+        },
+        {
+          "pattern": ["mivel foglalkozol?", "foglalkozásod?", "mi a munkád?", "munkád?"],
+          "respons": ["Színész, filmszínész, modell, filmproducer, szinkronszínész és televíziós színész vagyok.😁"]
+        },
+        {
+          "pattern": ["melyik volt a kedvenc szereped?", "kedvenc szerep?", "kedvenc munkád?"],
+          "respons": [
+            "Nehéz választani, de Harley Quinn és Barbie különösen közel áll hozzám. 😊",
+            "Mindegyik szerep egy kicsit különleges volt, de Harley Quinn ikonikus marad 💖",
+            "A Barbie-projekt nagyon izgalmas volt, mert producerként is részt vettem benne."
+          ]
+        },
+        {
+          "pattern": ["kivel volt a legjobb a munka?", "kedvenc munka társ?", "munka társ?","kedvenc munkatársad","kivel szerettél dolgozni",
+          "ki volt a legjobb co-star","kedvenc partner a filmben"],
+          "respons": [
+            "Szerencsés vagyok, mert sok fantasztikus emberrel dolgozhattam együtt 😊",
+            "Leonardo DiCaprio és Will Smith fantasztikusak voltak a forgatáson 💥",
+            "Ryan Gosling-nal a Barbie forgatása alatt fantasztikus volt a kémia 💖"
+          ]
+        },
+        {
+          "pattern": [
+            "hogyan lettél színésznő?",
+            "miért választottad a színészetet?",
+            "színészet?"
+          ],
+          "respons": [
+            "Mindig érdekelt a film világa, és szeretek történeteket mesélni. 🎬",
+            "A színészet számomra kreativitás és szabadság.😊"          ]
+        },
+        {
+          "pattern": [
+            "mit csinálsz szabadidődben",
+            "mivel töltöd a szabadidőt",
+            "hogy kapcsolódsz ki",
+            "hobbid"
+          ],
+          "respons": [
+            "Szeretek pihenni és időt tölteni a barátaimmal 😊",
+            "Néha filmeket nézek vagy olvasok",
+            "Szeretek sportolni és aktív maradni"
+          ]
+        },
+        {
+          "pattern": [
+            "szeretlek",
+            "rajongó vagyok",
+            "imádlak",
+            "kedvenc színésznőm"
+          ],
+          "respons": [
+            "Ez nagyon kedves tőled! 💖",
+            "Köszönöm, ez sokat jelent 😊",
+            "Örülök, hogy szereted a munkáimat!"
           ]
         }
       ]
