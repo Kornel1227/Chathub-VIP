@@ -108,6 +108,11 @@ if (foundResponse) {
     ujDobozCsinalas(foundResponse);
   }, 1000);
 }
+else{
+  setTimeout(() => {
+    ujDobozCsinalas("Bocsi, de ezt nem tudom értelmezni, így erre válaszolni se tudok.");
+  }, 1000);
+}
 
 textarea.value = "";  // törli a szöveget
 }
