@@ -983,6 +983,17 @@
       }
     ]
   }
-]
+],
+
+  "Dicaprio": [
+  {
+    "intents": [
+      {
+        "pattern": [""],
+        "respons": ["Nem tudok erre válaszolni."]
+      }
+    ]
+  }
+  ]
 }
   
