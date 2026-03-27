@@ -989,8 +989,77 @@
   {
     "intents": [
       {
-        "pattern": [""],
-        "respons": ["Nem tudok erre válaszolni."]
+        "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+        "respons": [
+          "Szia! Mi a helyzet?",
+          "Szia! Mit csinálsz mostanában?"
+        ]
+      },
+      {
+        "pattern": [
+            "filmet nézek"
+          ],
+          "respons": [
+            "Na és mit nézel?"
+          ]
+      },
+      {
+        "pattern": ["a te filmed", "filmed", "az egyik filmed"],
+        "respons": ["Hoppá és melyiket?"]
+      },
+      {
+        "pattern": ["a titanicot", "az egyik csata a másik utánt", "a wall street farkasát", "eredetet", "a viharszigetét"],
+        "respons": ["Remélem tetszik, sokat dolgoztunk vele.💪"]
+      },
+      {
+        "pattern": [ "edzek majd", "megyek edzésre", "megyek majd edzésre"],
+        "respons": [
+          "Jól teszed, sok sikert hozzá! 💪"
+        ]
+      },
+      {
+        "pattern": ["tanulok", "tanulok majd", "majd tanulok"],
+        "respons": [
+          "Fhuu azt én se szerettem, de muszáj tanulni, kitartást!"
+        ]
+      },
+      {
+        "pattern": ["tanultam", "edzettem", "edzésen voltam", "dolgoztam", "kondiban voltam"],
+        "respons": ["Naa szuper, ügyes vagy, csak így tovább."]
+      },
+      {
+        "pattern": [
+          "mit csinálsz?",
+          "mi a program?",
+          "mit csináltál ma?"
+        ],
+        "respons": [
+          "Semmi extra, egy kis edzés meg pihenés.",
+          "Most épp lazítok, jól jön néha 😄",
+          "Volt egy kis meló, aztán chill."
+        ]
+      },
+      {
+        "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?", "te hogy vagy?", "te?"],
+        "respons": [
+          "Én is jól vagyok, köszönöm.",
+          "Minden rendben, köszi.",
+          "Hát voltam már jobban."
+        ]
+      },
+      {
+        "pattern": ["sajnálom, mi a baj?", "mi a baj?", "baj van?"],
+        "respons": [
+          "Elfogyott kóla, emelett elhagyott a 27 éves baratnőm, teljesen ki vagyok bukva, te meg jól megleszel rúgva."
+        ]
+      },
+      {
+        "pattern": ["áljon meg a menet", "ésszel", "vigyázz a szádra","gyere 1v1"],
+        "respons": ["Gyere 1 vs 1, azt megnézzük mekkora lesz az orcád."]
+      },
+      {
+        "pattern":["hol talakozunk?", "hol t?","hova menjek?"],
+        "respons": "Béke téren t, 23:00-kor."
       }
     ]
   }
