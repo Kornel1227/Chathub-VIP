@@ -1099,6 +1099,19 @@
           "Egy kis dráma vagy thriller mindig jó választás 😉",
           "Ha engem kérdezel, nézz meg egy klasszikust."
         ]
+      },
+      {
+        "pattern": [
+          "viszlát",
+          "bye",
+          "mennem kell",
+          "csá"
+        ],
+        "respons": [
+          "Na menj, de majd mesélsz még! 😄",
+          "Később még dumálunk!",
+          "Csáó! Vigyázz magadra!"
+        ]
       }
     ]
   }
