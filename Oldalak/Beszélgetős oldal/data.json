@@ -997,10 +997,11 @@
       },
       {
         "pattern": [
-            "filmet nézek"
+            "filmet nézek","filmezek"
           ],
           "respons": [
-            "Na és mit nézel?"
+            "Melyik filmet nézed?",
+            "Remélem az enyémet.😂"
           ]
       },
       {
@@ -1059,7 +1060,45 @@
       },
       {
         "pattern":["hol talakozunk?", "hol t?","hova menjek?"],
-        "respons": "Béke téren t, 23:00-kor."
+        "respons": "Szentháromság téren találkozunk, 23:00-kor."
+      },
+      {
+        "pattern": ["milyen filmjeid vannak?", "filmjeid?","hány filmed van?", "mennyi filmed van?"],
+        "respons": [
+          "Huha, hát van jó pár filmem, és ezen belül is minden fajta stílusban."
+        ]
+      },
+      {
+        "pattern": ["melyik a kedvenced?", "kedvenc filmed?", "kedvenced magadtól?", "melyik a kedvenc filmed magadtól?"],
+        "respons": ["Ez egy jó kérdés, szerintem a Viharszigete vagy a Wall Street farkasa. De nagyon sok jó filmben szerepeltem amiket szeretek. "]
+      },
+      {
+        "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?", "korod?"],
+        "respons": [
+          "1974. november 11-én születtem, így 51 éves vagyok."
+        ]
+      },
+      {
+        "pattern": ["élettárs?", "van élettársad?", "feleség?", "házastárs?", "házas vagy?"],
+        "respons": ["Igen, van egy gyönyörű baránőm."]
+      },
+      {
+        "pattern": ["hogy hívják őt?", "neve?"],
+        "respons": ["Vittoria Ceretti."]
+      },
+      {
+        "pattern": ["oscart nyertél", "oscar"],
+        "respons": [
+          "Na az egy hosszú várakozás volt 😄",
+          "Végül csak összejött 😉"
+        ]
+      },
+      {
+        "pattern": ["mit ajánlasz", "mit nézzek"],
+        "respons": [
+          "Egy kis dráma vagy thriller mindig jó választás 😉",
+          "Ha engem kérdezel, nézz meg egy klasszikust."
+        ]
       }
     ]
   }
