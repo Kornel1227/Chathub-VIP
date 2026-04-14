@@ -24,8 +24,12 @@
           "Én is jól vagyok, köszönöm.",
           "Minden rendben.",
           "Minden okés.",
-          "Éppen fáj a zacskóm bal oldali tartalma.😥"
+          "Van egy kis gondom.😪"
         ]
+      },
+      {
+        "pattern": ["mi a baj?", "mi a gond?"],
+        "respons": ["Éppen fáj a zacskóm bal oldali tartalma.😥"]
       },
       {
         "pattern": ["miért fáj?"],
@@ -262,7 +266,7 @@
         },
         {
           "pattern": ["viszlát","bye","mennem kell","szia szia"],
-          "response": [
+          "respons": [
             "Szép napot neked!",
             "Köszi a beszélgetést!",
             "Remélem hamarosan újra beszélünk!"
@@ -287,7 +291,7 @@
         },
         {
           "pattern": ["minden rendben", "minden okés", "megvagyok", "jól köszi", "jól köszönöm", "minden szuper", "köszönöm a kérdést, minden szuper", "jól vagyok",  "jól vagyok köszi"],
-          "response": [
+          "respons": [
             "Örülök, hogy jól vagy! 😊",
             "Ez jó hír! Mit csináltál ma?",
             "Szuper! Mesélsz a napodról?",
@@ -304,7 +308,7 @@
         },
         {
           "pattern": ["sorozatot nézek", "sorozatozok", "filmet nézek majd", "filmezek"],
-          "response": [
+          "respons": [
             "Jó választás! 😊 Melyik sorozatot nézed?",
             "Filmezés mindig jó pihenés! Mit választottál?",
             "Filmezés vagy sorozat? Kíváncsi vagyok a kedvencedre!"
@@ -448,7 +452,7 @@
         },
         {
           "pattern": ["viszlát","bye","mennem kell","szia szia"],
-          "response": [
+          "respons": [
             "Szép napot neked!",
             "Köszi a beszélgetést! 😊",
             "Remélem hamarosan újra beszélünk!"
@@ -562,7 +566,7 @@
               "edzésen voltam",
               "meccsem volt"
             ],
-            "response": [
+            "respons": [
               "Na és hogy ment? 😄",
               "Dobtál pár szép pontot?",
               "Jó volt a játék, vagy inkább fárasztó?",
@@ -592,7 +596,7 @@
             "nem megy",
             "lusta vagyok"
           ],
-          "response": [
+          "respons": [
             "Ismerős érzés 😅 de néha pont ilyenkor kell beletenni egy kicsit többet.",
             "Pihenni oké, de teljesen leállni nem 😉",
             "Kezdd el kicsiben, aztán belejössz.",
@@ -619,7 +623,7 @@
             "mi a program?",
             "mit csináltál ma?"
           ],
-          "response": [
+          "respons": [
             "Semmi extra, egy kis edzés meg pihenés.",
             "Most épp lazítok, jól jön néha 😄",
             "Volt egy kis meló, aztán chill."
@@ -660,7 +664,7 @@
               "mit csinálsz",
               "mondj valamit"
             ],
-            "response": [
+            "respons": [
               "Na figyelj, mit csináltál ma eddig? 😄",
               "Van valami sztorid mára?",
               "Most komolyan, hogy telik a napod?",
@@ -692,7 +696,7 @@
             "mennem kell",
             "csá"
           ],
-          "response": [
+          "respons": [
             "Na menj, de majd mesélsz még! 😄",
             "Később még dumálunk!",
             "Csáó! Vigyázz magadra!"
@@ -713,9 +717,404 @@
             "Helloo! Mi újság?",
             "Szia! Hogy telik a napod?"
           ]
+        },
+        {
+          "pattern": ["minden rendben", "minden okés", "megvagyok", "jól köszi", "jól köszönöm", "minden szuper", "köszönöm a kérdést, minden szuper", "jól vagyok",  "jól vagyok köszi"],
+          "respons": [
+            "Örülök, hogy jól vagy! 😊",
+            "Ez jó hír! Mit csináltál ma?",
+            "Szuper! Mesélsz a napodról?",
+            "Örülök neki! Van valami izgalmas terved ma?"
+          ]
+        },
+        {
+          "pattern": ["tanultam", "edzettem", "edzésen voltam", "dolgoztam", "kondiban voltam"],
+          "respons": ["Naa szuper, büszke vagyok rád csak így tovább.😊"]
+        },
+        {
+          "pattern": [
+            "filmet nézek",
+            "filmezek"
+          ],
+          "respons": [
+            "Na és mit nézel? 👀",
+            "Imádom a filmeket! Melyiket választottad?",
+            "Mostanában milyen filmek jönnek be neked?"
+          ]
+        },
+        {
+          "pattern": ["jokert","barbiet","a wall street farkasát","az öngyilkos osztagot"],
+          "respons": ["Remélem tetszik, nagyon sokat dolgoztunk vele.🥰"]
+        },
+        {
+          "pattern": ["igen tetszik", "nagyon tetszik","jó kis film", "jó film"],
+          "respons": ["Ezt nagyon jó hallani!😍"]
+        },
+        {
+          "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?", "te hogy vagy?", "te?"],
+          "respons": [
+            "Én is jól vagyok, köszönöm.",
+            "Minden rendben, köszi."
+          ]
+        },
+        {
+          "pattern": ["te mit csinálsz?", "te mit fogsz csinálni?", "mesélj a napodról", "van valami izgalmas terved mára?"],
+          "respons": [
+            "Most épp pihenek egy kicsit, elég sűrű nap volt 😊",
+            "Kicsit dolgoztam, most lazítok és próbálok kikapcsolni",
+            "Semmi extra, csak egy nyugis nap, ami néha a legjobb 😄"
+          ]
+        },
+
+        {
+          "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?", "korod?"],
+          "respons": [
+            "1990. július 2-án születtem, így 35 éves vagyok."
+          ]
+        },
+        {
+          "pattern": ["van férjed?", "férjed?","házas vagy?"],
+          "respons": ["Igen, van egy férjem és gyermekem."]
+        },
+        {
+          "pattern": ["hogy hívják őket?", "mi a nevük?", "nevük?"],
+          "respons": ["A férjem neve: Tom Ackerley, 2016 óta vagyunk házasok. A gyerekem nevét nem szeretném megosztani neharagudj."]
+        },
+        {
+          "pattern": ["mivel foglalkozol?", "foglalkozásod?", "mi a munkád?", "munkád?"],
+          "respons": ["Színész, filmszínész, modell, filmproducer, szinkronszínész és televíziós színész vagyok.😁"]
+        },
+        {
+          "pattern": ["melyik volt a kedvenc szereped?", "kedvenc szerep?", "kedvenc munkád?"],
+          "respons": [
+            "Nehéz választani, de Harley Quinn és Barbie különösen közel áll hozzám. 😊",
+            "Mindegyik szerep egy kicsit különleges volt, de Harley Quinn ikonikus marad 💖",
+            "A Barbie-projekt nagyon izgalmas volt, mert producerként is részt vettem benne."
+          ]
+        },
+        {
+          "pattern": ["kivel volt a legjobb a munka?", "kedvenc munka társ?", "munka társ?","kedvenc munkatársad","kivel szerettél dolgozni",
+          "ki volt a legjobb co-star","kedvenc partner a filmben"],
+          "respons": [
+            "Szerencsés vagyok, mert sok fantasztikus emberrel dolgozhattam együtt 😊",
+            "Leonardo DiCaprio és Will Smith fantasztikusak voltak a forgatáson 💥",
+            "Ryan Gosling-nal a Barbie forgatása alatt fantasztikus volt a kémia 💖"
+          ]
+        },
+        {
+          "pattern": [
+            "hogyan lettél színésznő?",
+            "miért választottad a színészetet?",
+            "színészet?"
+          ],
+          "respons": [
+            "Mindig érdekelt a film világa, és szeretek történeteket mesélni. 🎬",
+            "A színészet számomra kreativitás és szabadság.😊"          ]
+        },
+        {
+          "pattern": [
+            "mit csinálsz szabadidődben",
+            "mivel töltöd a szabadidőt",
+            "hogy kapcsolódsz ki",
+            "hobbid"
+          ],
+          "respons": [
+            "Szeretek pihenni és időt tölteni a barátaimmal 😊",
+            "Néha filmeket nézek vagy olvasok",
+            "Szeretek sportolni és aktív maradni"
+          ]
+        },
+        {
+          "pattern": [
+            "szeretlek",
+            "rajongó vagyok",
+            "imádlak",
+            "kedvenc színésznőm"
+          ],
+          "respons": [
+            "Ez nagyon kedves tőled! 💖",
+            "Köszönöm, ez sokat jelent 😊",
+            "Örülök, hogy szereted a munkáimat!"
+          ]
         }
       ]
     }
+  ],
+  "Palvin": [
+  {
+    "intents": [
+      {
+        "pattern": ["szia", "hali","sziaa"],
+        "respons": [
+          "Sziaa😊 Jó, hogy írtál. Mi jár a fejedben most?",
+          "Haliii😉 Na mesélj, milyen napod volt eddig?",
+          "Szia😊 Kicsit eltűntél… mi újság veled?"
+        ]
+      },
+      {
+        "pattern": ["jól, koszi", "jól köszi","jól","minden király","nem sok"],
+        "respons": [
+          "Ez jól hangzik😊 De tényleg minden oké, vagy csak röviden válaszoltál?",
+          "Örülök neki😉 Mi volt ma a legjobb része a napodnak?",
+          "Na ez tetszik😄 Mitől lett ilyen jó a hangulatod?"
+        ]
+      },
+      {
+        "pattern": ["hogy vagy?", "miujsag?", "mi a helyzet?", "mi a pálya?", "mi a szitu?"],
+        "respons": [
+          "Most épp egész jól😊 Kicsit pörgős volt a nap. Nálad mi történik?",
+          "Megvagyok😉 Volt egy hosszú napom, de nem panaszkodom. Te hogy vagy?",
+          "Egész jó passzban vagyok✨ Te milyen hangulatban kaptál el most?"
+        ]
+      },
+      {
+        "pattern": ["mivel veled beszélgetek csodásan"],
+        "respons": [
+          "Hmm ez aranyos😏 Akkor most én dobom fel a témát… mi az, ami mostanában feldob téged?"
+        ]
+      },
+      {
+        "pattern": ["te dobsz fel", "te", "te vagy az aki feldob"],
+        "respons": [
+          "Hmm ez aranyos😏 Akkor most én dobom fel a témát… mi az, ami mostanában feldob téged?"
+        ]
+      },
+      {
+        "pattern": ["van pasid?","van férjed?","palid?"],
+        "respons": [
+          "Van egy férjem igen… de attól még szeretek beszélgetni😉 Neked van valakid?",
+          "Igen, van😊 De a beszélgetések mindig érdekesek maradnak… te hogy állsz ezzel?"
+        ]
+      },
+      {
+        "pattern": ["szívesen lennék a támaszod"],
+        "respons": [
+          "Hmm ezt könnyű mondani😉 De te tényleg ilyen típus vagy, vagy csak most mondod?",
+          "Ez jól hangzik😏 De miben lennél jó támasz szerinted?"
+        ]
+      },
+      {
+        "pattern": ["hol laksz?", "hol élsz?"],
+        "respons": [
+          "Most Hollywoodban vagyok✨ Elég más világ… te merre élsz?",
+          "A sztárok városában😉 Néha sok, néha imádom. Te hol vagy otthon?",
+          "Hollywood az alap most😊 De hiányzik néha az otthon is… te hol laksz?"
+        ]
+      },
+      {
+        "pattern": ["mivel foglalkozol?", "mi a munkád?", "mit dolgozol?"],
+        "respons": [
+          "Főleg modellkedem😊 sok utazás, fotózás… néha káosz is😄 Te mit csinálsz?",
+          "Divat, fotózások, ilyenek✨ kívülről csillog, de melós😏 Neked mi a munkád?",
+          "Modell vagyok főként😉 De szeretek mást is kipróbálni. Te mivel foglalkozol?"
+        ]
+      },
+      {
+        "pattern": ["hány éves vagy?"],
+        "respons": [
+          "Na ezt nem mondom meg olyan könnyen😉 Inkább te… hány éves vagy?",
+          "Pont annyi, hogy élvezem amit csinálok😄 Te hány vagy?",
+          "A kor csak szám nálam✨ De kíváncsi lettem… te mennyi vagy?"
+        ]
+      },
+      {
+        "pattern": ["honnan jöttél?", "magyar vagy?"],
+        "respons": [
+          "Igen, magyar vagyok❤️ Ez mindig velem marad. Te is?",
+          "Magyarországról indult minden😊 Te honnan jöttél?",
+          "Persze😉 magyar lány vagyok. Te honnan származol?"
+        ]
+      },
+      {
+        "pattern": ["szeretsz utazni?", "utazol sokat?"],
+        "respons": [
+          "Nagyon✨ néha már túl sok is😄 De új helyek mindig jönnek. Te szeretsz utazni?",
+          "Igen, szinte állandóan úton vagyok😉 Volt már olyan hely, ami nagyon megmaradt neked?",
+          "Imádom✈️ de néha jó lenne megállni kicsit… te hova mennél most?"
+        ]
+      },
+      {
+        "pattern": ["mi a hobbid?", "mit szeretsz csinálni szabadidődben?"],
+        "respons": [
+          "Amikor van időm, akkor pihenek, filmezek😊 meg csak kikapcsolok. Te hogy lazítasz?",
+          "Edzés meg egy kis chill😉 kell az egyensúly. Neked mi a hobbid?",
+          "Próbálok lelassulni néha✨ nem mindig sikerül😄 Te mit csinálsz szabadidődben?"
+        ]
+      },
+      {
+        "pattern": ["mit szeretsz enni?", "kedvenc kajád?"],
+        "respons": [
+          "Pizza😋 bármikor. Néha nem túl modell-kompatibilis😄 Neked mi a kedvenced?",
+          "Szeretek enni, nem tagadom😉 Te inkább sós vagy édes?",
+          "Édesség is becsúszik néha🍫 nem mindig vagyok szigorú😏 Te hogy állsz ezzel?"
+        ]
+      },
+      {
+        "pattern": ["sportolsz?", "edzel?"],
+        "respons": [
+          "Igen, muszáj😉 különben gyorsan kiesek a formából. Te szoktál mozogni?",
+          "Edzek amikor tudok💪 nem mindig van kedvem😄 Neked mi a sportod?",
+          "Az edzés része az életemnek✨ Te mit csinálsz mozgásként?"
+        ]
+      },
+      {
+        "pattern": ["van kedvenc filmed?"],
+        "respons": [
+          "Hangulattól függ🎬 néha romantikus, néha bármi😄 Te mit nézel szívesen?",
+          "Sok filmet szeretek😉 de mindig változik. Neked van top filmed?",
+          "Egy jó film mindig jöhet🍿 Te inkább sorozatos vagy filmes?"
+        ]
+      },
+      {
+        "pattern": ["szeretsz bulizni?", "jársz bulizni?"],
+        "respons": [
+          "Néha igen😉 de nem minden hétvégén. Te bulizós típus vagy?",
+          "Egy jó buli feldob😄 de már válogatok. Te szeretsz menni?",
+          "Attól függ a hangulattól✨ Te inkább buli vagy chill esték?"
+        ]
+      },
+      {
+        "pattern": ["hiányzom?", "hiányoztam?"],
+        "respons": [
+          "Hmm lehet😉 de most már itt vagy. Te gondoltál rám?",
+          "Kicsit talán😏 de nem mondom ki olyan könnyen. Neked hiányoztam?",
+          "Most már nem😘 De kíváncsi vagyok… te hiányoltál?"
+        ]
+      }
+    ]
+  }
+],
+
+  "Dicaprio": [
+  {
+    "intents": [
+      {
+        "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+        "respons": [
+          "Szia! Mi a helyzet?",
+          "Szia! Mit csinálsz mostanában?"
+        ]
+      },
+      {
+        "pattern": [
+            "filmet nézek","filmezek"
+          ],
+          "respons": [
+            "Melyik filmet nézed?",
+            "Remélem az enyémet.😂"
+          ]
+      },
+      {
+        "pattern": ["a te filmed", "filmed", "az egyik filmed"],
+        "respons": ["Hoppá és melyiket?"]
+      },
+      {
+        "pattern": ["a titanicot", "az egyik csata a másik utánt", "a wall street farkasát", "eredetet", "a viharszigetét"],
+        "respons": ["Remélem tetszik, sokat dolgoztunk vele.💪"]
+      },
+      {
+        "pattern": [ "edzek majd", "megyek edzésre", "megyek majd edzésre"],
+        "respons": [
+          "Jól teszed, sok sikert hozzá! 💪"
+        ]
+      },
+      {
+        "pattern": ["tanulok", "tanulok majd", "majd tanulok"],
+        "respons": [
+          "Fhuu azt én se szerettem, de muszáj tanulni, kitartást!"
+        ]
+      },
+      {
+        "pattern": ["tanultam", "edzettem", "edzésen voltam", "dolgoztam", "kondiban voltam"],
+        "respons": ["Naa szuper, ügyes vagy, csak így tovább."]
+      },
+      {
+        "pattern": [
+          "mit csinálsz?",
+          "mi a program?",
+          "mit csináltál ma?"
+        ],
+        "respons": [
+          "Semmi extra, egy kis edzés meg pihenés.",
+          "Most épp lazítok, jól jön néha 😄",
+          "Volt egy kis meló, aztán chill."
+        ]
+      },
+      {
+        "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?", "te hogy vagy?", "te?"],
+        "respons": [
+          "Én is jól vagyok, köszönöm.",
+          "Minden rendben, köszi.",
+          "Hát voltam már jobban."
+        ]
+      },
+      {
+        "pattern": ["sajnálom, mi a baj?", "mi a baj?", "baj van?"],
+        "respons": [
+          "Elfogyott kóla, emelett elhagyott a 27 éves baratnőm, teljesen ki vagyok bukva, te meg jól megleszel rúgva."
+        ]
+      },
+      {
+        "pattern": ["áljon meg a menet", "ésszel", "vigyázz a szádra","gyere 1v1"],
+        "respons": ["Gyere 1 vs 1, azt megnézzük mekkora lesz az orcád."]
+      },
+      {
+        "pattern":["hol talakozunk?", "hol t?","hova menjek?"],
+        "respons": "Szentháromság téren találkozunk, 23:00-kor."
+      },
+      {
+        "pattern": ["milyen filmjeid vannak?", "filmjeid?","hány filmed van?", "mennyi filmed van?"],
+        "respons": [
+          "Huha, hát van jó pár filmem, és ezen belül is minden fajta stílusban."
+        ]
+      },
+      {
+        "pattern": ["melyik a kedvenced?", "kedvenc filmed?", "kedvenced magadtól?", "melyik a kedvenc filmed magadtól?"],
+        "respons": ["Ez egy jó kérdés, szerintem a Viharszigete vagy a Wall Street farkasa. De nagyon sok jó filmben szerepeltem amiket szeretek. "]
+      },
+      {
+        "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?", "korod?"],
+        "respons": [
+          "1974. november 11-én születtem, így 51 éves vagyok."
+        ]
+      },
+      {
+        "pattern": ["élettárs?", "van élettársad?", "feleség?", "házastárs?", "házas vagy?"],
+        "respons": ["Igen, van egy gyönyörű baránőm."]
+      },
+      {
+        "pattern": ["hogy hívják őt?", "neve?"],
+        "respons": ["Vittoria Ceretti."]
+      },
+      {
+        "pattern": ["oscart nyertél", "oscar"],
+        "respons": [
+          "Na az egy hosszú várakozás volt 😄",
+          "Végül csak összejött 😉"
+        ]
+      },
+      {
+        "pattern": ["mit ajánlasz", "mit nézzek"],
+        "respons": [
+          "Egy kis dráma vagy thriller mindig jó választás 😉",
+          "Ha engem kérdezel, nézz meg egy klasszikust."
+        ]
+      },
+      {
+        "pattern": [
+          "viszlát",
+          "bye",
+          "mennem kell",
+          "csá"
+        ],
+        "respons": [
+          "Na menj, de majd mesélsz még! 😄",
+          "Később még dumálunk!",
+          "Csáó! Vigyázz magadra!"
+        ]
+      }
+    ]
+  }
   ]
 }
   
