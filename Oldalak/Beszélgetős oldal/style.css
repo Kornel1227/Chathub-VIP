@@ -49,7 +49,7 @@ body{
     margin-top: 200px;
 }
 .chatbox {
-    width: 1000px;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
@@ -371,6 +371,24 @@ footer{
   }
 }
 
+@media only screen and (max-width:1020px){
+  .chatbox{
+    width: 99%;
+  }
+  #en{
+    width: 400px;
+  }
+  #celeb{
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width:1015px){
+  .chatbox{
+    width: 99%;
+  }
+}
+
 @media only screen and (max-width:980px){
   .chatbox {
     width: 800px;
@@ -395,6 +413,12 @@ footer{
   }
   #ValasztekKapcsolat{
       margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width:615px){
+  .chat{
+    display: block;
   }
 }
 
