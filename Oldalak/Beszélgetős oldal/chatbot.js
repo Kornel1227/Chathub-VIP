@@ -126,7 +126,6 @@ textarea.value = "";  // törli a szöveget
 
 
 
-
 function ujDobozCsinalas(szovegHozza){
   const ujDoboz = document.createElement("div");
 
