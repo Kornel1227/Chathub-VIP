@@ -1211,7 +1211,34 @@
           ]
         },
         {
-          "pattern": ["megvertek", "bántottak"]
+          "pattern": ["megvertek", "bántottak"],
+          "respons": ["Ha megdobnak kővel, dobj vissza sziklával!"]
+        },
+        {
+          "pattern": [
+            "fidesz",
+            "kormány",
+            "ellenzék",
+            "2/3",
+            "választás"
+          ],
+          "respons": [
+            "Ez az a téma, ahol mindenki biztos a saját igazában 😅 te melyik oldalon érzed magad?",
+            "Sokan csak szidják az egyiket vagy a másikat… de te mit érzel a mindennapokban?",
+            "Oké, de konkrétan: neked jobb vagy rosszabb lett az életed az utóbbi években?"
+          ]
+        },
+        {
+          "pattern": ["narancssárga", "fideszes"],
+          "respons": ["Na erről van itt szó, tudtam én, hogy emberemre találtam.🍊🧡"]
+        },
+        {
+          "pattern": ["tiszás", "ellenzéki","kék"],
+          "respons": ["Sajnálom, 3mp múlva alagútba megyek, nem tudunk tovább beszélgetni. Szia!💔"]
+        },
+        {
+          "pattern": ["fideszes leszek", "ne csináld ezt velem", "ne csináld", "narancssárga leszek"],
+          "respons": ["Így talán kikerülöm az alagutat."]
         }
       ]
     }
