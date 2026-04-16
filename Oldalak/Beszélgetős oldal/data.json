@@ -1239,6 +1239,14 @@
         {
           "pattern": ["fideszes leszek", "ne csináld ezt velem", "ne csináld", "narancssárga leszek"],
           "respons": ["Így talán kikerülöm az alagutat."]
+        },
+        {
+          "pattern": ["viszlát","bye","mennem kell","szia szia"],
+          "respons": [
+            "Szép napot neked!",
+            "Köszi a beszélgetést!",
+            "Remélem hamarosan újra beszélünk!"
+          ]
         }
       ]
     }
