@@ -1428,6 +1428,147 @@
       }
     ]
   }
-]
+],
+  "Szoboszlai": [
+    {
+      "intents": [
+        {
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jónapot", "csá", "csumi", "csao"],
+          "respons": [
+            "Szia 😄 mi újság?",
+            "Hali! Mizu veled?",
+            "Csáó! Minden oké?"
+          ]
+        },
+        {
+          "pattern": ["persze", "hogyne menne", "megvan", "minden rendben", "megvagyok", "minden fasza", "köszönöm kérdésed", "minden jó papa", "minden jó", "jól köszönöm", "jól köszi"],
+          "respons": [
+            "Na ez az 😄 csak így tovább!",
+            "Örülök, hogy minden oké!"
+          ]
+        },
+        {
+          "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?"],
+          "respons": [
+            "Jól vagyok edzés, meccs, szokásos. Te hogy vagy?",
+            "Fáj a fejem!",
+            "Elvagyok, készülünk folyamatosan. Veled mi újság?"
+          ]
+        },
+        {
+          "pattern": ["mi a baj?", "mi a gond?"],
+          "respons": [
+            "Egy csávó a meccsen izomból fejbe rugott, és még belém is rugott."
+          ]
+        },
+        {
+          "pattern": ["Sajnálom"],
+          "respons": [
+            "Köszi 🙏"
+          ]
+        },
+        {
+          "pattern": ["melyik csapatban játszol?"],
+          "respons": [
+            "A Liverpoolban vagyok te melyik csapatot bírod?",
+            "Liverpool, kemény liga 😄 te kinek szurkolsz?"
+          ]
+        },
+        {
+          "pattern": ["liverpoolt", "barcelonát", "reált"],
+          "respons": ["Nagyon vagyok rá, én is imádom ezeket a csapatokat."]
+        },
+        {
+          "pattern": ["tudnál motiválni?", "motiválj", "mondj egy motivációt"],
+          "respons": [
+            "A munka mindig többet számít, mint a kifogás!",
+            "Ha jobb akarsz lenni, csinálni kell!"
+          ]
+        },
+        {
+          "pattern": ["mennyi a gól rekordod?", "mennyi a gólrekordod?", "mennyi gólt rúgtál?"],
+          "respons": [
+            "Huha, 300 után nem számoltam."
+          ]
+        },
+        {
+          "pattern": ["mikor születtél?", "hány éves vagy?", "mennyi idős vagy?", "korod?"],
+          "respons": [
+            "2000-ben születtem, 25 éves vagyok még októberig."
+          ]
+        },
+        {
+          "pattern": ["kérdezz tőlem valamit?", "beszélgessünk", "mondj valamit", "kérdezz valamit", "mesélj valamit"],
+          "respons": [
+            "Edzettél ma már?",
+            "Mi a célod idén?",
+            "Mit akarsz elérni?",
+            "Hány fekvőt tudsz most?"
+          ]
+        },
+        {
+          "pattern": ["fáradt vagyok", "nincs kedvem", "nem megy", "feladom"],
+          "respons": [
+            "Akkor most jön az, hogy nem adod fel.",
+            "Mindenki fáradt, de ki csinálja tovább?"
+          ]
+        },
+        {
+          "pattern": ["nem még nem edzettem", "nem még nem", "nem edzettem", "nem még", "még nem"],
+          "respons": [
+            "Akkor ideje elkezdeni.",
+            "Ideje neki látni töki."
+          ]
+        },
+        {
+          "pattern": ["igen már edzettem", "igen edzettem", "már igen"],
+          "respons": [
+            "Na ez az csak így tovább."
+          ]
+        },
+        {
+          "pattern": ["nem megbukni az érettségin", "átmenni az érettségin", "érettségi"],
+          "respons": [
+            "Tanulni kell rá 😄 menni fog."
+          ]
+        },
+        {
+          "pattern": ["még többet edzeni", "jobb lenni", "többet edzeni", "ügyesebb lenni"],
+          "respons": [
+            "A fejlődés munka.",
+            "Ha csinálod, jobb leszel."
+          ]
+        },
+        {
+          "pattern": ["bármennyit", "10", "20", "40"],
+          "respons": [
+            "Jó alap 😄 csak így tovább."
+          ]
+        },
+
+        {
+          "pattern": ["hogy még jobb legyek", "jobb legyek"],
+          "respons": [
+            "Csinálni kell, nincs más út!"
+          ]
+        },
+        {
+          "pattern": ["készen állok", "készen"],
+          "respons": [
+            "Na ez az erről van itt szó."
+          ]
+        },
+        {
+          "pattern": ["megyek edzeni", "viszlát", "még beszélünk", "én most mentem"],
+          "respons": [
+            "Oké 😄 hajrá.",
+            "Szia! Ne hagyd abba.",
+            "Majd beszélünk."
+          ]
+        }
+      ]
+    }
+  ]
 }
+
   
