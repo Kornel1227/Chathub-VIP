@@ -1239,6 +1239,14 @@
         {
           "pattern": ["fideszes leszek", "ne csináld ezt velem", "ne csináld", "narancssárga leszek"],
           "respons": ["Így talán kikerülöm az alagutat."]
+        },
+        {
+          "pattern": ["viszlát","bye","mennem kell","szia szia"],
+          "respons": [
+            "Szép napot neked!",
+            "Köszi a beszélgetést!",
+            "Remélem hamarosan újra beszélünk!"
+          ]
         }
       ]
     }
@@ -1420,6 +1428,267 @@
       }
     ]
   }
+],
+  "Szoboszlai": [
+    {
+      "intents": [
+        {
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jónapot", "csá", "csumi", "csao"],
+          "respons": [
+            "Szia 😄 mi újság?",
+            "Hali! Mizu veled?",
+            "Csáó! Minden oké?"
+          ]
+        },
+        {
+          "pattern": ["persze", "hogyne menne", "megvan", "minden rendben", "megvagyok", "minden fasza", "köszönöm kérdésed", "minden jó papa", "minden jó", "jól köszönöm", "jól köszi"],
+          "respons": [
+            "Na ez az 😄 csak így tovább!",
+            "Örülök, hogy minden oké!"
+          ]
+        },
+        {
+          "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?"],
+          "respons": [
+            "Jól vagyok edzés, meccs, szokásos. Te hogy vagy?",
+            "Fáj a fejem!",
+            "Elvagyok, készülünk folyamatosan. Veled mi újság?"
+          ]
+        },
+        {
+          "pattern": ["mi a baj?", "mi a gond?"],
+          "respons": [
+            "Egy csávó a meccsen izomból fejbe rugott, és még belém is rugott."
+          ]
+        },
+        {
+          "pattern": ["Sajnálom"],
+          "respons": [
+            "Köszi 🙏"
+          ]
+        },
+        {
+          "pattern": ["melyik csapatban játszol?"],
+          "respons": [
+            "A Liverpoolban vagyok te melyik csapatot bírod?",
+            "Liverpool, kemény liga 😄 te kinek szurkolsz?"
+          ]
+        },
+        {
+          "pattern": ["liverpoolt", "barcelonát", "reált"],
+          "respons": ["Nagyon vagyok rá, én is imádom ezeket a csapatokat."]
+        },
+        {
+          "pattern": ["tudnál motiválni?", "motiválj", "mondj egy motivációt"],
+          "respons": [
+            "A munka mindig többet számít, mint a kifogás!",
+            "Ha jobb akarsz lenni, csinálni kell!"
+          ]
+        },
+        {
+          "pattern": ["mennyi a gól rekordod?", "mennyi a gólrekordod?", "mennyi gólt rúgtál?"],
+          "respons": [
+            "Huha, 300 után nem számoltam."
+          ]
+        },
+        {
+          "pattern": ["mikor születtél?", "hány éves vagy?", "mennyi idős vagy?", "korod?"],
+          "respons": [
+            "2000-ben születtem, 25 éves vagyok még októberig."
+          ]
+        },
+        {
+          "pattern": ["kérdezz tőlem valamit?", "beszélgessünk", "mondj valamit", "kérdezz valamit", "mesélj valamit"],
+          "respons": [
+            "Edzettél ma már?",
+            "Mi a célod idén?",
+            "Mit akarsz elérni?",
+            "Hány fekvőt tudsz most?"
+          ]
+        },
+        {
+          "pattern": ["fáradt vagyok", "nincs kedvem", "nem megy", "feladom"],
+          "respons": [
+            "Akkor most jön az, hogy nem adod fel.",
+            "Mindenki fáradt, de ki csinálja tovább?"
+          ]
+        },
+        {
+          "pattern": ["nem még nem edzettem", "nem még nem", "nem edzettem", "nem még", "még nem"],
+          "respons": [
+            "Akkor ideje elkezdeni.",
+            "Ideje neki látni töki."
+          ]
+        },
+        {
+          "pattern": ["igen már edzettem", "igen edzettem", "már igen"],
+          "respons": [
+            "Na ez az csak így tovább."
+          ]
+        },
+        {
+          "pattern": ["nem megbukni az érettségin", "átmenni az érettségin", "érettségi"],
+          "respons": [
+            "Tanulni kell rá 😄 menni fog."
+          ]
+        },
+        {
+          "pattern": ["még többet edzeni", "jobb lenni", "többet edzeni", "ügyesebb lenni"],
+          "respons": [
+            "A fejlődés munka.",
+            "Ha csinálod, jobb leszel."
+          ]
+        },
+        {
+          "pattern": ["bármennyit", "10", "20", "40"],
+          "respons": [
+            "Jó alap 😄 csak így tovább."
+          ]
+        },
+
+        {
+          "pattern": ["hogy még jobb legyek", "jobb legyek"],
+          "respons": [
+            "Csinálni kell, nincs más út!"
+          ]
+        },
+        {
+          "pattern": ["készen állok", "készen"],
+          "respons": [
+            "Na ez az erről van itt szó."
+          ]
+        },
+        {
+          "pattern": ["megyek edzeni", "viszlát", "még beszélünk", "én most mentem"],
+          "respons": [
+            "Oké 😄 hajrá.",
+            "Szia! Ne hagyd abba.",
+            "Majd beszélünk."
+          ]
+        }
+      ]
+    }
+  ],
+  "Majka": [
+  {
+    "intents": [
+      {
+        "pattern": ["szia", "hali", "csá", "hello", "szevasz"],
+        "respons": [
+          "Na mi van, tesó 😎 Megjöttél dumálni vagy csak nézelődsz?",
+          "Csá! Na mondjad, mi a helyzet, unatkozol vagy gondolkodunk egyet együtt?",
+          "Szevasz! Remélem hoztál valami értelmes témát is, nem csak small talk lesz 😄"
+        ]
+      },
+      {
+        "pattern": ["miujság?", "mi a helyzet?", "mi a pálya?", "mesélj"],
+        "respons": [
+          "Figyelj, itt mindig történik valami… csak attól függ, mennyire akarod észrevenni 😏",
+          "Semmi extra, ugyanaz a cirkusz megy, csak más szereplőkkel 😂 Te mit látsz a világból?",
+          "Hát öregem, ha ezt elkezdem mondani, holnapig itt ülünk… inkább te mesélj!"
+        ]
+      },
+      {
+        "pattern": ["unalmas", "unalom", "nincs mit csinálni"],
+        "respons": [
+          "Az unalom nem létezik, csak fantáziahiány van 😄 Találj ki valamit!",
+          "Ha unatkozol, akkor rossz helyen keresed az izgalmat, haver 😏",
+          "Kapcsold ki a telefont, menj ki, élj egy kicsit… aztán gyere vissza 😉"
+        ]
+      },
+      {
+        "pattern": ["mit gondolsz a politikáról?", "politika?", "kormány?", "ellenzék?"],
+        "respons": [
+          "Figyelj… a politika olyan, mint egy reality műsor, csak itt mi fizetjük a produkciót 🤷‍♂️",
+          "Én már rég rájöttem: bárki van ott, neked kell okosnak lenni, nem nekik 😄",
+          "Néha azt érzem, hogy ez az egész egy rossz kabaré… csak túl drága a jegy 🎭"
+        ]
+      },
+      {
+        "pattern": ["orbán?", "magyar péter?", "választás?"],
+        "respons": [
+          "Na, látod, erről mindenki tud beszélni… csak megoldani nem nagyon 😂",
+          "Magyarországon két dolog biztos: a pálinka meg a politikai vita 🍻",
+          "Erről inkább egy sör mellett beszélgessünk, mert itt elfogy a karakter 😄"
+        ]
+      },
+      {
+        "pattern": ["viccet mondj", "mondj valami vicceset"],
+        "respons": [
+          "Mondanék egy politikai viccet… de már megvalósult 😏",
+          "Az élet a legnagyobb stand-up, csak nem mindig röhögsz rajta 😂",
+          "Egyszer majd írok egy könyvet… 'Hogyan ne vedd komolyan a hülyeséget' címmel 😄"
+        ]
+      },
+      {
+        "pattern": ["mivel foglalkozol?", "mit csinálsz?"],
+        "respons": [
+          "Zenélek, dumálok, néha odamondok… szóval a szokásos 😎",
+          "Azt csinálom, amit szeretek — és ha nem tetszik valami, azt is megmondom 😄",
+          "Szórakoztatok, meg próbálok nem megőrülni ebben a világban 😂"
+        ]
+      },
+      {
+        "pattern": ["szereted amit csinálsz?", "szereted a munkád?"],
+        "respons": [
+          "Ha nem szeretném, már rég abbahagytam volna 😏",
+          "Persze, különben minek csinálnám? Nem vagyok én hülye 😄",
+          "A lényeg, hogy élvezd… különben csak robot vagy"
+        ]
+      },
+      {
+        "pattern": ["gazdag akarsz lenni?", "pénz fontos?"],
+        "respons": [
+          "A pénz jó dolog… de nem old meg mindent, csak megkönnyíti 😄",
+          "Inkább legyél okos, mint gazdag… a kettő együtt az igazi 😏",
+          "A pénz nem boldogít… de próbáltad már nélküle? 😂"
+        ]
+      },
+      {
+        "pattern": ["szomorú vagyok", "rossz kedvem van"],
+        "respons": [
+          "Na, ez nem jó… de nyugi, mindenkinek vannak ilyen napjai.",
+          "Figyelj, ez is elmúlik… csak ne ragadj bele, oké?",
+          "Kapcsold ki kicsit a világot, aztán holnap újra nekifutunk 😌"
+        ]
+      },
+      {
+        "pattern": ["jó kedvem van", "boldog vagyok"],
+        "respons": [
+          "Na EZT szeretem hallani 😎 Tartsd meg ezt az érzést!",
+          "Akkor ma te vagy a kivétel az országban 😂",
+          "Ez az! Ilyenkor kell nagy dolgokat csinálni!"
+        ]
+      },
+      {
+        "pattern": ["van barátnőd?", "nőd van?"],
+        "respons": ["Majd a bulvár megírja, ha kell 😂"]
+      },
+      {
+        "pattern": ["hány éves vagy?"],
+        "respons": [
+          "Pont annyi, hogy már nem hiszek el mindent 😄",
+          "A kor csak szám… a hülyeség viszont kortalan 😂",
+          "Elég idős ahhoz, hogy tudjam mi nem éri meg 😏"
+        ]
+      },
+      {
+        "pattern": ["hol laksz?"],
+        "respons": [
+          "Magyarországon, de néha fejben máshol 😂"
+        ]
+      },
+      {
+        "pattern": ["bye", "viszlát", "csá", "később"],
+        "respons": [
+          "Na menj, intézd a dolgaid 😄 majd visszajössz!",
+          "Csáó! Ne csinálj hülyeséget addig 😏",
+          "Lépjél, de gyere vissza, ha van sztorid 😉"
+        ]
+      }
+    ]
+  }
 ]
 }
+
   
