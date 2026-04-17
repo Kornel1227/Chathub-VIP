@@ -49,6 +49,8 @@ body{
     margin-top: 200px;
 }
 .chatbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -76,12 +78,16 @@ body{
     background: #ffd700;
     color: black;
     text-align: right;
+    grid-column: 2;
+    justify-self: end;
   }
   
   .bot {
     border: 1px solid #ffd700;
     color: #ffd700;
     text-align: left;
+    grid-column: 1;
+    justify-self: start;
   }
   
   .userInput {
@@ -291,6 +297,59 @@ footer{
   height: 30px;
 }
 
+.userInput{
+  margin-bottom: 0px;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 200px;
+}
+
+#chatbox{
+  width: 100%;
+  max-width: 1000px;  
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.user, .bot{
+  max-width: 70%;
+  margin: 8px 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.user{
+  background: #FFD700;
+  color: black;
+  align-self: flex-end;
+}
+
+.bot{
+  background: white;
+  color: black;
+  align-self: flex-start;
+}
+
+@media (min-width: 100%){
+  #chatbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .user{
+    grid-column: 2;
+    justify-self: end;
+  }
+
+  .bot{
+    grid-column: 1;
+    justify-self: start;
+  }
+}
+
 @media only screen and (max-width:1850px){
   #ValasztekKapcsolat{
       margin-left: 200px;
@@ -444,6 +503,23 @@ footer{
       margin: 15px 0;
       float: none;
       padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #chatbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user {
+    align-self: flex-end;
+    max-width: 70%;
+  }
+
+  .bot {
+    align-self: flex-start;
+    max-width: 70%;
   }
 }
 
