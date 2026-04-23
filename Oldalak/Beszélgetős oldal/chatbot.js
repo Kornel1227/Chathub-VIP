@@ -12,6 +12,7 @@ textarea.addEventListener("keydown", function(e) {
   if (e.key === "Enter") {
     e.preventDefault();
 
+    document.getElementById("nevek").style.visibility = "visible";
     document.getElementById("p").style.display = "none";
 
     let valtozo = document.getElementById("p").dataset.person;
@@ -93,6 +94,8 @@ function ujUserUzenet(szoveg){
   div.textContent = szoveg;
 
   document.getElementById("chatbox").appendChild(div);
+
+  //scrollToBottom()
 }
 
 function ujBotUzenet(szoveg){
@@ -102,6 +105,8 @@ function ujBotUzenet(szoveg){
   document.getElementById("chatbox").appendChild(div);
 
   gepel(div, szoveg);
+
+  //scrollToBottom()
 }
 
 function gepel(elem, szoveg, ido = 40) {
@@ -119,7 +124,7 @@ function gepel(elem, szoveg, ido = 40) {
 }
 
 const chat = document.getElementById("chat");
-
+/*
 function isNearBottom() {
   return chat.scrollHeight - chat.scrollTop - chat.clientHeight < 50;
 }
@@ -135,3 +140,11 @@ function addMessage(text) {
     chat.scrollTop = chat.scrollHeight;
   }
 }
+*/
+/*
+const container = document.getElementById("scrollbox");
+
+function scrollToBottom() {
+  container.scrollTop = container.scrollHeight;
+}
+*/
