@@ -50,20 +50,16 @@
     <div>
         <p id="p" data-person="3">Kezd ej beszélgetni Lebron James-el!</p>
     </div>
-    <div class="chatbox">
-        <div class="chat">
-            <div id="celebChat">
-                <p id="celeb">Lebron James</p>
-                <div id="celeb_chatbox"></div>
-            </div>
-            <div id="enChat">
-                <p id="en">Felhasználó</p>
-                <div id="en_chatbox"></div>
-            </div>
-        </div>
-      
-        <textarea class="userInput" type="text" placeholder="Írj ide..." onkeydown="handleKey(e)"></textarea>
+    <div id="nevek">
+        <p id="nevekP1">Lebron James</p>
+        <p id="nevekP2">Én</p>
+    </div>
+    <div id="chatbox">
+        <div class="chat"></div>
+        
         <script src="chatbot.js" defer></script>
+    </div>
+    <textarea class="userInput"></textarea>
       <footer>
         <div id="lablecDIV">
             <!--lablec-->

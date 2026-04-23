@@ -476,7 +476,7 @@
             ]
           },
           {
-            "pattern": ["hogy vagy?", "miujsag?", "mi a helyzet?", "mi a pálya?", "mi a szitu?"],
+            "pattern": ["hogy vagy?","mizu?", "miujsag?", "mi a helyzet?", "mi a pálya?", "mi a szitu?"],
             "respons": [
               "Köszönöm kérdésed, mint mindig: kiválóan! Egy legenda sosem panaszkodik.",
               "Fényesen, mint a nap! Alekosz mindig jól van.",
