@@ -61,7 +61,7 @@ html {
     display: inline;
     color: white;
     font-size: 20px;
-    margin-left: 270px;
+    margin-left: 250px;
     float: left;
     padding-top: 25px;
     color: #FFD700;
@@ -578,7 +578,7 @@ html {
 #jog{
     color: #AEAEAE;
 }
-@media only screen and (max-width:1850px){
+@media only screen and (max-width:2000px){
     #ValasztekKapcsolat{
         margin-left: 200px;
     }
