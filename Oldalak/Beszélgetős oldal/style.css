@@ -191,6 +191,11 @@ footer{
   padding-top: 25px;
   text-decoration: none;
 }
+
+#Valasztek:hover{
+  color: #FFD700;
+}
+
 #ValasztekKapcsolat{
   display: inline;
   color: white;
@@ -201,6 +206,11 @@ footer{
   color: #FFD700;
  text-decoration: none;
 }
+
+#ValasztekKapcsolat:hover{
+  color: white;
+}
+
 #fejleckep{
   width: 1895px;
 }
