@@ -55,10 +55,10 @@ textarea.addEventListener("keydown", function(e) {
       dataData = data.TothGabi[0].intents;
     }
     else if(valtozo === "13"){
-      dataData = data.SpecialEgy[0].intens;
+      dataData = data.MagyarPeter[0].intens;
     }
     else if(valtozo === "14"){
-      dataData = data.SpecialKetto[0].intens;
+      dataData = data.Vitya[0].intens;
     }
 
     ujUserUzenet(textarea.value);

@@ -19,10 +19,6 @@
          ]
       },
       {
-        "pattern": ["gratulálok"],
-        "respons": ["Köszönöm."]
-      },
-      {
         "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?", "mizus?"],
         "respons": [
           "Én is jól vagyok, köszönöm.",
@@ -47,7 +43,7 @@
         ]
       },
       {
-        "pattern": ["részvétem"],
+        "pattern": ["részvétem", "gratulálok", "sok sikert"],
         "respons": ["Köszönöm szépen."]
       },
       {
@@ -59,8 +55,8 @@
         "respons": ["Rendben, itt van a kedvenc motivációm: Ne kifogásokat keress, hanem megoldásokat!"]
       },
       {
-        "pattern": ["mennyi a gól rekordod?", "mennyi a gólrekordod?", "mennyi gólt rugtál?"],
-        "respons": ["Több mint 850 gólt rugtam már életemben."]
+        "pattern": ["mennyi a gól rekordod?", "mennyi a gólrekordod?", "mennyi gólt rugtál?", "hány gólt rugtál?", "hány gólt szereztél?", "hány gól", "hány gólt"],
+        "respons": ["Több mint 950 gólt rugtam már életemben."]
       },
       {
         "pattern": ["mikor születtél?", "hány éves vagy?","mennyi idős vagy?", "korod?"],
