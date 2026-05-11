@@ -1742,6 +1742,14 @@
           ]
         },
         {
+          "pattern": ["megyek szavazni", "megyek", "igen megyek"],
+          "respons": ["Nagyon jól teszed, HA változást akarunk el kell menni!"]
+        },
+        {
+          "pattern": ["nem megyek", "nincs kedvem", "nem akarok"],
+          "respons": ["A te döntésed, viszont szerintem megéri, főleg ha szeretnél változást."]
+        },
+        {
           "pattern": ["orbán viktor", "fidesz", "miniszterelnök", "orbán", "vitya"],
           "respons": [
             "Vége van kicsi! Innentől kezdve, soha többet nem lophatja/lophatják a magyar emberek pénzét!",
