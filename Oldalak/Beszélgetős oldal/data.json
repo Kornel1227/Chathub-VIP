@@ -19,6 +19,45 @@
          ]
       },
       {
+        "pattern": ["aranylabda?", "aranylabda", "ballon dor"],
+        "respons": ["Van 5 aranylabdám, de még szeretnék szerezni egy párat.💪"]
+      },
+      {
+        "pattern": ["milyen érzés?", "aranylabdát kapni", "aranylabdáról?", "milyen érzés"],
+        "respons": [
+          "Óriási kitüntetés, az év legjobb labdarugója kapja meg, így általában én.😎",
+          "Nagyon felemelő érzés, a világ tetején érzed magad, amikor megkapod az aranylabdát."
+      ]
+      },
+      {
+        "pattern": ["álom?", "nagy álmod?", "álmod?", "mire vágysz?", "mit szeretnél elérni?", "elérni?", "álom", "álmod"],
+        "respons": ["A legnagyobb álmom, hogy világbajnokságot nyerjek Portugáliának."]
+      },
+      {
+        "pattern": ["mesélj", "mondj valamit"],
+        "respons": [
+          "Tegnap nem csak a pályán lőttem gólt, ha érted mire gondolok?😏",
+          "Múltkor voltam a gyerekekkel túrázni egy komolyat az Alpokba, nyilván csak edzés után.",
+          "Tegnap áthívtam pár barátomat edzeni, mivel a grind sose áll le."
+        ]
+      },
+      {
+        "pattern": ["tudom mire gondolsz", "értem", "tisztába vagyok vele"],
+        "respons": ["HeHe, siuuuu!😜"]
+      },
+      {
+        "pattern": ["az jo", "az joo", "jo progi", "jo program", "jó program", "az jó"],
+        "respons": ["Én tisztába vagyok vele, hogy mi kell a gyerekeimnek."]
+      },
+      {
+        "pattern": ["nyilván nem állhat le", "nyilván nem álhat le", "nem állhat le", "nem áll le", "nem álhat le"],
+        "respons": ["Hát nem is, nem azért dolgoztam ennyit, hogy most elvesszen az összes progress."]
+      },
+      {
+        "pattern": ["vagesz", "vágesz"],
+        "respons": ["Akkor jó, látom értelmes gyerek vagy."]
+      },
+      {
         "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?", "mizus?"],
         "respons": [
           "Én is jól vagyok, köszönöm.",
