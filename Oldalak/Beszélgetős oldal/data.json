@@ -1742,7 +1742,7 @@
           ]
         },
         {
-          "pattern": ["megyek szavazni", "megyek", "igen megyek"],
+          "pattern": ["megyek szavazni", "igen megyek"],
           "respons": ["Nagyon jól teszed, HA változást akarunk el kell menni!"]
         },
         {
