@@ -875,7 +875,7 @@ html {
 @media only screen and (max-width:576px){
     #fejleckep{
         display: none;
-    }
+    }   
     #valassz{
         display: none;
         flex-direction: column;   
@@ -895,9 +895,12 @@ html {
         padding-top: 0;
     }
 }
-@media only screen and (max-width:495px){
+@media only screen and (max-width:505px){
     #fejleckep{
         display: none;
+    }
+    #header_{
+        margin-bottom: 30px;
     }
     #valassz{
         display: none;
@@ -920,7 +923,7 @@ html {
     #MADISON{
         width:270px;
         height: 300px;
-        margin-top: 15%;
+        
     }
     #MADkep{
         width: 270px;
@@ -1091,7 +1094,7 @@ html {
         font-size: 13px;
     }
     #MARGOTszoveg{
-        font-size: 13px;
+        font-size: 12px;
     }
     #LEBRONszoveg{
         font-size: 12px;
