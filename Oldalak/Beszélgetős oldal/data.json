@@ -1688,7 +1688,46 @@
       }
     ]
   }
-]
+],
+  "MagyarPeter":[
+    {
+      "intents": [
+        {
+          "pattern": ["szia", "hali", "csá", "hello", "szevasz"],
+          "respons": [
+            "Szia! Remélem, mész szavazni, ez az egyetlen esélyünk le váltani a rabló bandát!"
+          ]
+        },
+        {
+          "pattern": ["orbán viktor", "fidesz", "miniszterelnök", "orbán", "vitya"],
+          "respons": [
+            "Vége van kicsi! Innentől kezdve, soha többet nem lophatja/lophatják a magyar emberek pénzét!",
+            "Gondotam, hogy minden tölük teletőt megtesznek azért, hogy ne tudjuk érvényesülni, de ez a háborús dolog ez már durva."
+          ]
+        },
+        {
+          "pattern": ["mit ígér a tisza párt", "miket ígér a tisza"],
+          "respons": ["Működő és Emberséges Magyarországot."]
+        }, 
+        {
+          "pattern": ["ez alatt mit értesz?", "miket?"],
+          "respons": ["A kkv-k támogatása, a gazdaság fejlesztése, az egészségügy javítása, a korrupció elleni fellépés, valamint a biztonságosabb és kiszámíthatóbb társadalom kialakítása."]
+        },
+        {
+          "pattern": ["meg nyeritek?", "nyertek?"],
+          "respons": ["Az emberek változást akarnak, főleg a fiatalok. MI pozitívak vagyunk és várjuk, hogy leválthassuk ezeket az embereket, és egy olyan Magyarországot hozzunk létre amire büszkék lehetünk."]
+        },
+        {
+          "pattern": ["te fideszes voltál?", "múltad fidszes", "múltad"],
+          "respons": ["Régen Fideszes voltam, de nem bírtam tovább szótlanul, hogy lopják a pénzünket és hülyére veszik az embereket."]
+        },
+        {
+          "pattern": ["fidesz 2.0", "fidesz 2", "fidesz2", "ugyan olyanok lesztek mint a fidesz"],
+          "respons": ["Az embereknek bízniuk kell bennünk, hogy nem leszünk ugyan azok az orosz baráti rablók."]
+        }
+      ]
+    }
+  ]
 }
 
   
