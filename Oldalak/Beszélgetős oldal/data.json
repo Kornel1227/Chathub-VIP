@@ -12,20 +12,28 @@
       },
       {
         "pattern": ["persze", "hogyne menne", "megvan", "minden rendben", "megvagyok", "minden fasza", "köszönöm kérdésed", "minden jó papa",
-                    "minden jó", "jól köszönöm",  "jól köszi"],
+                    "minden jó", "jól köszönöm",  "jól köszi", "minden okés"],
          "respons": [
             "Annak örülök, remélem így marad.",
             "Na az a lényeg, csak így tovább."
          ]
       },
       {
-        "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?"],
+        "pattern": ["gratulálok"],
+        "respons": ["Köszönöm."]
+      },
+      {
+        "pattern": ["te hogy vagy?", "veled?", "hogy vagy?", "veled mizu?", "mizu?", "miújság?", "mizus?"],
         "respons": [
           "Én is jól vagyok, köszönöm.",
           "Minden rendben.",
           "Minden okés.",
           "Van egy kis gondom.😪"
         ]
+      },
+      {
+        "pattern": ["foci megy?", "foci?"],
+        "respons": ["Megyeget, a hétvégén is nagy gólt durrantottam.🥱"]
       },
       {
         "pattern": ["mi a baj?", "mi a gond?"],
