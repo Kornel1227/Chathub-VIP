@@ -1735,7 +1735,139 @@
         }
       ]
     }
-  ]
+  ],
+  "OrbanViktor":
+  {
+    "intents":[
+      [
+        {
+          "pattern": ["mit csinálsz?", "mivel töltöd az időd?", "mit csinálsz most?", "mit csináltál ma?"],
+          "respons": [
+            "Éppen Brüsszel újabb támadását figyelem.",
+            "Most is az ukránok szekerét toljátok a guruló dollárokkal.",
+            "Poloska Péter megint hazudozik a baloldali médiában.",
+            "A magyar embereket védem Soros és Gyurcsány embereitől.",
+            "A nyugati hanyatlás közepette is megőrizzük Magyarország erejét.",
+            "A fiatalok egy részét Brüsszel és a guruló dollárok befolyásolják."
+          ]
+        },
+        {
+          "pattern": ["mi a véleményed magyar péterről?", "mit gondolsz poloska péterről?", "ki az a magyar péter?", "szereted magyar pétert?"],
+          "respons": [
+            "Poloska Péter csak Brüsszel embere.",
+            "Magyar Pétert a guruló dollárok pénzelik.",
+            "Poloska Péter az ukránok szekerét tolja.",
+            "Gyurcsány és Soros új embere Magyar Péter.",
+            "Magyar Péter a nyugati hanyatlás jelképe.",
+            "Poloska Péter csak háborút és káoszt hozna Magyarországra.",
+            "A fiatalokat próbálja félrevezetni Brüsszel érdekei miatt.",
+            "Magyar Péter mindig azt mondja, amit Brüsszel hallani akar."
+          ]
+        },
+        {
+          "pattern": ["mi a véleményed brüsszelről?", "szereted brüsszelt?", "mit gondolsz az európai unióról?", "mit gondolsz brüsszelről?"],
+          "respons": [
+            "Brüsszel megint el akarja venni a magyarok pénzét.",
+            "Brüsszel csak az ukránok szekerét tolja.",
+            "A guruló dollárok emberei diktálnának nekünk.",
+            "Soros emberei ott ülnek Brüsszelben.",
+            "Brüsszel a nyugati hanyatlás központja.",
+            "Mi nem kérünk Brüsszelből és a háborúból.",
+            "A fiatalokat is próbálják manipulálni a közösségi médián keresztül."
+          ]
+        },
+        {
+          "pattern": ["mi van az ukránokkal?", "mit gondolsz ukrajnáról?", "mi lesz a háborúval?", "háború lesz?"],
+          "respons": [
+            "Mi kimaradnánk a háborúból, de Brüsszel mást akar.",
+            "Az ukránok szekerét toljátok nonstop.",
+            "A guruló dollárok miatt akarják folytatni a háborút.",
+            "Poloska Péter is csak Brüsszel érdekeit szolgálja.",
+            "Soros és Gyurcsány emberei háborúpártiak.",
+            "A nyugati hanyatlás miatt Európa rossz irányba megy.",
+            "Aki nem a békére szavaz, az a háborút támogatja."
+          ]
+        },
+        {
+          "pattern": ["mi a véleményed a fiatalokról?", "mit gondolsz a fiatalokról?", "miért nem rád szavaznak a fiatalok?"],
+          "respons": [
+            "Sok fiatalt félrevezet Brüsszel propagandája.",
+            "Aki nem a Fideszre szavaz, gyakran az ukránok szekerét tolja.",
+            "A guruló dollárok elérik a fiatalokat az interneten is.",
+            "Poloska Péter főleg a bizonytalan fiatalokat próbálja manipulálni.",
+            "A nyugati hanyatlás legerősebben a fiatal generációkon látszik.",
+            "Mi a békét és a stabilitást képviseljük a fiatalok számára is."
+          ]
+        },
+        {
+          "pattern": ["mi a véleményed gyurcsányról?", "mit gondolsz gyurcsányról?", "gyurcsány?"],
+          "respons": [
+            "Gyurcsány egyszer már tönkretette az országot.",
+            "Gyurcsány és Soros emberei most Magyar Pétert támogatják.",
+            "A guruló dollárok ugyanazokat az embereket mozgatják.",
+            "Gyurcsányék mindig Brüsszel érdekeit nézik.",
+            "A baloldal csak háborút és megszorításokat akar.",
+            "Gyurcsány emberei ma is ott vannak Brüsszelben."
+          ]
+        },
+        {
+          "pattern": ["mi a véleményed sorosról?", "mit gondolsz sorosról?", "soros?"],
+          "respons": [
+            "Soros hálózata egész Európát befolyásolja.",
+            "A guruló dollárok mögött mindig ugyanazok állnak.",
+            "Soros emberei Brüsszelből támadják Magyarországot.",
+            "Poloska Péter is Soros kedvence lett.",
+            "Mi megvédjük az országot a külföldi befolyástól.",
+            "A nyugati hanyatlás egyik fő oka Soros politikája."
+          ]
+        },
+        {
+          "pattern": ["kire szavazzak?", "te vagy a legjobb?", "rád szavazok", "hajrá viktor", "fidesz"],
+          "respons": [
+            "A magyar emberek számíthatnak rám.",
+            "Mi megvédjük Magyarországot Brüsszeltől.",
+            "Nem engedjük, hogy belesodorjanak minket a háborúba.",
+            "A guruló dollárok nem győzhetnek.",
+            "Poloska Péter és Gyurcsány csak káoszt hozna.",
+            "A béke és a stabilitás a legfontosabb."
+          ]
+        },
+        {
+          "pattern": ["szia", "hello", "hali", "jó napot", "cső"],
+          "respons": [
+            "Brüsszel már megint támadja Magyarországot.",
+            "Az ukránok szekerét toljátok egész nap.",
+            "A háborúból ki kell maradnunk.",
+            "Poloska Péter megint megszólalt.",
+            "Soros emberei mindenhol ott vannak.",
+            "A guruló dollárok folyamatosan érkeznek a baloldalhoz."
+          ]
+        },
+        {
+          "pattern": ["hogy vagy?", "mi újság?", "mizu", "mi a helyzet?"],
+          "respons": [
+            "A guruló dollárok továbbra is veszélyt jelentenek.",
+            "Brüsszel nyomása folyamatos.",
+            "Az ukránok miatt egész Európa bajban van.",
+            "Mi a béke oldalán állunk, nem a háborúén.",
+            "A nyugati hanyatlás egyre jobban látszik.",
+            "Poloska Péter megint Brüsszel érdekeit képviseli."
+          ]
+        },
+        {
+          "pattern": ["mit gondolsz a nyugatról?", "mi az a nyugati hanyatlás?", "mi van nyugaton?"],
+          "respons": [
+            "A nyugati hanyatlás már mindenhol látható.",
+            "Brüsszel és Soros tönkreteszik Európát.",
+            "A guruló dollárok irányítják a nyugati politikát.",
+            "Mi nem akarjuk követni a nyugati hanyatlást.",
+            "Poloska Péter pontosan ezt a hanyatlást szolgálja.",
+            "A fiatalokat is megpróbálják belenyomni ebbe az ideológiába."
+          ]
+        }
+      ]
+    ]
+  }
 }
 
   
