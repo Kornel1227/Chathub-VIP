@@ -54,6 +54,12 @@ textarea.addEventListener("keydown", function(e) {
     else if(valtozo === "12"){
       dataData = data.TothGabi[0].intents;
     }
+    else if(valtozo === "13"){
+      dataData = data.SpecialEgy[0].intens;
+    }
+    else if(valtozo === "14"){
+      dataData = data.SpecialKetto[0].intens;
+    }
 
     ujUserUzenet(textarea.value);
 
@@ -79,7 +85,10 @@ textarea.addEventListener("keydown", function(e) {
     setTimeout(() => {
       if (foundResponse) {
         ujBotUzenet(foundResponse);
-      } else {
+      } else if(valtozo === "13"){
+        ujBotUzenet("Jó vergődést kívánunk.")
+      }
+      else{
         ujBotUzenet("Bocsi, ezt nem értem. Tanulj meg magyarul kicsi.");
       }
     }, 800);
