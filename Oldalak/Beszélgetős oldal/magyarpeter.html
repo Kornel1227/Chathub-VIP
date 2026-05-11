@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Beszélgetős oldal</title>
+</head>
+<body>
+    <div id="header_">
+           
+        <div class="topnav">
+            <img src="/Képek/Képernyőfelvétel (21).png" alt="Logó" id="h_logo">
+            <div id="valassz">
+                <h1>
+                    <a id="Valasztek" href="../Főoldal/index.html#MADISON">Külföldi Hölgyek</a>
+                </h1>
+                <h1>
+                    <a id="Valasztek" href="../Főoldal/index.html#LEBRON">Külföldi Férfiak</a>
+                </h1>
+                <h1>
+                    <a id="Valasztek" href="../Főoldal/index.html#PALVIN">Magyar Hölgyek</a>
+                </h1>
+                <h1>
+                    <a id="Valasztek" href="../Főoldal/index.html#ALEKOSZ">Magyar Férfiak</a>
+                </h1>
+                <h1>
+                    <a id="ValasztekKapcsolat" href="../Kapcsolat/index.html">Kapcsolat</a>
+                </h1>
+               
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" id="Hmenu"></i>
+              </a>
+          </div>
+          <script>
+            function myFunction() {
+                document.getElementById("valassz").classList.toggle("open");
+            }
+           
+            function toggleMenu() {
+              const menu = document.getElementById("valassz");
+              menu.classList.toggle("open");
+            }
+     
+        </script>
+    </div>
+    <div>
+        <p id="p" data-person="13">Kezd ej beszélgetni Magyar Péter-el!</p>
+    </div>
+    <div id="nevek">
+        <p id="nevekP1">Magyar Péter</p>
+        <p id="nevekP2">Én</p>
+    </div>
+    <div id="chatbox">
+        <div class="chat"></div>
+        
+        <script src="chatbot.js" defer></script>
+    </div>
+    <textarea class="userInput"></textarea>
+      <footer>
+        <div id="lablecDIV">
+            <!--lablec-->
+            <div id="vonal"><hr size= "10" color="#FFD700"></div>
+            <div class="lablecDIV">
+                <div id="p1" class="p"><p id="CVTofficialS">CHATHUB VIP Team | Official Cite </p></div>
+                <div id="p2" class="p"><p id="ARSmindenjogF">@All right reserved | Minden jog fentartva</p></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

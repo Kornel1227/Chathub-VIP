@@ -547,13 +547,14 @@ html {
     position: relative;
     width: 70%; 
     margin: 50px auto; 
-    margin-top: 5%;
+    margin-top: 10%;
+    border-radius: 20px;
 }
 
 #VSKEP img {
     width: 100%;
     display: block;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 .vs-left,
 .vs-right {
@@ -562,6 +563,7 @@ html {
     height: 100%;
     width: 50%;
     z-index: 2;
+    border-radius: 20px;
 }
 .vs-left {
     left: 0;
