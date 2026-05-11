@@ -1750,7 +1750,7 @@
           "respons": ["A te döntésed, viszont szerintem megéri, főleg ha szeretnél változást."]
         },
         {
-          "pattern": ["orbán viktor", "fidesz", "miniszterelnök", "orbán", "vitya"],
+          "pattern": ["orbán viktor", "miniszterelnök", "orbán", "vitya", "viktoooor"],
           "respons": [
             "Vége van kicsi! Innentől kezdve, soha többet nem lophatja/lophatják a magyar emberek pénzét!",
             "Gondotam, hogy minden tölük teletőt megtesznek azért, hogy ne tudjuk érvényesülni, de ez a háborús dolog ez már durva."
