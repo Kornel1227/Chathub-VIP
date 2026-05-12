@@ -3,7 +3,7 @@
       {
         "intents":[
       {
-        "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+        "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csá", "csokolom", "csumi", "csao"],
         "respons": [
           "Csaoo, család megvan foci megy?",
           "Sziaa, miujság bajnok?",
@@ -325,7 +325,7 @@
     {
       "intents": [
         {
-          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csá", "csokolom", "csumi", "csao"],
           "respons": [
             "Szia! Örülök, hogy írtál, miújság?😊",
             "Helloo! Mi újság?",
@@ -511,7 +511,7 @@
       {
         "intents": [
           {
-            "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+            "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csá", "csokolom", "csumi", "csao"],
             "respons": [
               "Csao, mizuu?",
               "Cső, miujság?",
@@ -595,7 +595,7 @@
     {
       "intents":[
         {
-          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csá", "csokolom", "csumi", "csao"],
           "respons": [
             "Yo! Mi a helyzet? 😊",
             "Szia! Mit csinálsz mostanában?",
@@ -754,7 +754,7 @@
     {
       "intents": [
         {
-          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csá", "csokolom", "csumi", "csao"],
           "respons": [
             "Szia! Örülök, hogy írtál, miújság?😊",
             "Helloo! Mi újság?",
@@ -1032,7 +1032,7 @@
   {
     "intents": [
       {
-        "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+        "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csá", "csokolom", "csumi", "csao"],
         "respons": [
           "Szia! Mi a helyzet?",
           "Szia! Mit csinálsz mostanában?"

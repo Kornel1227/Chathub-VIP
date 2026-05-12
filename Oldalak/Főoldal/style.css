@@ -12,6 +12,9 @@ html {
     margin-right: 100px;
     
 }
+a{
+    text-decoration: none;
+}
 #header_{
     border-bottom: solid #FFD700 4px;
     font-family: 'Graduate', serif;
@@ -547,10 +550,25 @@ html {
     position: relative;
     width: 70%; 
     margin: 50px auto; 
-    margin-top: 10%;
+    margin-top: 5%;
     border-radius: 20px;
 }
-
+#vsszoveg{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Graduate', serif;
+    margin-top: 120px;
+    letter-spacing: 4px;
+    background: linear-gradient(
+        to right,
+        #00a2ff 0%,
+        #0059ff 35%,
+        #ff7b00 65%,
+        #ffae00 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #VSKEP img {
     width: 100%;
     display: block;
@@ -708,6 +726,11 @@ html {
         margin-left: 10%;
     }
 }
+@media only screen and (max-width:1200px){
+    #vsszoveg{
+        font-size: 80px;
+    }
+}
 @media only screen and (max-width:1070px){
     #MADISON{
         margin-left: 5%;
@@ -737,7 +760,11 @@ html {
 /* eddig tart az md*/
 
 /* telefon*/
-
+@media only screen and (max-width:1000px){
+    #vsszoveg{
+        font-size: 60px;
+    }
+}
 @media only screen and (max-width:1000px){
     #MADISON{
         margin-left: 25%;
@@ -795,6 +822,11 @@ html {
     }
     #ValasztekKapcsolat{
         font-size: smaller;
+    }
+}
+@media only screen and (max-width:800px){
+    #vsszoveg{
+        font-size: 40px;
     }
 }
 @media only screen and (max-width:650px){
@@ -893,6 +925,11 @@ html {
         margin: 15px 0;
         float: none;
         padding-top: 0;
+    }
+}
+@media only screen and (max-width:550px){
+    #vsszoveg{
+        font-size: 30px;
     }
 }
 @media only screen and (max-width:505px){
@@ -1128,6 +1165,11 @@ html {
     }
     #jog{
         font-size: 15px;
+    }
+}
+@media only screen and (max-width:440px){
+    #vsszoveg{
+        font-size: 25px;
     }
 }
 @media only screen and (max-width:400px){
