@@ -1783,7 +1783,6 @@
 
   {
     "intents":[
-      [
         {
           "pattern": ["mit csinálsz?", "mivel töltöd az időd?", "mit csinálsz most?", "mit csináltál ma?"],
           "respons": [
@@ -1910,7 +1909,6 @@
           ]
         }
       ]
-    ]
   }
 ]
 }
