@@ -374,10 +374,6 @@
           "respons": ["Naa, tetszik a film?😍"]
         },
         {
-          "pattern": ["film", "sorozat", "inkább film", "inkább sorozat"],
-          "respons": ["Én inkább sorozatos vagyok, ha engem kérdezel."]
-        },
-        {
           "pattern": [ "edzek majd", "megyek edzésre", "megyek majd edzésre"],
           "respons": [
             "Edzés? Az jól hangzik, sok sikert! 💪",
@@ -1780,7 +1776,6 @@
     }
   ],
   "OrbanViktor": [
-
   {
     "intents":[
       [
