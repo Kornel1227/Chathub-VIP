@@ -1779,7 +1779,8 @@
       ]
     }
   ],
-  "OrbanViktor":
+  "OrbanViktor": [
+
   {
     "intents":[
       [
@@ -1911,6 +1912,7 @@
       ]
     ]
   }
+]
 }
 
   
