@@ -177,7 +177,7 @@
     {
       "intents": [
         {
-          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csa", "csokolom", "csumi", "csao"],
+          "pattern": ["szia", "hello", "hali", "szevasz", "szeva", "hi", "jonapot", "csá", "csokolom", "csumi", "csao"],
           "respons": [
             "Sziaa, mizuu?",
             "Szia, miujság?",
@@ -187,7 +187,7 @@
         {
           "pattern": ["minden rendben", "minden okés", "megvagyok", "jól köszi", "jól köszönöm", "minden szuper", "köszönöm a kérdést, minden szuper", "jól vagyok",  "jól vagyok köszi"],
            "respons": [
-              "Annak örülök, remélem így marad.",
+              "Ennek örülök, nem szeretem szomorúnak látni az embereket.",
               "Nagyon örülök neki, van kedved velem beszélgetni?"
            ]
         },
@@ -1742,7 +1742,7 @@
           ]
         },
         {
-          "pattern": ["megyek szavazni", "igen megyek"],
+          "pattern": ["megyek szavazni", "megyek", "igen megyek"],
           "respons": ["Nagyon jól teszed, HA változást akarunk el kell menni!"]
         },
         {
@@ -1750,7 +1750,7 @@
           "respons": ["A te döntésed, viszont szerintem megéri, főleg ha szeretnél változást."]
         },
         {
-          "pattern": ["orbán viktor", "miniszterelnök", "orbán", "vitya", "viktoooor"],
+          "pattern": ["orbán viktor", "fidesz", "miniszterelnök", "orbán", "vitya"],
           "respons": [
             "Vége van kicsi! Innentől kezdve, soha többet nem lophatja/lophatják a magyar emberek pénzét!",
             "Gondotam, hogy minden tölük teletőt megtesznek azért, hogy ne tudjuk érvényesülni, de ez a háborús dolog ez már durva."
