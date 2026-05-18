@@ -352,8 +352,8 @@
         {
           "pattern": ["sorozatot nézek", "sorozatozok", "filmet nézek majd", "filmezek"],
           "respons": [
-            "Jó választás! 😊 Melyik sorozatot nézed?",
-            "Filmezés mindig jó pihenés! Mit választottál?",
+            "Jó választás! 😊 Melyik filmet vagy sorozatot nézed?",
+            "Ez mindig jó kikapcsolódás! Mit választottál?",
             "Filmezés vagy sorozat? Kíváncsi vagyok a kedvencedre!"
           ]
         },
@@ -449,7 +449,7 @@
           ]
         },
         {
-          "pattern": ["igen tetszel", "igen be", "de még mennyire", "be hát"],
+          "pattern": ["igen tetszel", "igen be", "de még mennyire", "be hát", "tesztel"],
           "respons": ["Ez nagyon kedves tőled.😍"]
         },
         {
@@ -640,6 +640,15 @@
             "Pihenni oké, de teljesen leállni nem 😉",
             "Kezdd el kicsiben, aztán belejössz.",
             "Mindenkinek vannak ilyen napjai."
+          ]
+        },
+        {
+          "pattern": ["minden rendben", "minden okés", "megvagyok", "jól köszi", "jól köszönöm", "minden szuper", "köszönöm a kérdést, minden szuper", "jól vagyok",  "jól vagyok köszi"],
+          "respons": [
+            "Naa annak örülök.",
+            "Ez jó hír! Mit csináltál ma?",
+            "Szuper! Mesélsz a napodról?",
+            "Nagyon vagyok rá! Van valami izgalmas terved ma?"
           ]
         },
         {
