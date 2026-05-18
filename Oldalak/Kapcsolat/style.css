@@ -162,7 +162,8 @@ body{
 }
 
 .text {
-  color: red;
+  color: #FAF9F6;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
   font-size: 30px;
   padding: 8px 12px;
   position: absolute;
@@ -172,7 +173,8 @@ body{
   
 }
 .textt {
-  color: red;
+  color: #FFD700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
   font-size: 25px;
   padding: 8px 12px;
   position: absolute;
